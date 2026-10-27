@@ -55,16 +55,18 @@ SIGNALFIRE AI introduces an integrated, 5-stage analytical architecture:
 ---
 
 ## 6. Features
-- **Executive Overview Dashboard**: High-level KPI pulse, active findings count, signal onset trend curves, risk distribution donut chart, and live analytical engine indicator.
-- **Data Explorer & Quality Profiler**: Table schema inspector, null distributions, unique value tallies, paginated preview with search and filtering, and secure CSV file upload.
+- **Executive Overview Dashboard**: High-level KPI pulse, active findings count, signal onset trend curves, risk distribution donut chart, live analytical engine indicator, and embedded interactive 3D universe.
+- **Interactive 3D Operational Risk Universe (Canvas / WebGL Engine)**: Full drag-to-rotate 3D space visualizer with auto-orbiting, focal depth projection, 3D particle dust, and real-time hover telemetry HUD.
+- **Data Explorer & Quality Profiler**: Table schema inspector across 13 datasets, null distributions, unique value tallies, paginated preview with search and filtering, and secure CSV file upload.
 - **Dataset Relationship Explorer**: Maps foreign key relationships, shared dimensions, and temporal synchronization candidates across all operational tables.
-- **Signal Detection Engine**: Granular outlier explorer featuring observed vs baseline values, delta percentages, detection methodologies, and statistical confidence explanations.
-- **Cross-Metric Investigation Engine (Core Differentiator)**: Multi-table risk clusters, empirical Pearson correlation ($r=0.89$), lead-lag offsets (~3 days), and control cohort benchmarking.
-- **Interactive Risk Map**: Topological segment network visualizing operational risk nodes and causal cascade pathways with instant side-drawer telemetry inspection.
+- **Dual-Domain Signal Detection Engine**: Outlier detection across Retail Operations (transit delays, complaints, refunds) and Industrial MRO (ISO 10816-3 machinery vibration spikes, PM backlog surges, critical spare parts exhaustion).
+- **Cross-Metric Investigation Engine (Core Differentiator)**: Multi-table risk clusters, empirical Pearson ($r=0.89$) and Spearman correlations, lead-lag offsets (~3-day logistics, ~4-day MRO), and control cohort benchmarking.
+- **Interactive Risk Map**: Dual-mode topological network switcher (**3D Risk Universe** with live 3D orbital canvas vs **2D Topological Schematic**).
 - **Investigation Workspace**: Decision-support ticket manager allowing analysts to assign operational priorities (P1–P3), update statuses (`New`, `Investigating`, `Confirmed`, `Dismissed`, `Resolved`), record verified conclusions, and log follow-up actions.
-- **What-If Scenario Analysis**: Parameterized sensitivity workspace with interactive sliders for delivery delays, refund rates, demand volume, and inventory levels, clearly separating direct arithmetic consequences from behavioral model projections.
-- **AI Investigation Assistant**: Tool-grounded conversational assistant that retrieves verified evidence from analytical database queries, guaranteeing zero metric hallucinations.
+- **Dual-Domain What-If Scenario Analysis**: Parameterized sensitivity workspace with interactive sliders for Retail (delay %, return %, demand %, inventory %) and Industrial MRO (vibration velocity %, PM backlog %, parts lead time, hourly stoppage cost), separating direct arithmetic from model projections.
+- **AI Investigation Assistant**: Tool-grounded conversational assistant that retrieves verified evidence from analytical database queries, with prompt chips for Retail and MRO queries.
 - **Audit-Ready Report Generator**: Generates and downloads publication-grade Executive PDF reports (via ReportLab), structured JSON manifests, and flat CSV spreadsheets with one click.
+- **Custom 3D Glassmorphism & Tactile Interaction**: Real-time perspective gyro-tilt on cards, specular light glare tracking cursor position, embossed 3D KPI tiles, and custom slim gradient scrollbars.
 - **System Settings & Health**: Full Exasol Personal connection manager, backend switcher, automated sample-data reload, and detection sensitivity calibrators.
 
 ---
