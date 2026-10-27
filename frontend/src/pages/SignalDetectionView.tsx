@@ -32,6 +32,21 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
   const [severityFilter, setSeverityFilter] = useState<string>('ALL');
   const [datasetFilter, setDatasetFilter] = useState<string>('ALL');
   const [search, setSearch] = useState<string>('');
+  const [modalTilt, setModalTilt] = useState<{ rotateX: number; rotateY: number }>({ rotateX: 0, rotateY: 0 });
+
+  const handleModalMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+    setModalTilt({
+      rotateX: -(y / (rect.height / 2)) * 3.5,
+      rotateY: (x / (rect.width / 2)) * 3.5
+    });
+  };
+
+  const handleModalMouseLeave = () => {
+    setModalTilt({ rotateX: 0, rotateY: 0 });
+  };
 
   const datasets = Array.from(new Set(findings.map(f => f.affected_dataset)));
 
@@ -185,7 +200,16 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
       {/* Finding Deep Inspection Modal / Slide-out */}
       {selectedFinding && (
         <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto custom-scrollbar">
-          <div className="glass-modal-3d custom-scrollbar rounded-3xl max-w-2xl w-full max-h-[88vh] overflow-y-auto p-6 md:p-8 space-y-5 animate-in fade-in zoom-in-95 duration-200">
+          <div
+            onMouseMove={handleModalMouseMove}
+            onMouseLeave={handleModalMouseLeave}
+            style={{
+              transform: `perspective(1200px) rotateX(${modalTilt.rotateX}deg) rotateY(${modalTilt.rotateY}deg)`,
+              transformStyle: 'preserve-3d',
+              transition: 'transform 0.12s ease-out'
+            }}
+            className="glass-modal-3d custom-scrollbar rounded-3xl max-w-2xl w-full max-h-[88vh] overflow-y-auto p-6 md:p-8 space-y-5 animate-in fade-in zoom-in-95 duration-200"
+          >
             {/* Modal Header */}
             <div className="flex items-start justify-between border-b border-slate-200/60 pb-4">
               <div>

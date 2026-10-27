@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Network, Activity, AlertTriangle, ShieldCheck, ChevronRight, Layers, X } from 'lucide-react';
+import { Network, Activity, AlertTriangle, ShieldCheck, ChevronRight, Layers, X, Rotate3d } from 'lucide-react';
 import { GlassCard } from '../components/GlassCard';
+import { Interactive3DRiskCanvas } from '../components/Interactive3DRiskCanvas';
 import { Finding, CrossMetricCluster } from '../types';
 
 interface InteractiveRiskMapProps {
@@ -15,6 +16,7 @@ export const InteractiveRiskMap: React.FC<InteractiveRiskMapProps> = ({
   onSelectFinding
 }) => {
   const [activeNode, setActiveNode] = useState<any | null>(null);
+  const [viewMode, setViewMode] = useState<'3d' | '2d'>('3d');
 
   // Group nodes by region
   const regions = [
@@ -26,20 +28,51 @@ export const InteractiveRiskMap: React.FC<InteractiveRiskMapProps> = ({
 
   return (
     <div className="space-y-6">
-      <div>
-        <h2 className="text-xl font-extrabold text-navy-900 tracking-tight">
-          Interactive Operational Risk Map
-        </h2>
-        <p className="text-xs text-slate-500 mt-0.5">
-          Topological map of business segments, interconnected anomaly nodes, and causal cascade pathways.
-        </p>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h2 className="text-xl font-extrabold text-navy-900 tracking-tight">
+            Interactive Operational Risk Map
+          </h2>
+          <p className="text-xs text-slate-500 mt-0.5">
+            Topological map of business segments, interconnected anomaly nodes, and causal cascade pathways.
+          </p>
+        </div>
+
+        {/* 3D vs 2D Toggle Switcher */}
+        <div className="inline-flex rounded-xl p-1 bg-slate-100 border border-slate-200 text-xs font-semibold self-start sm:self-auto shadow-xs">
+          <button
+            onClick={() => setViewMode('3d')}
+            className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition-all ${
+              viewMode === '3d'
+                ? 'bg-white text-navy-900 shadow-xs font-bold'
+                : 'text-slate-600 hover:text-navy-900'
+            }`}
+          >
+            <Rotate3d className="w-3.5 h-3.5 text-lavender-600" />
+            <span>3D Risk Universe</span>
+          </button>
+          <button
+            onClick={() => setViewMode('2d')}
+            className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-lg transition-all ${
+              viewMode === '2d'
+                ? 'bg-white text-navy-900 shadow-xs font-bold'
+                : 'text-slate-600 hover:text-navy-900'
+            }`}
+          >
+            <Network className="w-3.5 h-3.5 text-cyan-600" />
+            <span>2D Schematic</span>
+          </button>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Interactive Topological Canvas */}
-        <div className="lg:col-span-2">
-          <GlassCard title="Topological Risk Network" subtitle="Click any segment or node to inspect interconnected telemetry">
-            <div className="h-[460px] w-full rounded-2xl bg-gradient-to-br from-slate-50/80 via-white to-lavender-50/20 border border-slate-200/80 relative flex items-center justify-center p-6 overflow-hidden">
+      {viewMode === '3d' ? (
+        <Interactive3DRiskCanvas />
+      ) : (
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          {/* Interactive Topological Canvas */}
+          <div className="lg:col-span-2">
+            <GlassCard title="Topological Risk Network" subtitle="Click any segment or node to inspect interconnected telemetry">
+              <div className="h-[460px] w-full rounded-2xl bg-gradient-to-br from-slate-50/80 via-white to-lavender-50/20 border border-slate-200/80 relative flex items-center justify-center p-6 overflow-hidden">
               {/* Background topological grid */}
               <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] [background-size:20px_20px] opacity-40 pointer-events-none" />
 
@@ -213,8 +246,9 @@ export const InteractiveRiskMap: React.FC<InteractiveRiskMapProps> = ({
               </div>
             )}
           </GlassCard>
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

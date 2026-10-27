@@ -22,6 +22,7 @@ import {
   Cell
 } from 'recharts';
 import { GlassCard } from '../components/GlassCard';
+import { Interactive3DRiskCanvas } from '../components/Interactive3DRiskCanvas';
 import { Finding, CrossMetricCluster, HealthStatus } from '../types';
 import { NavTab } from '../components/Sidebar';
 
@@ -222,6 +223,9 @@ export const OverviewDashboard: React.FC<OverviewDashboardProps> = ({
           </div>
         </GlassCard>
       )}
+
+      {/* Interactive Working 3D Risk Universe Canvas */}
+      <Interactive3DRiskCanvas />
 
       {/* Visual Charts Row */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
