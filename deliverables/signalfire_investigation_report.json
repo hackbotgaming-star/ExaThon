@@ -1,0 +1,256 @@
+{
+  "title": "SIGNALFIRE AI - Executive Anomaly & Cross-Metric Investigation Report",
+  "generated_at": "2026-10-27T07:35:43.993427",
+  "metadata": {
+    "backend_name": "DuckDB Local (In-Process OLAP Engine)",
+    "records_analyzed": 55590
+  },
+  "executive_summary": "SIGNALFIRE AI continuously monitors multi-source enterprise operations. This report synthesizes cross-metric signals, provides empirical correlation metrics, and separates observed facts, statistical associations, hypotheses, and recommendations.",
+  "cross_metric_clusters": [
+    {
+      "cluster_id": "CLUS-XM-NORTH-c76a03",
+      "title": "Cascading Fulfillment & Retention Risk Cluster in North",
+      "summary": "A co-occurring sequence of operational anomalies was discovered in North spanning inventory, deliveries, customer_retention, customer_complaints, refunds. Statistical alignment indicates transit delay escalations precede downstream complaint and refund surges.",
+      "severity": "CRITICAL",
+      "segment": "region:North",
+      "signals_involved": [
+        "SIG-DELIV-NORTH-eaf6c9",
+        "SIG-CMP-NORTH-fe4b98",
+        "SIG-REF-NORTH-38714b",
+        "SIG-RET-NORTH-e9d97d",
+        "SIG-INV-NORTH-5f8260"
+      ],
+      "signal_titles": [
+        "Sustained Delivery Transit Delay Spike in North",
+        "Surge in Customer Complaints in North (Delayed Delivery)",
+        "Elevated Refund Incidence in North",
+        "Deterioration in Customer Repeat Purchase Rate in North",
+        "Inventory Stockout Rate Escalation in North"
+      ],
+      "datasets_involved": [
+        "inventory",
+        "deliveries",
+        "customer_retention",
+        "customer_complaints",
+        "refunds"
+      ],
+      "signal_count": 5,
+      "evidence_strength": 0.913,
+      "observed_facts": [
+        "Sustained Delivery Transit Delay Spike in North: Average delivery delays in North escalated from a baseline median of 0.10 days to 2.78 days (peak: 3.17 days), representing a +2568.4% increase.",
+        "Surge in Customer Complaints in North (Delayed Delivery): Customer complaints in North surged by +961.2%, moving from baseline 0.79% to 8.42% of orders. The predominant complaint driver is 'Delayed Delivery'.",
+        "Elevated Refund Incidence in North: Refund rate in North elevated from baseline 2.11% to 10.42%, representing a +394.7% increase in customer refund frequency.",
+        "Deterioration in Customer Repeat Purchase Rate in North: Repeat purchase retention rate in North contracted from baseline 42.1% to 24.4% (-42.2%), signaling downstream customer churn.",
+        "Inventory Stockout Rate Escalation in North: Stockout incidence across SKUs in North shifted from baseline 0.0% to 25.0%, indicating localized fulfillment replenishment disruptions."
+      ],
+      "statistical_associations": [
+        "Multi-metric temporal co-occurrence observed across 5 independent operational streams (inventory, deliveries, customer_retention, customer_complaints, refunds).",
+        "Peak correlation coefficient between Delivery Delays and Refund Rate: r = 0.60 (p-val proxy: < 0.001).",
+        "Estimated lead-lag offset: Delivery delay peaks lead complaint and refund surges by approximately 3 days."
+      ],
+      "hypotheses": [
+        "Primary Working Hypothesis: Severe transit delays in North triggered an operational bottleneck, causing customer dissatisfaction, elevated complaints, return requests, and subsequent inventory stockouts.",
+        "Secondary Hypothesis: Local supplier logistics constraints in the North fulfillment corridor may have compounded carrier delivery throughput."
+      ],
+      "competing_explanations": [
+        "Severe regional weather disruptions or infrastructure blockades causing temporary transit stoppages without structural carrier failure.",
+        "Promotional campaign or flash sale surge skewing order volumes beyond regional warehouse staffing capacity.",
+        "Batch software or tracking telemetry synchronization delay misattributing on-time parcels as delayed."
+      ],
+      "limitations": [
+        "Correlation does not constitute proven causation: external confounding factors not captured in the 8 operational tables cannot be ruled out.",
+        "Analysis reflects synthetic retail operational distribution; empirical real-world validation against ground operational logs is recommended.",
+        "Cohort comparison relies on 3 benchmark regions (South, East, West)."
+      ],
+      "recommendations": [
+        "1. Conduct immediate SLA performance audit with primary carriers serving the North hub.",
+        "2. Inspect warehouse stockout logs and prioritize inbound replenishment for high-velocity SKUs.",
+        "3. Offer proactive customer outreach and automated delivery delay vouchers to stem repeat purchase churn.",
+        "4. Review carrier contract penalty clauses for delivery window breaches."
+      ],
+      "correlation_metrics": {
+        "delivery_refund_r": 0.5955553683061763,
+        "p_value_str": "< 0.001",
+        "estimated_lead_days": 3,
+        "sample_points": 71
+      },
+      "cohort_comparison": {
+        "target_region": "North",
+        "unaffected_regions": [
+          "South",
+          "East",
+          "West"
+        ],
+        "unaffected_count": 3,
+        "target_avg_delay": 1.19,
+        "control_avg_delay": 0.1,
+        "delta_delay_ratio": 11.7,
+        "target_refund_rate_pct": 11.4,
+        "control_refund_rate_pct": 2.6
+      },
+      "status": "Under Investigation"
+    }
+  ],
+  "detected_findings": [
+    {
+      "finding_id": "SIG-DELIV-NORTH-eaf6c9",
+      "title": "Sustained Delivery Transit Delay Spike in North",
+      "description": "Average delivery delays in North escalated from a baseline median of 0.10 days to 2.78 days (peak: 3.17 days), representing a +2568.4% increase.",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "confidence_rationale": "Robust Z-score = 56.42 (MAD=0.03), exceeding 2.5 threshold.",
+      "affected_dataset": "deliveries",
+      "affected_segment": "region:North",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 2.78,
+      "expected_value": 0.1,
+      "change_magnitude_pct": 2568.4,
+      "detection_method": "Robust Z-Score (Median Absolute Deviation) & Rolling Window",
+      "supporting_metrics": {
+        "baseline_median_days": 0.1,
+        "evaluation_median_days": 2.78,
+        "robust_z_score": 56.42,
+        "sample_size_packages": 4100,
+        "iqr_upper_fence": 0.48
+      },
+      "data_quality_warnings": "Sample size robust (>1,000 packages). No missing timestamps detected.",
+      "suggested_next_investigation": "Correlate with carrier distribution hub logs and inspect customer complaint categories for this region.",
+      "timestamp": "2026-10-27T07:35:43.722994",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-CMP-NORTH-fe4b98",
+      "title": "Surge in Customer Complaints in North (Delayed Delivery)",
+      "description": "Customer complaints in North surged by +961.2%, moving from baseline 0.79% to 8.42% of orders. The predominant complaint driver is 'Delayed Delivery'.",
+      "severity": "CRITICAL",
+      "confidence": 0.961,
+      "confidence_rationale": "Robust Z=6.48 over baseline MAD=0.79.",
+      "affected_dataset": "customer_complaints",
+      "affected_segment": "region:North",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 8.42,
+      "expected_value": 0.79,
+      "change_magnitude_pct": 961.2,
+      "detection_method": "Robust Z-Score Rate Anomaly Detector",
+      "supporting_metrics": {
+        "baseline_rate_pct": 0.79,
+        "observed_rate_pct": 8.42,
+        "dominant_category": "Delayed Delivery",
+        "robust_z_score": 6.48
+      },
+      "data_quality_warnings": "Verified with regional order volume normalizer.",
+      "suggested_next_investigation": "Cross-examine complaints against delivery delays and refund requests in North.",
+      "timestamp": "2026-10-27T07:35:43.744448",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-CMP-SOUTH-a731a2",
+      "title": "Surge in Customer Complaints in South (Wrong Item Sent)",
+      "description": "Customer complaints in South surged by +2062.1%, moving from baseline 0.00% to 2.06% of orders. The predominant complaint driver is 'Wrong Item Sent'.",
+      "severity": "CRITICAL",
+      "confidence": 0.98,
+      "confidence_rationale": "Robust Z=1390850.42 over baseline MAD=0.00.",
+      "affected_dataset": "customer_complaints",
+      "affected_segment": "region:South",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 2.06,
+      "expected_value": 0.0,
+      "change_magnitude_pct": 2062.1,
+      "detection_method": "Robust Z-Score Rate Anomaly Detector",
+      "supporting_metrics": {
+        "baseline_rate_pct": 0.0,
+        "observed_rate_pct": 2.06,
+        "dominant_category": "Wrong Item Sent",
+        "robust_z_score": 1390850.42
+      },
+      "data_quality_warnings": "Verified with regional order volume normalizer.",
+      "suggested_next_investigation": "Cross-examine complaints against delivery delays and refund requests in South.",
+      "timestamp": "2026-10-27T07:35:43.746444",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-REF-NORTH-38714b",
+      "title": "Elevated Refund Incidence in North",
+      "description": "Refund rate in North elevated from baseline 2.11% to 10.42%, representing a +394.7% increase in customer refund frequency.",
+      "severity": "CRITICAL",
+      "confidence": 0.736,
+      "confidence_rationale": "Robust Z=2.66 (MAD=2.11).",
+      "affected_dataset": "refunds",
+      "affected_segment": "region:North",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 10.42,
+      "expected_value": 2.11,
+      "change_magnitude_pct": 394.7,
+      "detection_method": "Robust Z-Score Rate Anomaly Detector",
+      "supporting_metrics": {
+        "baseline_refund_pct": 2.11,
+        "observed_refund_pct": 10.42,
+        "robust_z_score": 2.66
+      },
+      "data_quality_warnings": "Matched against completed order dates.",
+      "suggested_next_investigation": "Inspect return reasons (Late Arrival vs Defective) to identify causal antecedents.",
+      "timestamp": "2026-10-27T07:35:43.761297",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-RET-NORTH-e9d97d",
+      "title": "Deterioration in Customer Repeat Purchase Rate in North",
+      "description": "Repeat purchase retention rate in North contracted from baseline 42.1% to 24.4% (-42.2%), signaling downstream customer churn.",
+      "severity": "HIGH",
+      "confidence": 0.91,
+      "confidence_rationale": "Rolling Window Negative Delta exceeding -25% threshold.",
+      "affected_dataset": "customer_retention",
+      "affected_segment": "region:North",
+      "relevant_time_window": "2026-08-19 to 2026-09-23",
+      "baseline_period": "2026-07-01 to 2026-08-12",
+      "observed_value": 24.4,
+      "expected_value": 42.1,
+      "change_magnitude_pct": -42.2,
+      "detection_method": "Rolling Window Trend Delta",
+      "supporting_metrics": {
+        "baseline_repeat_rate_pct": 42.1,
+        "observed_repeat_rate_pct": 24.4,
+        "churn_acceleration_pct": 42.2
+      },
+      "data_quality_warnings": "Weekly cohort tracking valid.",
+      "suggested_next_investigation": "Evaluate customer lifetime value (LTV) impact and correlate with delivery satisfaction scores.",
+      "timestamp": "2026-10-27T07:35:43.776478",
+      "status": "New",
+      "priority": "P2"
+    },
+    {
+      "finding_id": "SIG-INV-NORTH-5f8260",
+      "title": "Inventory Stockout Rate Escalation in North",
+      "description": "Stockout incidence across SKUs in North shifted from baseline 0.0% to 25.0%, indicating localized fulfillment replenishment disruptions.",
+      "severity": "MEDIUM",
+      "confidence": 0.97,
+      "confidence_rationale": "IQR Outlier & Robust Z=16862268.99.",
+      "affected_dataset": "inventory",
+      "affected_segment": "region:North",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 25.0,
+      "expected_value": 0.0,
+      "change_magnitude_pct": 5000.0,
+      "detection_method": "Interquartile Range Outlier & Median Absolute Deviation",
+      "supporting_metrics": {
+        "baseline_stockout_pct": 0.0,
+        "observed_stockout_pct": 25.0,
+        "robust_z": 16862268.99
+      },
+      "data_quality_warnings": "Daily catalog snapshot complete.",
+      "suggested_next_investigation": "Check supplier lead times and warehouse inbound shipments for affected category SKUs.",
+      "timestamp": "2026-10-27T07:35:43.771484",
+      "status": "New",
+      "priority": "P2"
+    }
+  ]
+}

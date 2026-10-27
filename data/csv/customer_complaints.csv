@@ -1,0 +1,452 @@
+complaint_id,customer_id,order_id,complaint_date,category,severity,region,resolution_status
+CMP-400001,CUST-4185,ORD-100048,2026-07-03,Delayed Delivery,Medium,South,Open
+CMP-400002,CUST-4945,ORD-100099,2026-07-04,Billing Issue,Medium,East,Resolved
+CMP-400003,CUST-7171,ORD-100146,2026-07-04,Wrong Item Sent,Low,West,Open
+CMP-400004,CUST-6246,ORD-100232,2026-07-04,Product Defect,High,South,Resolved
+CMP-400005,CUST-5902,ORD-100289,2026-07-04,Damaged Packaging,Medium,East,Investigating
+CMP-400006,CUST-3734,ORD-100302,2026-07-04,Delayed Delivery,Low,West,Open
+CMP-400007,CUST-7713,ORD-100381,2026-07-06,Delayed Delivery,Low,North,Resolved
+CMP-400008,CUST-3863,ORD-100468,2026-07-06,Damaged Packaging,Medium,East,Resolved
+CMP-400009,CUST-4458,ORD-100752,2026-07-07,Delayed Delivery,Low,West,Open
+CMP-400010,CUST-4152,ORD-100793,2026-07-08,Product Defect,Low,North,Open
+CMP-400011,CUST-1138,ORD-100809,2026-07-07,Wrong Item Sent,High,North,Resolved
+CMP-400012,CUST-8572,ORD-100862,2026-07-07,Delayed Delivery,High,South,Open
+CMP-400013,CUST-9566,ORD-100866,2026-07-09,Billing Issue,Low,South,Open
+CMP-400014,CUST-5888,ORD-100923,2026-07-08,Product Defect,High,East,Resolved
+CMP-400015,CUST-7370,ORD-100953,2026-07-07,Damaged Packaging,Low,East,Resolved
+CMP-400016,CUST-1735,ORD-101002,2026-07-07,Wrong Item Sent,Medium,West,Investigating
+CMP-400017,CUST-4445,ORD-101040,2026-07-08,Damaged Packaging,High,North,Resolved
+CMP-400018,CUST-2481,ORD-101224,2026-07-10,Damaged Packaging,Low,South,Open
+CMP-400019,CUST-3126,ORD-101245,2026-07-09,Wrong Item Sent,Low,South,Open
+CMP-400020,CUST-2168,ORD-101479,2026-07-11,Product Defect,Medium,East,Investigating
+CMP-400021,CUST-7756,ORD-101534,2026-07-11,Billing Issue,High,West,Open
+CMP-400022,CUST-1139,ORD-101555,2026-07-11,Damaged Packaging,Low,North,Open
+CMP-400023,CUST-8501,ORD-101584,2026-07-11,Wrong Item Sent,Low,North,Resolved
+CMP-400024,CUST-6273,ORD-101631,2026-07-12,Delayed Delivery,High,South,Resolved
+CMP-400025,CUST-8696,ORD-101639,2026-07-12,Product Defect,High,East,Resolved
+CMP-400026,CUST-9134,ORD-101701,2026-07-11,Product Defect,Low,West,Open
+CMP-400027,CUST-3121,ORD-101711,2026-07-12,Damaged Packaging,High,West,Resolved
+CMP-400028,CUST-4279,ORD-101738,2026-07-12,Delayed Delivery,High,North,Open
+CMP-400029,CUST-7534,ORD-101859,2026-07-12,Product Defect,Low,East,Investigating
+CMP-400030,CUST-7102,ORD-102037,2026-07-14,Product Defect,Low,South,Resolved
+CMP-400031,CUST-5549,ORD-102044,2026-07-13,Damaged Packaging,Medium,South,Investigating
+CMP-400032,CUST-9736,ORD-102064,2026-07-14,Product Defect,Low,East,Resolved
+CMP-400033,CUST-3027,ORD-102187,2026-07-13,Billing Issue,Low,West,Investigating
+CMP-400034,CUST-3265,ORD-102395,2026-07-14,Billing Issue,Medium,West,Investigating
+CMP-400035,CUST-6523,ORD-102535,2026-07-16,Wrong Item Sent,Medium,East,Investigating
+CMP-400036,CUST-7622,ORD-102539,2026-07-16,Delayed Delivery,High,East,Open
+CMP-400037,CUST-6151,ORD-102546,2026-07-15,Billing Issue,Medium,East,Open
+CMP-400038,CUST-5912,ORD-102620,2026-07-16,Product Defect,Medium,North,Open
+CMP-400039,CUST-5539,ORD-102832,2026-07-17,Wrong Item Sent,Low,East,Resolved
+CMP-400040,CUST-5079,ORD-102905,2026-07-18,Damaged Packaging,Low,North,Investigating
+CMP-400041,CUST-1451,ORD-102930,2026-07-18,Product Defect,Medium,North,Resolved
+CMP-400042,CUST-3053,ORD-102959,2026-07-18,Delayed Delivery,Medium,South,Resolved
+CMP-400043,CUST-9789,ORD-102985,2026-07-18,Billing Issue,Low,South,Investigating
+CMP-400044,CUST-2457,ORD-103027,2026-07-18,Damaged Packaging,Medium,East,Investigating
+CMP-400045,CUST-9767,ORD-103046,2026-07-19,Damaged Packaging,High,West,Resolved
+CMP-400046,CUST-6278,ORD-103048,2026-07-19,Delayed Delivery,Low,West,Resolved
+CMP-400047,CUST-9819,ORD-103091,2026-07-20,Damaged Packaging,Low,North,Investigating
+CMP-400048,CUST-9072,ORD-103141,2026-07-20,Damaged Packaging,Low,South,Resolved
+CMP-400049,CUST-8708,ORD-103166,2026-07-20,Damaged Packaging,High,South,Open
+CMP-400050,CUST-5677,ORD-103195,2026-07-20,Wrong Item Sent,High,East,Resolved
+CMP-400051,CUST-5879,ORD-103298,2026-07-19,Product Defect,Medium,West,Open
+CMP-400052,CUST-4868,ORD-103340,2026-07-20,Wrong Item Sent,High,North,Open
+CMP-400053,CUST-3424,ORD-103351,2026-07-21,Wrong Item Sent,High,North,Resolved
+CMP-400054,CUST-1104,ORD-103378,2026-07-21,Billing Issue,Medium,South,Resolved
+CMP-400055,CUST-6755,ORD-103426,2026-07-21,Wrong Item Sent,Medium,South,Resolved
+CMP-400056,CUST-4609,ORD-103513,2026-07-21,Product Defect,Low,West,Resolved
+CMP-400057,CUST-8765,ORD-103537,2026-07-21,Product Defect,Low,North,Resolved
+CMP-400058,CUST-4069,ORD-103541,2026-07-22,Damaged Packaging,Low,North,Open
+CMP-400059,CUST-2437,ORD-103692,2026-07-21,Delayed Delivery,Low,West,Open
+CMP-400060,CUST-9655,ORD-103798,2026-07-23,Billing Issue,Medium,South,Open
+CMP-400061,CUST-1864,ORD-103825,2026-07-24,Product Defect,Medium,East,Open
+CMP-400062,CUST-9447,ORD-103886,2026-07-22,Delayed Delivery,High,West,Investigating
+CMP-400063,CUST-2484,ORD-103897,2026-07-24,Delayed Delivery,Low,North,Resolved
+CMP-400064,CUST-5558,ORD-103929,2026-07-23,Damaged Packaging,Medium,North,Investigating
+CMP-400065,CUST-5742,ORD-103935,2026-07-24,Product Defect,Medium,North,Investigating
+CMP-400066,CUST-8130,ORD-103985,2026-07-24,Delayed Delivery,High,East,Resolved
+CMP-400067,CUST-2956,ORD-104018,2026-07-24,Delayed Delivery,Medium,East,Resolved
+CMP-400068,CUST-9991,ORD-104141,2026-07-25,Product Defect,Medium,South,Open
+CMP-400069,CUST-1988,ORD-104175,2026-07-25,Damaged Packaging,High,East,Resolved
+CMP-400070,CUST-2366,ORD-104189,2026-07-24,Billing Issue,Low,East,Open
+CMP-400071,CUST-4714,ORD-104191,2026-07-24,Billing Issue,Low,East,Resolved
+CMP-400072,CUST-2253,ORD-104220,2026-07-24,Product Defect,Low,West,Investigating
+CMP-400073,CUST-4809,ORD-104230,2026-07-25,Wrong Item Sent,Low,West,Open
+CMP-400074,CUST-5571,ORD-104333,2026-07-26,Product Defect,Low,East,Resolved
+CMP-400075,CUST-3427,ORD-104351,2026-07-26,Billing Issue,High,East,Investigating
+CMP-400076,CUST-9214,ORD-104360,2026-07-26,Damaged Packaging,High,East,Investigating
+CMP-400077,CUST-8807,ORD-104388,2026-07-26,Damaged Packaging,Medium,West,Resolved
+CMP-400078,CUST-1027,ORD-104509,2026-07-26,Delayed Delivery,Medium,South,Resolved
+CMP-400079,CUST-4481,ORD-104517,2026-07-27,Damaged Packaging,High,East,Open
+CMP-400080,CUST-9813,ORD-104538,2026-07-26,Product Defect,Medium,East,Open
+CMP-400081,CUST-4112,ORD-104578,2026-07-26,Damaged Packaging,Low,West,Resolved
+CMP-400082,CUST-3722,ORD-104599,2026-07-27,Wrong Item Sent,Medium,West,Investigating
+CMP-400083,CUST-3775,ORD-104642,2026-07-27,Wrong Item Sent,Low,North,Investigating
+CMP-400084,CUST-2106,ORD-104857,2026-07-30,Damaged Packaging,High,North,Resolved
+CMP-400085,CUST-6693,ORD-104868,2026-07-30,Billing Issue,Medium,North,Investigating
+CMP-400086,CUST-2824,ORD-104879,2026-07-30,Billing Issue,Medium,North,Resolved
+CMP-400087,CUST-6973,ORD-105032,2026-07-29,Damaged Packaging,High,West,Open
+CMP-400088,CUST-4028,ORD-105100,2026-07-29,Damaged Packaging,Low,North,Resolved
+CMP-400089,CUST-3357,ORD-105101,2026-07-29,Delayed Delivery,High,North,Resolved
+CMP-400090,CUST-3806,ORD-105105,2026-07-30,Delayed Delivery,High,North,Resolved
+CMP-400091,CUST-6966,ORD-105106,2026-07-30,Wrong Item Sent,Low,North,Investigating
+CMP-400092,CUST-6850,ORD-105121,2026-07-30,Billing Issue,Low,South,Resolved
+CMP-400093,CUST-6566,ORD-105128,2026-07-29,Delayed Delivery,Low,South,Resolved
+CMP-400094,CUST-4439,ORD-105130,2026-07-29,Wrong Item Sent,High,South,Investigating
+CMP-400095,CUST-1468,ORD-105140,2026-07-30,Damaged Packaging,High,South,Open
+CMP-400096,CUST-8529,ORD-105178,2026-07-30,Product Defect,High,East,Resolved
+CMP-400097,CUST-1775,ORD-105216,2026-07-30,Billing Issue,Low,West,Open
+CMP-400098,CUST-3167,ORD-105217,2026-07-29,Wrong Item Sent,Low,West,Investigating
+CMP-400099,CUST-9950,ORD-105376,2026-07-31,Damaged Packaging,High,West,Investigating
+CMP-400100,CUST-1118,ORD-105413,2026-07-31,Delayed Delivery,Medium,West,Open
+CMP-400101,CUST-1515,ORD-105418,2026-07-31,Delayed Delivery,High,West,Open
+CMP-400102,CUST-7386,ORD-105468,2026-08-02,Billing Issue,High,North,Resolved
+CMP-400103,CUST-2250,ORD-105482,2026-08-01,Billing Issue,Medium,South,Open
+CMP-400104,CUST-4912,ORD-105652,2026-08-01,Delayed Delivery,High,South,Open
+CMP-400105,CUST-8353,ORD-105664,2026-08-02,Wrong Item Sent,Low,South,Open
+CMP-400106,CUST-3234,ORD-105702,2026-08-02,Wrong Item Sent,Medium,East,Investigating
+CMP-400107,CUST-2733,ORD-105717,2026-08-01,Product Defect,High,East,Resolved
+CMP-400108,CUST-4649,ORD-105726,2026-08-01,Wrong Item Sent,High,East,Open
+CMP-400109,CUST-5323,ORD-105731,2026-08-01,Billing Issue,Low,East,Resolved
+CMP-400110,CUST-3685,ORD-105826,2026-08-02,Delayed Delivery,Low,North,Open
+CMP-400111,CUST-6216,ORD-105833,2026-08-02,Damaged Packaging,High,North,Investigating
+CMP-400112,CUST-3593,ORD-105879,2026-08-02,Damaged Packaging,High,South,Open
+CMP-400113,CUST-1795,ORD-105974,2026-08-03,Wrong Item Sent,Low,West,Investigating
+CMP-400114,CUST-2351,ORD-105996,2026-08-02,Damaged Packaging,Low,West,Resolved
+CMP-400115,CUST-5675,ORD-106036,2026-08-04,Damaged Packaging,Medium,North,Open
+CMP-400116,CUST-6552,ORD-106075,2026-08-04,Billing Issue,Low,South,Resolved
+CMP-400117,CUST-1443,ORD-106211,2026-08-04,Wrong Item Sent,High,West,Open
+CMP-400118,CUST-9230,ORD-106221,2026-08-04,Billing Issue,High,West,Investigating
+CMP-400119,CUST-6370,ORD-106224,2026-08-03,Wrong Item Sent,High,West,Resolved
+CMP-400120,CUST-5791,ORD-106287,2026-08-04,Damaged Packaging,Low,South,Open
+CMP-400121,CUST-1669,ORD-106291,2026-08-04,Billing Issue,High,South,Resolved
+CMP-400122,CUST-4361,ORD-106295,2026-08-05,Product Defect,High,South,Open
+CMP-400123,CUST-3629,ORD-106414,2026-08-04,Product Defect,High,East,Investigating
+CMP-400124,CUST-6072,ORD-106528,2026-08-05,Delayed Delivery,Low,South,Resolved
+CMP-400125,CUST-9879,ORD-106567,2026-08-05,Delayed Delivery,High,East,Open
+CMP-400126,CUST-6765,ORD-106595,2026-08-06,Wrong Item Sent,High,West,Resolved
+CMP-400127,CUST-8074,ORD-106655,2026-08-06,Delayed Delivery,Medium,North,Investigating
+CMP-400128,CUST-2108,ORD-106765,2026-08-06,Delayed Delivery,Low,East,Investigating
+CMP-400129,CUST-4023,ORD-106804,2026-08-06,Damaged Packaging,Low,West,Investigating
+CMP-400130,CUST-8104,ORD-107082,2026-08-08,Billing Issue,Medium,South,Resolved
+CMP-400131,CUST-9823,ORD-107104,2026-08-08,Billing Issue,Medium,East,Investigating
+CMP-400132,CUST-9201,ORD-107126,2026-08-10,Wrong Item Sent,High,East,Investigating
+CMP-400133,CUST-3038,ORD-107172,2026-08-08,Damaged Packaging,Low,West,Resolved
+CMP-400134,CUST-5405,ORD-107196,2026-08-10,Product Defect,Low,North,Open
+CMP-400135,CUST-9325,ORD-107223,2026-08-09,Wrong Item Sent,Low,North,Resolved
+CMP-400136,CUST-9284,ORD-107315,2026-08-10,Damaged Packaging,Low,East,Investigating
+CMP-400137,CUST-3891,ORD-107343,2026-08-09,Delayed Delivery,Medium,West,Resolved
+CMP-400138,CUST-2595,ORD-107352,2026-08-10,Damaged Packaging,High,West,Resolved
+CMP-400139,CUST-6743,ORD-107478,2026-08-11,Product Defect,Medium,South,Investigating
+CMP-400140,CUST-9396,ORD-107531,2026-08-10,Damaged Packaging,Low,East,Open
+CMP-400141,CUST-9131,ORD-107540,2026-08-10,Wrong Item Sent,High,East,Open
+CMP-400142,CUST-9861,ORD-107544,2026-08-11,Wrong Item Sent,High,East,Resolved
+CMP-400143,CUST-2417,ORD-107741,2026-08-11,Damaged Packaging,Low,South,Open
+CMP-400144,CUST-2409,ORD-107924,2026-08-12,Delayed Delivery,Medium,North,Open
+CMP-400145,CUST-7677,ORD-108010,2026-08-12,Billing Issue,Medium,East,Resolved
+CMP-400146,CUST-8232,ORD-108066,2026-08-14,Wrong Item Sent,Low,North,Resolved
+CMP-400147,CUST-3688,ORD-108100,2026-08-14,Damaged Packaging,Medium,North,Open
+CMP-400148,CUST-8669,ORD-108120,2026-08-13,Delayed Delivery,High,South,Investigating
+CMP-400149,CUST-2468,ORD-108203,2026-08-14,Wrong Item Sent,Medium,West,Investigating
+CMP-400150,CUST-1394,ORD-108257,2026-08-14,Product Defect,High,North,Resolved
+CMP-400151,CUST-1167,ORD-108258,2026-08-15,Billing Issue,High,North,Open
+CMP-400152,CUST-8621,ORD-108288,2026-08-14,Damaged Packaging,Medium,South,Investigating
+CMP-400153,CUST-4714,ORD-108345,2026-08-15,Damaged Packaging,High,East,Resolved
+CMP-400154,CUST-1758,ORD-108419,2026-08-16,Product Defect,Low,North,Open
+CMP-400155,CUST-1524,ORD-108596,2026-08-16,Billing Issue,High,North,Investigating
+CMP-400156,CUST-7098,ORD-108623,2026-08-16,Damaged Packaging,High,North,Investigating
+CMP-400157,CUST-7428,ORD-108817,2026-08-17,Billing Issue,High,North,Open
+CMP-400158,CUST-4636,ORD-108855,2026-08-18,Billing Issue,High,South,Investigating
+CMP-400159,CUST-9812,ORD-108856,2026-08-18,Product Defect,Low,South,Open
+CMP-400160,CUST-8971,ORD-108907,2026-08-18,Product Defect,Low,East,Investigating
+CMP-400161,CUST-1576,ORD-108958,2026-08-18,Delayed Delivery,Medium,East,Resolved
+CMP-400162,CUST-8415,ORD-108971,2026-08-17,Delayed Delivery,High,East,Resolved
+CMP-400163,CUST-7549,ORD-108980,2026-08-17,Wrong Item Sent,Low,West,Investigating
+CMP-400164,CUST-8561,ORD-108994,2026-08-17,Damaged Packaging,Low,West,Resolved
+CMP-400165,CUST-5882,ORD-109031,2026-08-17,Billing Issue,Medium,West,Open
+CMP-400166,CUST-6806,ORD-109037,2026-08-18,Wrong Item Sent,Medium,West,Investigating
+CMP-400167,CUST-3920,ORD-109039,2026-08-18,Damaged Packaging,High,North,Open
+CMP-400168,CUST-4237,ORD-109153,2026-08-18,Product Defect,Low,East,Open
+CMP-400169,CUST-3263,ORD-109156,2026-08-19,Wrong Item Sent,High,East,Resolved
+CMP-400170,CUST-8697,ORD-109204,2026-08-18,Product Defect,High,East,Resolved
+CMP-400171,CUST-1657,ORD-109229,2026-08-19,Damaged Packaging,Medium,West,Resolved
+CMP-400172,CUST-2789,ORD-109271,2026-08-18,Delayed Delivery,Medium,West,Open
+CMP-400173,CUST-5717,ORD-109375,2026-08-19,Damaged Packaging,Medium,East,Resolved
+CMP-400174,CUST-9468,ORD-109481,2026-08-20,Billing Issue,Medium,North,Investigating
+CMP-400175,CUST-2552,ORD-109582,2026-08-20,Damaged Packaging,High,East,Investigating
+CMP-400176,CUST-7016,ORD-109603,2026-08-21,Wrong Item Sent,Medium,West,Resolved
+CMP-400177,CUST-4122,ORD-109607,2026-08-21,Wrong Item Sent,Medium,West,Investigating
+CMP-400178,CUST-3404,ORD-109810,2026-08-24,Delayed Delivery,Medium,North,Investigating
+CMP-400179,CUST-7991,ORD-109825,2026-08-24,Delayed Delivery,High,North,Open
+CMP-400180,CUST-6014,ORD-109827,2026-08-24,Delayed Delivery,Medium,North,Investigating
+CMP-400181,CUST-6990,ORD-109835,2026-08-24,Delayed Delivery,High,North,Resolved
+CMP-400182,CUST-3371,ORD-109865,2026-08-23,Product Defect,Medium,South,Open
+CMP-400183,CUST-4387,ORD-109919,2026-08-23,Billing Issue,Medium,East,Investigating
+CMP-400184,CUST-4849,ORD-109989,2026-08-25,Delayed Delivery,High,North,Open
+CMP-400185,CUST-7392,ORD-110017,2026-08-25,Delayed Delivery,Low,North,Resolved
+CMP-400186,CUST-1827,ORD-110018,2026-08-25,Delayed Delivery,High,North,Open
+CMP-400187,CUST-5971,ORD-110030,2026-08-25,Billing Issue,High,North,Open
+CMP-400188,CUST-4865,ORD-110035,2026-08-25,Delayed Delivery,High,North,Resolved
+CMP-400189,CUST-1591,ORD-110037,2026-08-25,Delayed Delivery,High,North,Resolved
+CMP-400190,CUST-2408,ORD-110046,2026-08-23,Billing Issue,High,South,Open
+CMP-400191,CUST-9871,ORD-110199,2026-08-23,Billing Issue,Medium,West,Resolved
+CMP-400192,CUST-9223,ORD-110220,2026-08-26,Delayed Delivery,High,North,Open
+CMP-400193,CUST-4678,ORD-110233,2026-08-26,Product Defect,High,North,Resolved
+CMP-400194,CUST-3585,ORD-110237,2026-08-25,Delayed Delivery,High,North,Resolved
+CMP-400195,CUST-7231,ORD-110243,2026-08-25,Delayed Delivery,High,North,Investigating
+CMP-400196,CUST-5522,ORD-110256,2026-08-25,Delayed Delivery,High,North,Resolved
+CMP-400197,CUST-7393,ORD-110291,2026-08-25,Billing Issue,Medium,South,Open
+CMP-400198,CUST-4145,ORD-110370,2026-08-25,Billing Issue,High,East,Open
+CMP-400199,CUST-8440,ORD-110396,2026-08-24,Wrong Item Sent,Medium,West,Investigating
+CMP-400200,CUST-6479,ORD-110458,2026-08-26,Delayed Delivery,High,North,Resolved
+CMP-400201,CUST-2437,ORD-110474,2026-08-26,Delayed Delivery,Medium,North,Resolved
+CMP-400202,CUST-7526,ORD-110478,2026-08-27,Delayed Delivery,High,North,Investigating
+CMP-400203,CUST-3548,ORD-110509,2026-08-26,Product Defect,High,South,Investigating
+CMP-400204,CUST-9450,ORD-110524,2026-08-26,Damaged Packaging,High,South,Investigating
+CMP-400205,CUST-9161,ORD-110598,2026-08-25,Billing Issue,Low,East,Resolved
+CMP-400206,CUST-4979,ORD-110631,2026-08-26,Delayed Delivery,Medium,West,Open
+CMP-400207,CUST-5704,ORD-110644,2026-08-25,Damaged Packaging,Medium,West,Resolved
+CMP-400208,CUST-6837,ORD-110654,2026-08-25,Product Defect,Low,West,Investigating
+CMP-400209,CUST-3142,ORD-110696,2026-08-28,Delayed Delivery,High,North,Resolved
+CMP-400210,CUST-6371,ORD-110703,2026-08-26,Delayed Delivery,Medium,South,Resolved
+CMP-400211,CUST-5313,ORD-110756,2026-08-26,Delayed Delivery,High,East,Investigating
+CMP-400212,CUST-2145,ORD-110833,2026-08-29,Delayed Delivery,High,North,Resolved
+CMP-400213,CUST-8949,ORD-110854,2026-08-29,Delayed Delivery,High,North,Open
+CMP-400214,CUST-2842,ORD-110862,2026-08-29,Delayed Delivery,High,North,Investigating
+CMP-400215,CUST-7885,ORD-110869,2026-08-29,Product Defect,Low,North,Resolved
+CMP-400216,CUST-5745,ORD-110878,2026-08-28,Delayed Delivery,Medium,South,Resolved
+CMP-400217,CUST-5898,ORD-110924,2026-08-27,Wrong Item Sent,Low,South,Resolved
+CMP-400218,CUST-6251,ORD-110959,2026-08-27,Billing Issue,Low,East,Investigating
+CMP-400219,CUST-8415,ORD-111020,2026-08-30,Delayed Delivery,High,North,Investigating
+CMP-400220,CUST-4185,ORD-111037,2026-08-30,Delayed Delivery,High,North,Resolved
+CMP-400221,CUST-9738,ORD-111041,2026-08-30,Delayed Delivery,High,North,Open
+CMP-400222,CUST-4666,ORD-111058,2026-08-30,Wrong Item Sent,High,North,Investigating
+CMP-400223,CUST-3585,ORD-111182,2026-08-31,Delayed Delivery,High,North,Resolved
+CMP-400224,CUST-1610,ORD-111183,2026-08-31,Delayed Delivery,Low,North,Resolved
+CMP-400225,CUST-6916,ORD-111185,2026-08-31,Delayed Delivery,High,North,Investigating
+CMP-400226,CUST-4952,ORD-111192,2026-08-31,Delayed Delivery,High,North,Investigating
+CMP-400227,CUST-1611,ORD-111204,2026-08-31,Wrong Item Sent,High,North,Investigating
+CMP-400228,CUST-6807,ORD-111211,2026-08-31,Billing Issue,High,North,Resolved
+CMP-400229,CUST-3784,ORD-111214,2026-08-31,Product Defect,High,North,Investigating
+CMP-400230,CUST-4382,ORD-111307,2026-08-29,Wrong Item Sent,Medium,West,Investigating
+CMP-400231,CUST-5778,ORD-111313,2026-08-29,Delayed Delivery,High,West,Resolved
+CMP-400232,CUST-5025,ORD-111324,2026-08-30,Product Defect,Low,West,Open
+CMP-400233,CUST-1931,ORD-111398,2026-09-01,Wrong Item Sent,High,South,Resolved
+CMP-400234,CUST-5692,ORD-111445,2026-08-30,Damaged Packaging,Medium,East,Resolved
+CMP-400235,CUST-6280,ORD-111472,2026-08-30,Billing Issue,High,East,Resolved
+CMP-400236,CUST-2323,ORD-111512,2026-08-30,Product Defect,High,West,Resolved
+CMP-400237,CUST-8851,ORD-111537,2026-09-02,Wrong Item Sent,Low,North,Resolved
+CMP-400238,CUST-9875,ORD-111549,2026-09-02,Delayed Delivery,High,North,Investigating
+CMP-400239,CUST-5692,ORD-111556,2026-09-02,Delayed Delivery,High,North,Open
+CMP-400240,CUST-3290,ORD-111568,2026-09-02,Delayed Delivery,High,North,Open
+CMP-400241,CUST-8663,ORD-111592,2026-08-31,Wrong Item Sent,Medium,South,Resolved
+CMP-400242,CUST-6373,ORD-111613,2026-08-31,Wrong Item Sent,Low,South,Resolved
+CMP-400243,CUST-5083,ORD-111648,2026-08-31,Wrong Item Sent,Low,East,Investigating
+CMP-400244,CUST-1848,ORD-111685,2026-08-31,Wrong Item Sent,Medium,East,Open
+CMP-400245,CUST-4742,ORD-111770,2026-09-03,Delayed Delivery,High,North,Resolved
+CMP-400246,CUST-6389,ORD-111774,2026-09-03,Damaged Packaging,High,North,Investigating
+CMP-400247,CUST-5666,ORD-111778,2026-09-03,Product Defect,High,North,Investigating
+CMP-400248,CUST-7145,ORD-111783,2026-09-03,Delayed Delivery,High,North,Open
+CMP-400249,CUST-5056,ORD-111789,2026-09-03,Delayed Delivery,Low,North,Open
+CMP-400250,CUST-8666,ORD-111790,2026-09-03,Delayed Delivery,High,North,Resolved
+CMP-400251,CUST-3715,ORD-111797,2026-09-03,Product Defect,Low,North,Resolved
+CMP-400252,CUST-4868,ORD-111802,2026-09-03,Delayed Delivery,High,North,Resolved
+CMP-400253,CUST-3523,ORD-111810,2026-09-03,Wrong Item Sent,High,North,Investigating
+CMP-400254,CUST-4117,ORD-111843,2026-09-01,Product Defect,Medium,South,Open
+CMP-400255,CUST-2976,ORD-111865,2026-09-01,Damaged Packaging,Medium,South,Investigating
+CMP-400256,CUST-3384,ORD-111944,2026-09-02,Delayed Delivery,Medium,West,Resolved
+CMP-400257,CUST-3271,ORD-111977,2026-09-01,Delayed Delivery,Medium,West,Investigating
+CMP-400258,CUST-8858,ORD-111983,2026-09-04,Delayed Delivery,Medium,North,Resolved
+CMP-400259,CUST-5720,ORD-111985,2026-09-04,Damaged Packaging,High,North,Resolved
+CMP-400260,CUST-8132,ORD-111988,2026-09-04,Delayed Delivery,High,North,Open
+CMP-400261,CUST-7622,ORD-111992,2026-09-04,Delayed Delivery,High,North,Investigating
+CMP-400262,CUST-9633,ORD-111997,2026-09-04,Delayed Delivery,High,North,Resolved
+CMP-400263,CUST-3806,ORD-112003,2026-09-04,Delayed Delivery,High,North,Open
+CMP-400264,CUST-6342,ORD-112062,2026-09-03,Delayed Delivery,Low,East,Open
+CMP-400265,CUST-6090,ORD-112078,2026-09-04,Billing Issue,High,East,Investigating
+CMP-400266,CUST-1614,ORD-112109,2026-09-03,Damaged Packaging,High,West,Resolved
+CMP-400267,CUST-3637,ORD-112136,2026-09-02,Damaged Packaging,Medium,West,Open
+CMP-400268,CUST-9086,ORD-112142,2026-09-05,Damaged Packaging,High,North,Resolved
+CMP-400269,CUST-4590,ORD-112157,2026-09-05,Delayed Delivery,High,North,Open
+CMP-400270,CUST-1809,ORD-112167,2026-09-05,Delayed Delivery,High,North,Investigating
+CMP-400271,CUST-2764,ORD-112170,2026-09-05,Delayed Delivery,High,North,Open
+CMP-400272,CUST-3171,ORD-112178,2026-09-05,Delayed Delivery,High,North,Open
+CMP-400273,CUST-9401,ORD-112180,2026-09-05,Delayed Delivery,Low,North,Resolved
+CMP-400274,CUST-9755,ORD-112210,2026-09-03,Damaged Packaging,High,South,Resolved
+CMP-400275,CUST-4405,ORD-112238,2026-09-04,Billing Issue,Medium,East,Investigating
+CMP-400276,CUST-6394,ORD-112257,2026-09-03,Billing Issue,Medium,East,Open
+CMP-400277,CUST-2338,ORD-112272,2026-09-03,Delayed Delivery,Medium,West,Open
+CMP-400278,CUST-2835,ORD-112310,2026-09-06,Delayed Delivery,High,North,Open
+CMP-400279,CUST-3365,ORD-112318,2026-09-04,Delayed Delivery,Low,North,Resolved
+CMP-400280,CUST-5907,ORD-112333,2026-09-06,Delayed Delivery,High,North,Open
+CMP-400281,CUST-4369,ORD-112335,2026-09-06,Delayed Delivery,High,North,Open
+CMP-400282,CUST-8426,ORD-112368,2026-09-05,Wrong Item Sent,High,South,Resolved
+CMP-400283,CUST-4870,ORD-112404,2026-09-04,Product Defect,Medium,East,Investigating
+CMP-400284,CUST-4902,ORD-112483,2026-09-07,Delayed Delivery,Low,North,Investigating
+CMP-400285,CUST-2883,ORD-112492,2026-09-07,Damaged Packaging,Low,North,Resolved
+CMP-400286,CUST-4214,ORD-112503,2026-09-07,Delayed Delivery,High,North,Resolved
+CMP-400287,CUST-4312,ORD-112505,2026-09-07,Delayed Delivery,High,North,Investigating
+CMP-400288,CUST-8860,ORD-112506,2026-09-07,Delayed Delivery,Medium,North,Open
+CMP-400289,CUST-2426,ORD-112507,2026-09-07,Delayed Delivery,Medium,North,Open
+CMP-400290,CUST-2200,ORD-112658,2026-09-08,Delayed Delivery,High,North,Resolved
+CMP-400291,CUST-1762,ORD-112791,2026-09-07,Delayed Delivery,Medium,East,Resolved
+CMP-400292,CUST-1036,ORD-112833,2026-09-07,Billing Issue,Medium,West,Open
+CMP-400293,CUST-8332,ORD-112860,2026-09-09,Delayed Delivery,High,North,Open
+CMP-400294,CUST-1976,ORD-112878,2026-09-07,Wrong Item Sent,High,South,Investigating
+CMP-400295,CUST-9320,ORD-112883,2026-09-08,Damaged Packaging,Medium,South,Investigating
+CMP-400296,CUST-9188,ORD-112982,2026-09-08,Product Defect,Medium,East,Resolved
+CMP-400297,CUST-9893,ORD-112991,2026-09-07,Product Defect,Low,West,Open
+CMP-400298,CUST-8858,ORD-113003,2026-09-07,Damaged Packaging,High,West,Investigating
+CMP-400299,CUST-2786,ORD-113042,2026-09-10,Delayed Delivery,High,North,Open
+CMP-400300,CUST-3035,ORD-113043,2026-09-10,Delayed Delivery,High,North,Open
+CMP-400301,CUST-6161,ORD-113045,2026-09-10,Delayed Delivery,High,North,Investigating
+CMP-400302,CUST-8060,ORD-113109,2026-09-08,Product Defect,Low,South,Investigating
+CMP-400303,CUST-4578,ORD-113139,2026-09-09,Damaged Packaging,Medium,East,Resolved
+CMP-400304,CUST-9661,ORD-113166,2026-09-08,Wrong Item Sent,Medium,East,Open
+CMP-400305,CUST-9936,ORD-113222,2026-09-11,Delayed Delivery,Low,North,Resolved
+CMP-400306,CUST-8506,ORD-113247,2026-09-09,Delayed Delivery,Medium,North,Open
+CMP-400307,CUST-7213,ORD-113331,2026-09-09,Product Defect,High,East,Investigating
+CMP-400308,CUST-3242,ORD-113377,2026-09-09,Product Defect,Medium,West,Resolved
+CMP-400309,CUST-5081,ORD-113398,2026-09-12,Delayed Delivery,High,North,Investigating
+CMP-400310,CUST-8556,ORD-113406,2026-09-12,Delayed Delivery,High,North,Investigating
+CMP-400311,CUST-9571,ORD-113407,2026-09-12,Delayed Delivery,High,North,Resolved
+CMP-400312,CUST-7773,ORD-113507,2026-09-11,Delayed Delivery,High,West,Investigating
+CMP-400313,CUST-3867,ORD-113521,2026-09-11,Product Defect,High,West,Investigating
+CMP-400314,CUST-9741,ORD-113547,2026-09-13,Wrong Item Sent,Medium,North,Open
+CMP-400315,CUST-9412,ORD-113557,2026-09-12,Delayed Delivery,Low,North,Investigating
+CMP-400316,CUST-4724,ORD-113564,2026-09-13,Delayed Delivery,High,North,Open
+CMP-400317,CUST-8420,ORD-113631,2026-09-11,Wrong Item Sent,Low,East,Open
+CMP-400318,CUST-2788,ORD-113662,2026-09-12,Delayed Delivery,High,West,Resolved
+CMP-400319,CUST-8974,ORD-113691,2026-09-14,Delayed Delivery,High,North,Open
+CMP-400320,CUST-3081,ORD-113694,2026-09-13,Delayed Delivery,Low,North,Resolved
+CMP-400321,CUST-7780,ORD-113702,2026-09-13,Delayed Delivery,Low,North,Open
+CMP-400322,CUST-8842,ORD-113704,2026-09-14,Delayed Delivery,High,North,Open
+CMP-400323,CUST-7379,ORD-113705,2026-09-14,Billing Issue,High,North,Open
+CMP-400324,CUST-8062,ORD-113710,2026-09-14,Delayed Delivery,High,North,Resolved
+CMP-400325,CUST-8503,ORD-113749,2026-09-12,Product Defect,Medium,South,Resolved
+CMP-400326,CUST-7125,ORD-113757,2026-09-14,Delayed Delivery,High,South,Resolved
+CMP-400327,CUST-1604,ORD-113766,2026-09-12,Delayed Delivery,Medium,East,Resolved
+CMP-400328,CUST-5541,ORD-113771,2026-09-13,Wrong Item Sent,High,East,Resolved
+CMP-400329,CUST-2319,ORD-113840,2026-09-15,Wrong Item Sent,High,North,Investigating
+CMP-400330,CUST-6358,ORD-113868,2026-09-14,Damaged Packaging,High,South,Resolved
+CMP-400331,CUST-7603,ORD-113892,2026-09-14,Damaged Packaging,High,South,Resolved
+CMP-400332,CUST-2437,ORD-113971,2026-09-13,Wrong Item Sent,Medium,West,Open
+CMP-400333,CUST-5270,ORD-113995,2026-09-14,Billing Issue,High,West,Resolved
+CMP-400334,CUST-4495,ORD-114045,2026-09-16,Damaged Packaging,High,North,Resolved
+CMP-400335,CUST-1701,ORD-114090,2026-09-15,Product Defect,High,South,Open
+CMP-400336,CUST-9324,ORD-114151,2026-09-14,Billing Issue,Low,East,Resolved
+CMP-400337,CUST-1878,ORD-114245,2026-09-17,Delayed Delivery,High,North,Resolved
+CMP-400338,CUST-4960,ORD-114248,2026-09-17,Wrong Item Sent,High,North,Investigating
+CMP-400339,CUST-1572,ORD-114263,2026-09-17,Delayed Delivery,High,North,Resolved
+CMP-400340,CUST-6348,ORD-114264,2026-09-17,Delayed Delivery,Medium,North,Investigating
+CMP-400341,CUST-1894,ORD-114266,2026-09-16,Delayed Delivery,High,North,Investigating
+CMP-400342,CUST-3936,ORD-114291,2026-09-17,Delayed Delivery,High,North,Resolved
+CMP-400343,CUST-2037,ORD-114292,2026-09-17,Delayed Delivery,High,North,Open
+CMP-400344,CUST-5508,ORD-114331,2026-09-16,Damaged Packaging,Low,South,Investigating
+CMP-400345,CUST-3459,ORD-114364,2026-09-16,Damaged Packaging,Medium,East,Investigating
+CMP-400346,CUST-3096,ORD-114404,2026-09-16,Wrong Item Sent,Medium,East,Investigating
+CMP-400347,CUST-4334,ORD-114421,2026-09-15,Billing Issue,Medium,West,Investigating
+CMP-400348,CUST-1070,ORD-114471,2026-09-18,Delayed Delivery,Medium,North,Investigating
+CMP-400349,CUST-1471,ORD-114473,2026-09-18,Delayed Delivery,High,North,Open
+CMP-400350,CUST-1452,ORD-114492,2026-09-18,Delayed Delivery,High,North,Investigating
+CMP-400351,CUST-6647,ORD-114498,2026-09-18,Delayed Delivery,High,North,Open
+CMP-400352,CUST-7515,ORD-114505,2026-09-18,Delayed Delivery,High,North,Resolved
+CMP-400353,CUST-9676,ORD-114551,2026-09-17,Wrong Item Sent,Low,South,Open
+CMP-400354,CUST-7476,ORD-114619,2026-09-17,Damaged Packaging,High,West,Resolved
+CMP-400355,CUST-3837,ORD-114632,2026-09-19,Product Defect,Low,North,Open
+CMP-400356,CUST-5020,ORD-114637,2026-09-19,Delayed Delivery,High,North,Resolved
+CMP-400357,CUST-7755,ORD-114644,2026-09-18,Delayed Delivery,High,North,Open
+CMP-400358,CUST-5628,ORD-114652,2026-09-19,Delayed Delivery,Medium,North,Open
+CMP-400359,CUST-3170,ORD-114668,2026-09-19,Product Defect,Low,South,Investigating
+CMP-400360,CUST-3875,ORD-114696,2026-09-17,Wrong Item Sent,Medium,South,Investigating
+CMP-400361,CUST-8621,ORD-114740,2026-09-17,Damaged Packaging,High,West,Resolved
+CMP-400362,CUST-9360,ORD-114788,2026-09-20,Delayed Delivery,High,North,Resolved
+CMP-400363,CUST-9804,ORD-114810,2026-09-20,Delayed Delivery,High,North,Resolved
+CMP-400364,CUST-4591,ORD-114975,2026-09-21,Delayed Delivery,Low,North,Investigating
+CMP-400365,CUST-5228,ORD-114993,2026-09-20,Delayed Delivery,Medium,South,Open
+CMP-400366,CUST-3479,ORD-115129,2026-09-22,Delayed Delivery,Medium,North,Resolved
+CMP-400367,CUST-8412,ORD-115132,2026-09-22,Delayed Delivery,Medium,North,Open
+CMP-400368,CUST-2934,ORD-115145,2026-09-22,Delayed Delivery,Low,North,Investigating
+CMP-400369,CUST-4386,ORD-115151,2026-09-22,Billing Issue,Low,North,Open
+CMP-400370,CUST-7553,ORD-115154,2026-09-22,Delayed Delivery,High,North,Resolved
+CMP-400371,CUST-8761,ORD-115157,2026-09-22,Delayed Delivery,High,North,Resolved
+CMP-400372,CUST-8059,ORD-115160,2026-09-21,Delayed Delivery,High,North,Resolved
+CMP-400373,CUST-7229,ORD-115161,2026-09-22,Delayed Delivery,High,North,Open
+CMP-400374,CUST-4460,ORD-115209,2026-09-20,Wrong Item Sent,Low,South,Investigating
+CMP-400375,CUST-7171,ORD-115211,2026-09-20,Product Defect,Low,South,Investigating
+CMP-400376,CUST-2447,ORD-115295,2026-09-22,Delayed Delivery,High,West,Investigating
+CMP-400377,CUST-3224,ORD-115298,2026-09-20,Billing Issue,High,West,Investigating
+CMP-400378,CUST-2305,ORD-115358,2026-09-23,Delayed Delivery,Low,North,Investigating
+CMP-400379,CUST-3471,ORD-115364,2026-09-23,Delayed Delivery,High,North,Resolved
+CMP-400380,CUST-6753,ORD-115366,2026-09-23,Delayed Delivery,Low,North,Open
+CMP-400381,CUST-5965,ORD-115383,2026-09-23,Delayed Delivery,Low,North,Open
+CMP-400382,CUST-6195,ORD-115393,2026-09-22,Delayed Delivery,High,North,Investigating
+CMP-400383,CUST-6606,ORD-115394,2026-09-21,Damaged Packaging,High,North,Investigating
+CMP-400384,CUST-3571,ORD-115414,2026-09-22,Billing Issue,Low,South,Investigating
+CMP-400385,CUST-3379,ORD-115419,2026-09-22,Product Defect,Low,South,Open
+CMP-400386,CUST-8265,ORD-115430,2026-09-21,Damaged Packaging,Medium,South,Resolved
+CMP-400387,CUST-1197,ORD-115436,2026-09-22,Product Defect,Low,South,Investigating
+CMP-400388,CUST-1759,ORD-115538,2026-09-22,Billing Issue,High,West,Open
+CMP-400389,CUST-7769,ORD-115564,2026-09-23,Wrong Item Sent,High,North,Open
+CMP-400390,CUST-4625,ORD-115565,2026-09-24,Delayed Delivery,High,North,Investigating
+CMP-400391,CUST-1661,ORD-115567,2026-09-24,Delayed Delivery,Low,North,Investigating
+CMP-400392,CUST-6924,ORD-115578,2026-09-24,Delayed Delivery,High,North,Investigating
+CMP-400393,CUST-8452,ORD-115591,2026-09-23,Billing Issue,Low,North,Resolved
+CMP-400394,CUST-8865,ORD-115601,2026-09-24,Delayed Delivery,High,North,Resolved
+CMP-400395,CUST-4569,ORD-115612,2026-09-24,Delayed Delivery,Medium,South,Open
+CMP-400396,CUST-4723,ORD-115625,2026-09-22,Billing Issue,Medium,South,Open
+CMP-400397,CUST-9248,ORD-115687,2026-09-22,Product Defect,High,East,Investigating
+CMP-400398,CUST-1841,ORD-115720,2026-09-22,Wrong Item Sent,High,East,Investigating
+CMP-400399,CUST-7849,ORD-115727,2026-09-22,Billing Issue,Medium,East,Open
+CMP-400400,CUST-8975,ORD-115793,2026-09-25,Delayed Delivery,High,North,Investigating
+CMP-400401,CUST-7370,ORD-115795,2026-09-25,Delayed Delivery,Low,North,Open
+CMP-400402,CUST-4107,ORD-115818,2026-09-24,Delayed Delivery,High,North,Investigating
+CMP-400403,CUST-8652,ORD-115819,2026-09-25,Delayed Delivery,Low,North,Investigating
+CMP-400404,CUST-3954,ORD-115824,2026-09-23,Billing Issue,Low,South,Open
+CMP-400405,CUST-5072,ORD-115870,2026-09-24,Delayed Delivery,Medium,East,Investigating
+CMP-400406,CUST-6268,ORD-115947,2026-09-25,Delayed Delivery,High,North,Open
+CMP-400407,CUST-7902,ORD-115975,2026-09-26,Delayed Delivery,High,North,Resolved
+CMP-400408,CUST-7913,ORD-116011,2026-09-25,Billing Issue,Medium,South,Resolved
+CMP-400409,CUST-7524,ORD-116047,2026-09-24,Damaged Packaging,Medium,East,Investigating
+CMP-400410,CUST-9986,ORD-116085,2026-09-25,Product Defect,Low,West,Open
+CMP-400411,CUST-6727,ORD-116108,2026-09-27,Delayed Delivery,High,North,Resolved
+CMP-400412,CUST-9238,ORD-116165,2026-09-25,Delayed Delivery,High,South,Resolved
+CMP-400413,CUST-3247,ORD-116203,2026-09-26,Delayed Delivery,Low,East,Open
+CMP-400414,CUST-5707,ORD-116239,2026-09-26,Billing Issue,High,West,Open
+CMP-400415,CUST-1269,ORD-116245,2026-09-25,Damaged Packaging,Low,West,Investigating
+CMP-400416,CUST-4182,ORD-116253,2026-09-25,Damaged Packaging,High,West,Investigating
+CMP-400417,CUST-6336,ORD-116282,2026-09-28,Delayed Delivery,High,North,Investigating
+CMP-400418,CUST-2638,ORD-116370,2026-09-28,Product Defect,Low,East,Open
+CMP-400419,CUST-2272,ORD-116383,2026-09-27,Product Defect,Medium,West,Open
+CMP-400420,CUST-1769,ORD-116428,2026-09-29,Delayed Delivery,High,North,Investigating
+CMP-400421,CUST-6043,ORD-116440,2026-09-29,Delayed Delivery,High,North,Resolved
+CMP-400422,CUST-5630,ORD-116446,2026-09-29,Damaged Packaging,High,North,Resolved
+CMP-400423,CUST-4314,ORD-116447,2026-09-29,Delayed Delivery,High,North,Open
+CMP-400424,CUST-6338,ORD-116469,2026-09-29,Billing Issue,High,North,Investigating
+CMP-400425,CUST-1689,ORD-116483,2026-09-28,Product Defect,High,South,Resolved
+CMP-400426,CUST-5064,ORD-116602,2026-09-27,Billing Issue,High,West,Investigating
+CMP-400427,CUST-2035,ORD-116608,2026-09-27,Wrong Item Sent,Low,West,Investigating
+CMP-400428,CUST-9339,ORD-116625,2026-09-27,Billing Issue,Medium,West,Investigating
+CMP-400429,CUST-6485,ORD-116642,2026-09-27,Damaged Packaging,Medium,West,Investigating
+CMP-400430,CUST-8495,ORD-116683,2026-09-30,Delayed Delivery,High,North,Investigating
+CMP-400431,CUST-8792,ORD-116695,2026-09-29,Wrong Item Sent,High,South,Open
+CMP-400432,CUST-2097,ORD-116749,2026-09-29,Damaged Packaging,High,East,Resolved
+CMP-400433,CUST-9565,ORD-116750,2026-09-29,Damaged Packaging,Low,East,Resolved
+CMP-400434,CUST-6606,ORD-116767,2026-09-28,Billing Issue,Low,East,Open
+CMP-400435,CUST-9544,ORD-116770,2026-09-29,Damaged Packaging,High,East,Resolved
+CMP-400436,CUST-7112,ORD-116773,2026-09-30,Delayed Delivery,Medium,East,Resolved
+CMP-400437,CUST-3821,ORD-116793,2026-09-28,Wrong Item Sent,High,East,Investigating
+CMP-400438,CUST-7495,ORD-116839,2026-09-30,Wrong Item Sent,Low,West,Investigating
+CMP-400439,CUST-2840,ORD-116858,2026-10-01,Delayed Delivery,High,North,Investigating
+CMP-400440,CUST-2146,ORD-116868,2026-10-01,Delayed Delivery,High,North,Resolved
+CMP-400441,CUST-5859,ORD-116875,2026-10-01,Delayed Delivery,High,North,Resolved
+CMP-400442,CUST-4819,ORD-116886,2026-10-01,Delayed Delivery,High,North,Resolved
+CMP-400443,CUST-5412,ORD-117034,2026-10-01,Product Defect,Medium,West,Investigating
+CMP-400444,CUST-9633,ORD-117041,2026-09-29,Product Defect,Medium,West,Open
+CMP-400445,CUST-3859,ORD-117056,2026-10-02,Damaged Packaging,High,North,Investigating
+CMP-400446,CUST-7829,ORD-117074,2026-10-02,Delayed Delivery,High,North,Investigating
+CMP-400447,CUST-1087,ORD-117081,2026-10-01,Wrong Item Sent,High,North,Resolved
+CMP-400448,CUST-7880,ORD-117116,2026-10-01,Wrong Item Sent,Low,South,Open
+CMP-400449,CUST-8750,ORD-117125,2026-09-30,Damaged Packaging,Low,South,Resolved
+CMP-400450,CUST-2121,ORD-117136,2026-09-30,Wrong Item Sent,Low,South,Investigating
+CMP-400451,CUST-8708,ORD-117155,2026-09-30,Damaged Packaging,Medium,East,Resolved

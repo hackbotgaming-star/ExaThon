@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  exasol:
+    image: exasol/docker-db:latest
+    container_name: signalfire-exasol
+    privileged: true
+    ports:
+      - "8563:8563"
+    environment:
+      - EXASOL_USER=sys
+      - EXASOL_PASSWORD=exasol
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: signalfire-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - EXASOL_DSN=exasol:8563
+      - EXASOL_USER=sys
+      - EXASOL_PASSWORD=exasol
+      - EXASOL_SCHEMA=SIGNALFIRE
+      - DUCKDB_PATH=/app/signalfire_local.duckdb
+    depends_on:
+      - exasol
+    restart: unless-stopped
+
+  frontend:
+    image: node:20-alpine
+    container_name: signalfire-frontend
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+    ports:
+      - "3000:3000"
+    command: sh -c "npm install && npm run dev -- --host 0.0.0.0"
+    depends_on:
+      - backend
+    restart: unless-stopped

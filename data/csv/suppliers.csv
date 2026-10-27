@@ -1,0 +1,7 @@
+supplier_id,supplier_name,product_id,category,lead_time_days,defect_rate_pct,reliability_score
+SUP-101,Apex Precision Tech,PRD-ELE-01,Electronics,7,1.2,94.5
+SUP-102,Nordic Gear Ltd,PRD-APP-01,Apparel,12,2.1,91.0
+SUP-103,Verdant Living Inc,PRD-HOM-01,Home & Garden,14,1.8,89.5
+SUP-104,Harvest Gold Supply,PRD-PAN-01,Pantry,5,0.9,97.2
+SUP-105,Silicon Core Components,PRD-ELE-01,Electronics,9,3.8,86.0
+SUP-106,Atlas Fabrics Corp,PRD-APP-01,Apparel,10,2.5,90.2

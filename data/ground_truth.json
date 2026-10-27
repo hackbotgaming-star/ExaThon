@@ -1,0 +1,62 @@
+[
+  {
+    "anomaly_id": "GT-ANO-001",
+    "dataset": "deliveries",
+    "segment_dimension": "region",
+    "segment_value": "North",
+    "metric": "delay_days",
+    "start_date": "2026-08-20",
+    "end_date": "2026-09-28",
+    "root_cause": "Carrier SwiftFreight transit hub breakdown and labor dispute in North hub",
+    "nature": "Sudden upward shift in delivery delays from ~1.2 days to ~5.4 days",
+    "expected_detection_method": "Robust Z-Score / Rolling Median Delta"
+  },
+  {
+    "anomaly_id": "GT-ANO-002",
+    "dataset": "customer_complaints",
+    "segment_dimension": "region",
+    "segment_value": "North",
+    "metric": "complaint_volume",
+    "start_date": "2026-08-22",
+    "end_date": "2026-09-28",
+    "root_cause": "Customer dissatisfaction triggered by transit delays and damaged transit parcels",
+    "nature": "3.5x surge in daily complaint volume, predominantly 'Delayed Delivery'",
+    "expected_detection_method": "IQR / Poisson Outlier / Z-Score"
+  },
+  {
+    "anomaly_id": "GT-ANO-003",
+    "dataset": "refunds",
+    "segment_dimension": "region",
+    "segment_value": "North",
+    "metric": "refund_rate",
+    "start_date": "2026-08-24",
+    "end_date": "2026-09-28",
+    "root_cause": "Downstream return and refund wave resulting from severe delivery delays",
+    "nature": "Refunds rise from 2.6% of orders to 11.4% of orders",
+    "expected_detection_method": "Moving Average Delta / Robust Z-Score"
+  },
+  {
+    "anomaly_id": "GT-ANO-004",
+    "dataset": "inventory",
+    "segment_dimension": "region:category",
+    "segment_value": "North:Electronics",
+    "metric": "stockout_rate",
+    "start_date": "2026-08-26",
+    "end_date": "2026-09-28",
+    "root_cause": "Replenishment logistics stuck in transit causing critical electronics stockouts",
+    "nature": "Stockout rate spikes from 3% to 44%",
+    "expected_detection_method": "IQR / Percentage Threshold"
+  },
+  {
+    "anomaly_id": "GT-ANO-005",
+    "dataset": "customer_retention",
+    "segment_dimension": "region",
+    "segment_value": "North",
+    "metric": "repeat_purchase_rate",
+    "start_date": "2026-08-30",
+    "end_date": "2026-09-28",
+    "root_cause": "Customer churn and erosion of brand trust following delivery and refund issues",
+    "nature": "Repeat purchase rate drops from 41.5% to 22.0%",
+    "expected_detection_method": "Rolling Window Negative Delta"
+  }
+]
