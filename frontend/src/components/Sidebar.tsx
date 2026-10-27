@@ -52,7 +52,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentTab, onSelectTab, criti
   ];
 
   return (
-    <aside className="w-64 border-r border-slate-200/80 bg-white/70 backdrop-blur-md flex flex-col justify-between p-4 shrink-0 select-none">
+    <aside className="w-64 border-r border-slate-200/80 bg-white/75 backdrop-blur-md flex flex-col justify-between p-4 shrink-0 select-none overflow-y-auto custom-scrollbar">
       <div className="space-y-1">
         <div className="px-3 py-2 text-[11px] font-semibold tracking-wider text-slate-400 uppercase">
           Analytical Modules

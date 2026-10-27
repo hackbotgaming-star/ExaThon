@@ -184,24 +184,25 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
 
       {/* Finding Deep Inspection Modal / Slide-out */}
       {selectedFinding && (
-        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-xs flex items-center justify-center p-4">
-          <div className="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 shadow-2xl border border-slate-200 space-y-5 animate-in fade-in zoom-in-95 duration-200">
+        <div className="fixed inset-0 z-50 bg-slate-900/40 backdrop-blur-md flex items-center justify-center p-4 overflow-y-auto custom-scrollbar">
+          <div className="glass-modal-3d custom-scrollbar rounded-3xl max-w-2xl w-full max-h-[88vh] overflow-y-auto p-6 md:p-8 space-y-5 animate-in fade-in zoom-in-95 duration-200">
             {/* Modal Header */}
-            <div className="flex items-start justify-between border-b border-slate-100 pb-4">
+            <div className="flex items-start justify-between border-b border-slate-200/60 pb-4">
               <div>
                 <div className="flex items-center space-x-2">
-                  <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold uppercase border ${
-                    selectedFinding.severity === 'CRITICAL' ? 'bg-red-100 text-red-700 border-red-200' : 'bg-amber-100 text-amber-800 border-amber-200'
+                  <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold uppercase border shadow-xs ${
+                    selectedFinding.severity === 'CRITICAL' ? 'bg-red-100/90 text-red-700 border-red-200' : 'bg-amber-100/90 text-amber-800 border-amber-200'
                   }`}>
                     {selectedFinding.severity}
                   </span>
-                  <span className="text-xs font-mono text-slate-400">{selectedFinding.finding_id}</span>
+                  <span className="text-xs font-mono text-slate-400 font-semibold">{selectedFinding.finding_id}</span>
                 </div>
-                <h3 className="text-base font-bold text-navy-900 mt-2">{selectedFinding.title}</h3>
+                <h3 className="text-lg font-extrabold text-navy-900 mt-2 tracking-tight">{selectedFinding.title}</h3>
               </div>
               <button
                 onClick={onCloseDetail}
-                className="p-1.5 rounded-xl hover:bg-slate-100 text-slate-400 hover:text-slate-600"
+                className="p-2 rounded-xl bg-white/70 hover:bg-slate-100 text-slate-400 hover:text-slate-700 border border-slate-200/60 shadow-xs transition-all"
+                title="Close modal"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -211,56 +212,60 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
             <div className="space-y-4 text-xs">
               <div>
                 <h4 className="font-bold text-slate-400 uppercase text-[10px] tracking-wider">Description</h4>
-                <p className="text-slate-700 mt-1 leading-relaxed">{selectedFinding.description}</p>
+                <p className="text-slate-700 mt-1 leading-relaxed text-xs">{selectedFinding.description}</p>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 p-3 rounded-2xl bg-slate-50 border border-slate-200/70">
-                <div>
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Observed Value</span>
-                  <div className="text-sm font-extrabold text-navy-900 mt-0.5">{selectedFinding.observed_value}</div>
+              {/* 3D Embossed KPI Metric Tiles */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Observed Value</span>
+                  <div className="text-base font-extrabold text-navy-900 mt-1 font-mono">{selectedFinding.observed_value}</div>
                 </div>
-                <div>
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Baseline Expectation</span>
-                  <div className="text-sm font-extrabold text-slate-600 mt-0.5">{selectedFinding.expected_value}</div>
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Baseline Expectation</span>
+                  <div className="text-base font-extrabold text-slate-600 mt-1 font-mono">{selectedFinding.expected_value}</div>
                 </div>
-                <div>
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Shift Magnitude</span>
-                  <div className="text-sm font-extrabold text-red-600 mt-0.5">
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Shift Magnitude</span>
+                  <div className="text-base font-extrabold text-red-600 mt-1 font-mono">
                     {selectedFinding.change_magnitude_pct > 0 ? `+${selectedFinding.change_magnitude_pct}%` : `${selectedFinding.change_magnitude_pct}%`}
                   </div>
                 </div>
-                <div>
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Confidence</span>
-                  <div className="text-sm font-extrabold text-emerald-700 mt-0.5">
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Confidence</span>
+                  <div className="text-base font-extrabold text-emerald-700 mt-1 font-mono">
                     {(selectedFinding.confidence * 100).toFixed(1)}%
                   </div>
                 </div>
               </div>
 
+              {/* 3D Detection Methodology Glass Card */}
               <div>
-                <h4 className="font-bold text-slate-400 uppercase text-[10px] tracking-wider">Detection Methodology</h4>
-                <div className="p-3 rounded-xl bg-lavender-50/50 border border-lavender-200/70 text-slate-700 mt-1 font-mono text-[11px]">
-                  {selectedFinding.detection_method}
-                  <div className="text-slate-500 font-sans mt-1">
+                <h4 className="font-bold text-slate-400 uppercase text-[10px] tracking-wider mb-1">Detection Methodology</h4>
+                <div className="p-3.5 rounded-2xl bg-gradient-to-br from-lavender-50/70 via-white/80 to-indigo-50/40 border border-lavender-200/80 shadow-[inset_0_1.5px_2px_rgba(255,255,255,1),0_2px_8px_rgba(99,102,241,0.06)] text-slate-700 font-mono text-[11px]">
+                  <div className="font-bold text-indigo-900">{selectedFinding.detection_method}</div>
+                  <div className="text-slate-600 font-sans mt-1 leading-normal">
                     {selectedFinding.confidence_rationale}
                   </div>
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3">
-                <div className="p-3 rounded-xl bg-white border border-slate-200">
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Active Time Window</span>
-                  <div className="text-xs font-semibold text-slate-800 mt-0.5">{selectedFinding.relevant_time_window}</div>
+              {/* Time Windows 3D Tiles */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Active Time Window</span>
+                  <div className="text-xs font-semibold text-slate-800 mt-1 font-mono">{selectedFinding.relevant_time_window}</div>
                 </div>
-                <div className="p-3 rounded-xl bg-white border border-slate-200">
-                  <span className="text-slate-400 text-[10px] uppercase font-bold">Baseline Reference Period</span>
-                  <div className="text-xs font-semibold text-slate-800 mt-0.5">{selectedFinding.baseline_period}</div>
+                <div className="tile-3d-embossed p-3.5 rounded-2xl">
+                  <span className="text-slate-400 text-[10px] uppercase font-bold tracking-wider">Baseline Reference Period</span>
+                  <div className="text-xs font-semibold text-slate-800 mt-1 font-mono">{selectedFinding.baseline_period}</div>
                 </div>
               </div>
 
-              <div className="p-3 rounded-xl bg-amber-50/60 border border-amber-200 text-amber-900">
-                <span className="font-bold block mb-1">Recommended Next Action:</span>
-                <p>{selectedFinding.suggested_next_investigation}</p>
+              {/* Recommended Next Action 3D Rim Card */}
+              <div className="p-4 rounded-2xl bg-gradient-to-r from-amber-50/90 via-amber-50/50 to-white/90 border border-amber-200/90 shadow-[inset_0_1.5px_2px_rgba(255,255,255,1),0_4px_12px_-2px_rgba(245,158,11,0.12)] text-amber-950">
+                <span className="font-bold block mb-1 text-xs text-amber-900">Recommended Next Action:</span>
+                <p className="leading-relaxed text-xs">{selectedFinding.suggested_next_investigation}</p>
               </div>
 
               <div className="text-[11px] text-slate-400 italic">
@@ -269,10 +274,10 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
             </div>
 
             {/* Modal Actions */}
-            <div className="flex items-center justify-end space-x-3 pt-3 border-t border-slate-100">
+            <div className="flex items-center justify-end space-x-3 pt-4 border-t border-slate-200/60">
               <button
                 onClick={onCloseDetail}
-                className="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 hover:bg-slate-100"
+                className="btn-3d px-4 py-2 rounded-xl text-xs font-bold text-slate-600 bg-white border border-slate-200 hover:bg-slate-50"
               >
                 Close
               </button>
@@ -281,7 +286,7 @@ export const SignalDetectionView: React.FC<SignalDetectionViewProps> = ({
                   onOpenWorkspace(selectedFinding);
                   onCloseDetail();
                 }}
-                className="px-4 py-2 rounded-xl text-xs font-bold bg-navy-900 text-white hover:bg-navy-800 shadow-sm"
+                className="btn-3d px-4 py-2 rounded-xl text-xs font-bold bg-navy-900 text-white hover:bg-navy-800 shadow-md"
               >
                 Open in Investigation Workspace
               </button>

@@ -75,7 +75,12 @@ export const App: React.FC = () => {
   const criticalCount = findings.filter(f => f.severity === 'CRITICAL').length;
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#f8fafc] text-navy-900">
+    <div className="min-h-screen flex flex-col bg-[#f8fafc] text-navy-900 relative overflow-hidden">
+      {/* 3D Ambient Depth Glow Spheres for Parallax Glass Depth */}
+      <div className="glow-orb-lavender -top-20 -left-20 opacity-60" />
+      <div className="glow-orb-cyan top-1/3 -right-24 opacity-50" />
+      <div className="glow-orb-lavender -bottom-48 left-1/4 opacity-35" />
+
       {/* Top Navigation */}
       <Navbar
         health={health}
@@ -86,7 +91,7 @@ export const App: React.FC = () => {
       />
 
       {/* Main Layout Area */}
-      <div className="flex-1 flex overflow-hidden">
+      <div className="flex-1 flex overflow-hidden relative z-10">
         {/* Navigation Sidebar */}
         <Sidebar
           currentTab={currentTab}
@@ -95,7 +100,7 @@ export const App: React.FC = () => {
         />
 
         {/* Content View Area */}
-        <main className="flex-1 overflow-y-auto p-6 md:p-8 max-w-7xl mx-auto w-full">
+        <main className="flex-1 overflow-y-auto custom-scrollbar p-6 md:p-8 max-w-7xl mx-auto w-full">
           {currentTab === 'overview' && (
             <OverviewDashboard
               findings={findings}

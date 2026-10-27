@@ -284,7 +284,7 @@ export const DataExplorer: React.FC = () => {
           </div>
 
           {/* Table Container */}
-          <div className="overflow-x-auto border border-slate-200/80 rounded-xl">
+          <div className="overflow-x-auto custom-scrollbar border border-slate-200/80 rounded-xl">
             <table className="w-full text-left text-xs">
               <thead className="bg-slate-50/90 text-navy-900 border-b border-slate-200 font-bold uppercase tracking-wider text-[10px]">
                 <tr>
