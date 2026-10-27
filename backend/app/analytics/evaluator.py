@@ -21,10 +21,15 @@ class AnomalyEvaluator:
         self.ground_truth_file = ground_truth_file
 
     def load_ground_truth(self) -> List[Dict[str, Any]]:
+        records = []
         if os.path.exists(self.ground_truth_file):
             with open(self.ground_truth_file, "r") as f:
-                return json.load(f)
-        return []
+                records.extend(json.load(f))
+        mro_gt_file = os.path.join(os.path.dirname(self.ground_truth_file), "mro_ground_truth.json")
+        if os.path.exists(mro_gt_file):
+            with open(mro_gt_file, "r") as f:
+                records.extend(json.load(f))
+        return records
 
     def evaluate(self, datasets: Dict[str, pd.DataFrame]) -> Dict[str, Any]:
         ground_truth = self.load_ground_truth()

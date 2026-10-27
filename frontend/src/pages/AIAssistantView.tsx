@@ -16,10 +16,11 @@ export const AIAssistantView: React.FC = () => {
 
   const sampleQuestions = [
     "What changed most significantly this week?",
+    "What caused the unscheduled downtime in Plant Alpha?",
+    "Are there any critical spare parts stockouts?",
     "Which region has the largest increase in refunds?",
     "Which findings deserve investigation first?",
-    "What alternative explanations should I consider?",
-    "Which datasets should I examine next?"
+    "What alternative explanations should I consider?"
   ];
 
   const handleSend = async (queryText?: string) => {

@@ -53,10 +53,13 @@ report_generator = ReportGenerator(output_dir="deliverables")
 def load_local_csvs_into_db():
     global DATASETS_CACHE, CACHED_FINDINGS, CACHED_CLUSTERS
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    
+    # 1. Retail operations datasets
     csv_dir = os.path.join(base_dir, "data", "csv")
     if not os.path.exists(csv_dir) or not os.listdir(csv_dir):
         from data.generation.generate_retail_data import generate_all_datasets
-        DATASETS_CACHE = generate_all_datasets(csv_dir)
+        retail_dfs = generate_all_datasets(csv_dir)
+        DATASETS_CACHE.update(retail_dfs)
     else:
         for fname in os.listdir(csv_dir):
             if fname.endswith(".csv"):
@@ -67,6 +70,24 @@ def load_local_csvs_into_db():
                     db_manager.load_table(table_name, df, if_exists="replace")
                 except Exception as e:
                     print(f"Warning: Could not load {table_name} into DB: {e}")
+
+    # 2. MRO & Industrial Operations datasets
+    mro_dir = os.path.join(base_dir, "data", "mro_csv")
+    if not os.path.exists(mro_dir) or not os.listdir(mro_dir):
+        from data.generation.generate_mro_data import generate_mro_datasets
+        mro_dfs = generate_mro_datasets(mro_dir)
+        DATASETS_CACHE.update(mro_dfs)
+    else:
+        for fname in os.listdir(mro_dir):
+            if fname.endswith(".csv"):
+                table_name = fname.replace(".csv", "")
+                df = pd.read_csv(os.path.join(mro_dir, fname))
+                DATASETS_CACHE[table_name] = df
+                try:
+                    db_manager.load_table(table_name, df, if_exists="replace")
+                except Exception as e:
+                    print(f"Warning: Could not load {table_name} into DB: {e}")
+
     if DATASETS_CACHE:
         CACHED_FINDINGS = detector.run_all_detection(DATASETS_CACHE)
         CACHED_CLUSTERS = cross_metric_engine.investigate_signals(CACHED_FINDINGS, DATASETS_CACHE)
@@ -303,13 +324,28 @@ def get_evaluation():
     return evaluator.evaluate(DATASETS_CACHE)
 
 class WhatIfRequest(BaseModel):
+    domain: str = "retail"  # "retail" or "mro"
+    # Retail options
     delivery_delay_delta_pct: float = 0.0
     refund_rate_delta_pct: float = 0.0
     demand_delta_pct: float = 0.0
     inventory_reduction_pct: float = 0.0
+    # MRO options
+    vibration_delta_pct: float = 0.0
+    pm_backlog_delta_pct: float = 0.0
+    parts_lead_time_days_delta: float = 0.0
+    hourly_downtime_cost: float = 6500.0
 
 @app.post("/api/analytics/what-if")
 def calculate_what_if(req: WhatIfRequest):
+    if req.domain == "mro":
+        return what_if_engine.simulate_mro_scenario(
+            vibration_delta_pct=req.vibration_delta_pct,
+            pm_backlog_delta_pct=req.pm_backlog_delta_pct,
+            parts_lead_time_days_delta=req.parts_lead_time_days_delta,
+            hourly_downtime_cost=req.hourly_downtime_cost
+        )
+
     # Derive baseline benchmarks dynamically from active tables
     monthly_orders = 5700
     if "orders" in DATASETS_CACHE:

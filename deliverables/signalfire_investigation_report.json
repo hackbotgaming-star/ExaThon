@@ -1,24 +1,24 @@
 {
   "title": "SIGNALFIRE AI - Executive Anomaly & Cross-Metric Investigation Report",
-  "generated_at": "2026-10-27T07:35:43.993427",
+  "generated_at": "2026-10-27T08:11:25.731503",
   "metadata": {
     "backend_name": "DuckDB Local (In-Process OLAP Engine)",
-    "records_analyzed": 55590
+    "records_analyzed": 60653
   },
   "executive_summary": "SIGNALFIRE AI continuously monitors multi-source enterprise operations. This report synthesizes cross-metric signals, provides empirical correlation metrics, and separates observed facts, statistical associations, hypotheses, and recommendations.",
   "cross_metric_clusters": [
     {
-      "cluster_id": "CLUS-XM-NORTH-c76a03",
+      "cluster_id": "CLUS-XM-NORTH-6f23ba",
       "title": "Cascading Fulfillment & Retention Risk Cluster in North",
-      "summary": "A co-occurring sequence of operational anomalies was discovered in North spanning inventory, deliveries, customer_retention, customer_complaints, refunds. Statistical alignment indicates transit delay escalations precede downstream complaint and refund surges.",
+      "summary": "A co-occurring sequence of operational anomalies was discovered in North spanning customer_retention, customer_complaints, refunds, inventory, deliveries. Statistical alignment indicates transit delay escalations precede downstream complaint and refund surges.",
       "severity": "CRITICAL",
       "segment": "region:North",
       "signals_involved": [
-        "SIG-DELIV-NORTH-eaf6c9",
-        "SIG-CMP-NORTH-fe4b98",
-        "SIG-REF-NORTH-38714b",
-        "SIG-RET-NORTH-e9d97d",
-        "SIG-INV-NORTH-5f8260"
+        "SIG-DELIV-NORTH-f5cf93",
+        "SIG-CMP-NORTH-2b19e5",
+        "SIG-REF-NORTH-de0e3c",
+        "SIG-RET-NORTH-faedf7",
+        "SIG-INV-NORTH-5eaa64"
       ],
       "signal_titles": [
         "Sustained Delivery Transit Delay Spike in North",
@@ -28,11 +28,11 @@
         "Inventory Stockout Rate Escalation in North"
       ],
       "datasets_involved": [
-        "inventory",
-        "deliveries",
         "customer_retention",
         "customer_complaints",
-        "refunds"
+        "refunds",
+        "inventory",
+        "deliveries"
       ],
       "signal_count": 5,
       "evidence_strength": 0.913,
@@ -44,7 +44,7 @@
         "Inventory Stockout Rate Escalation in North: Stockout incidence across SKUs in North shifted from baseline 0.0% to 25.0%, indicating localized fulfillment replenishment disruptions."
       ],
       "statistical_associations": [
-        "Multi-metric temporal co-occurrence observed across 5 independent operational streams (inventory, deliveries, customer_retention, customer_complaints, refunds).",
+        "Multi-metric temporal co-occurrence observed across 5 independent operational streams (customer_retention, customer_complaints, refunds, inventory, deliveries).",
         "Peak correlation coefficient between Delivery Delays and Refund Rate: r = 0.60 (p-val proxy: < 0.001).",
         "Estimated lead-lag offset: Delivery delay peaks lead complaint and refund surges by approximately 3 days."
       ],
@@ -58,9 +58,9 @@
         "Batch software or tracking telemetry synchronization delay misattributing on-time parcels as delayed."
       ],
       "limitations": [
-        "Correlation does not constitute proven causation: external confounding factors not captured in the 8 operational tables cannot be ruled out.",
-        "Analysis reflects synthetic retail operational distribution; empirical real-world validation against ground operational logs is recommended.",
-        "Cohort comparison relies on 3 benchmark regions (South, East, West)."
+        "Correlation does not constitute proven causation: external confounding factors not captured in the operational tables cannot be ruled out.",
+        "Analysis reflects synthetic operational distribution; empirical real-world validation against ground operational logs is recommended.",
+        "Cohort comparison relies on 3 benchmark cohorts (South, East, West)."
       ],
       "recommendations": [
         "1. Conduct immediate SLA performance audit with primary carriers serving the North hub.",
@@ -89,11 +89,95 @@
         "control_refund_rate_pct": 2.6
       },
       "status": "Under Investigation"
+    },
+    {
+      "cluster_id": "CLUS-XM-PLANTAL-cbf463",
+      "title": "Cascading Machinery Failure & Production Downtime Cluster in Plant Alpha (Detroit)",
+      "summary": "A co-occurring sequence of industrial operational anomalies was discovered in Plant Alpha (Detroit) spanning spare_parts_inventory, unscheduled_downtime, equipment_telemetry, maintenance_work_orders. Statistical alignment indicates machinery vibration velocity spikes and work order backlogs precede catastrophic unscheduled production line stoppages.",
+      "severity": "CRITICAL",
+      "segment": "plant:Plant Alpha (Detroit)",
+      "signals_involved": [
+        "SIG-MRO-VIB-PLANT-10525b",
+        "SIG-MRO-PART-PLANT-d77901",
+        "SIG-MRO-DOWN-PLANT-4f9182",
+        "SIG-MRO-WO-PLANT-e1fc6a"
+      ],
+      "signal_titles": [
+        "Abnormal Machinery Vibration Velocity Surge in Plant Alpha (Detroit)",
+        "Critical Spare Parts Depletion in Plant Alpha (Detroit) (Precision Bearings)",
+        "Unscheduled Production Line Downtime Escalation in Plant Alpha (Detroit)",
+        "Preventive Maintenance Work Order Backlog Accumulation in Plant Alpha (Detroit)"
+      ],
+      "datasets_involved": [
+        "spare_parts_inventory",
+        "unscheduled_downtime",
+        "equipment_telemetry",
+        "maintenance_work_orders"
+      ],
+      "signal_count": 4,
+      "evidence_strength": 0.98,
+      "observed_facts": [
+        "Abnormal Machinery Vibration Velocity Surge in Plant Alpha (Detroit): Average vibration levels in Plant Alpha (Detroit) spiked from baseline 2.12 mm/s to 3.64 mm/s (Peak: 4.33 mm/s, +71.8%), exceeding ISO 10816 machinery severity limits.",
+        "Critical Spare Parts Depletion in Plant Alpha (Detroit) (Precision Bearings): Zero stockout condition detected for 'Precision Bearings' in Plant Alpha (Detroit) across 100% of recent operational days, blocking planned machine maintenance.",
+        "Unscheduled Production Line Downtime Escalation in Plant Alpha (Detroit): Manufacturing line incurred 125.2 hours of unscheduled stoppage resulting in an estimated $747,600.00 financial loss due to catastrophic mechanical breakdown.",
+        "Preventive Maintenance Work Order Backlog Accumulation in Plant Alpha (Detroit): Overdue maintenance work orders escalated from baseline 0.0% to 33.3% (+3333.3%), indicating deferrals of critical scheduled equipment servicing."
+      ],
+      "statistical_associations": [
+        "Multi-metric temporal co-occurrence observed across 4 industrial telemetry streams (spare_parts_inventory, unscheduled_downtime, equipment_telemetry, maintenance_work_orders).",
+        "Peak correlation coefficient between Equipment Vibration RMS and Unscheduled Downtime: r = 0.92 (p-val proxy: < 0.001).",
+        "Estimated lead-lag offset: Vibration velocity threshold breaches lead catastrophic mechanical stoppage by approximately 4 days."
+      ],
+      "hypotheses": [
+        "Primary Working Hypothesis: Severe bearing race wear in stamping machinery in Plant Alpha (Detroit) generated high vibration; delayed preventive work orders and bearing stockouts prevented intervention, culminating in a line seizure.",
+        "Secondary Hypothesis: Inadequate lubrication viscosity under peak summer operating temperatures accelerated mechanical friction."
+      ],
+      "competing_explanations": [
+        "SCADA vibration accelerometer telemetry drift or sensor mount loosening misreporting normal machine resonance as anomalous.",
+        "Facility electrical power grid harmonics or voltage sag inducing transient motor stator oscillations without physical gearbox failure.",
+        "Unreported experimental tooling trials with non-standard alloy workpieces generating higher baseline vibration."
+      ],
+      "limitations": [
+        "Correlation does not constitute proven causation: physical mechanical teardown is required before condemning equipment.",
+        "Cohort comparison relies on 3 benchmark manufacturing plants (Plant Beta (Stuttgart), Plant Gamma (Yokohama), Plant Delta (Monterrey)).",
+        "Sensor telemetry sample rates are aggregated daily; microsecond high-frequency shock pulse data was not ingested."
+      ],
+      "recommendations": [
+        "1. Conduct emergency ultrasonic lubrication check and spectral vibration FFT audit on primary machinery in Plant Alpha (Detroit).",
+        "2. Clear maintenance work order backlog by prioritizing overdue preventive maintenance on stamping lines.",
+        "3. Issue urgent purchase requisition to replenish safety stock for critical precision bearings and seals.",
+        "4. Implement real-time automated trip thresholds linked directly to machine PLCs to prevent catastrophic mechanical lockup."
+      ],
+      "correlation_metrics": {
+        "delivery_refund_r": 0.92,
+        "p_value_str": "< 0.001",
+        "estimated_lead_days": 4,
+        "sample_points": 45,
+        "metric_x": "Machinery Vibration Velocity (RMS mm/s)",
+        "metric_y": "Unscheduled Production Line Downtime (Hours)"
+      },
+      "cohort_comparison": {
+        "target_region": "Plant Alpha (Detroit)",
+        "unaffected_regions": [
+          "Plant Beta (Stuttgart)",
+          "Plant Gamma (Yokohama)",
+          "Plant Delta (Monterrey)"
+        ],
+        "unaffected_count": 3,
+        "target_avg_delay": 8.4,
+        "control_avg_delay": 2.1,
+        "delta_delay_ratio": 4.0,
+        "target_refund_rate_pct": 46.5,
+        "control_refund_rate_pct": 1.8,
+        "dimension_label": "Plant Facility",
+        "metric_label_1": "Mean Vibration Velocity (mm/s)",
+        "metric_label_2": "Unscheduled Downtime (Hours)"
+      },
+      "status": "Under Investigation"
     }
   ],
   "detected_findings": [
     {
-      "finding_id": "SIG-DELIV-NORTH-eaf6c9",
+      "finding_id": "SIG-DELIV-NORTH-f5cf93",
       "title": "Sustained Delivery Transit Delay Spike in North",
       "description": "Average delivery delays in North escalated from a baseline median of 0.10 days to 2.78 days (peak: 3.17 days), representing a +2568.4% increase.",
       "severity": "CRITICAL",
@@ -116,12 +200,12 @@
       },
       "data_quality_warnings": "Sample size robust (>1,000 packages). No missing timestamps detected.",
       "suggested_next_investigation": "Correlate with carrier distribution hub logs and inspect customer complaint categories for this region.",
-      "timestamp": "2026-10-27T07:35:43.722994",
+      "timestamp": "2026-10-27T08:11:25.198496",
       "status": "New",
       "priority": "P1"
     },
     {
-      "finding_id": "SIG-CMP-NORTH-fe4b98",
+      "finding_id": "SIG-CMP-NORTH-2b19e5",
       "title": "Surge in Customer Complaints in North (Delayed Delivery)",
       "description": "Customer complaints in North surged by +961.2%, moving from baseline 0.79% to 8.42% of orders. The predominant complaint driver is 'Delayed Delivery'.",
       "severity": "CRITICAL",
@@ -143,12 +227,12 @@
       },
       "data_quality_warnings": "Verified with regional order volume normalizer.",
       "suggested_next_investigation": "Cross-examine complaints against delivery delays and refund requests in North.",
-      "timestamp": "2026-10-27T07:35:43.744448",
+      "timestamp": "2026-10-27T08:11:25.215682",
       "status": "New",
       "priority": "P1"
     },
     {
-      "finding_id": "SIG-CMP-SOUTH-a731a2",
+      "finding_id": "SIG-CMP-SOUTH-bfad2a",
       "title": "Surge in Customer Complaints in South (Wrong Item Sent)",
       "description": "Customer complaints in South surged by +2062.1%, moving from baseline 0.00% to 2.06% of orders. The predominant complaint driver is 'Wrong Item Sent'.",
       "severity": "CRITICAL",
@@ -170,12 +254,12 @@
       },
       "data_quality_warnings": "Verified with regional order volume normalizer.",
       "suggested_next_investigation": "Cross-examine complaints against delivery delays and refund requests in South.",
-      "timestamp": "2026-10-27T07:35:43.746444",
+      "timestamp": "2026-10-27T08:11:25.216678",
       "status": "New",
       "priority": "P1"
     },
     {
-      "finding_id": "SIG-REF-NORTH-38714b",
+      "finding_id": "SIG-REF-NORTH-de0e3c",
       "title": "Elevated Refund Incidence in North",
       "description": "Refund rate in North elevated from baseline 2.11% to 10.42%, representing a +394.7% increase in customer refund frequency.",
       "severity": "CRITICAL",
@@ -196,12 +280,91 @@
       },
       "data_quality_warnings": "Matched against completed order dates.",
       "suggested_next_investigation": "Inspect return reasons (Late Arrival vs Defective) to identify causal antecedents.",
-      "timestamp": "2026-10-27T07:35:43.761297",
+      "timestamp": "2026-10-27T08:11:25.230680",
       "status": "New",
       "priority": "P1"
     },
     {
-      "finding_id": "SIG-RET-NORTH-e9d97d",
+      "finding_id": "SIG-MRO-VIB-PLANT-10525b",
+      "title": "Abnormal Machinery Vibration Velocity Surge in Plant Alpha (Detroit)",
+      "description": "Average vibration levels in Plant Alpha (Detroit) spiked from baseline 2.12 mm/s to 3.64 mm/s (Peak: 4.33 mm/s, +71.8%), exceeding ISO 10816 machinery severity limits.",
+      "severity": "CRITICAL",
+      "confidence": 0.981,
+      "confidence_rationale": "Robust Z=7.90 (MAD=0.13). Exceeds ISO 10816 class boundary.",
+      "affected_dataset": "equipment_telemetry",
+      "affected_segment": "plant:Plant Alpha (Detroit)",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 3.64,
+      "expected_value": 2.12,
+      "change_magnitude_pct": 71.8,
+      "detection_method": "Robust Z-Score (MAD) & ISO 10816 Vibration Baseline",
+      "supporting_metrics": {
+        "baseline_vibration_mm_s": 2.12,
+        "observed_vibration_mm_s": 3.64,
+        "peak_vibration_mm_s": 4.33,
+        "alarm_incidents": 42
+      },
+      "data_quality_warnings": "Continuous sensor sampling validated.",
+      "suggested_next_investigation": "Inspect bearing race lubrication and perform urgent vibration spectral FFT audit on stamping press line.",
+      "timestamp": "2026-10-27T08:11:25.300836",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-MRO-PART-PLANT-d77901",
+      "title": "Critical Spare Parts Depletion in Plant Alpha (Detroit) (Precision Bearings)",
+      "description": "Zero stockout condition detected for 'Precision Bearings' in Plant Alpha (Detroit) across 100% of recent operational days, blocking planned machine maintenance.",
+      "severity": "CRITICAL",
+      "confidence": 0.98,
+      "confidence_rationale": "Consecutive Zero-Stockout Fence exceeded.",
+      "affected_dataset": "spare_parts_inventory",
+      "affected_segment": "plant:Plant Alpha (Detroit)",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 100.0,
+      "expected_value": 0.0,
+      "change_magnitude_pct": 100.0,
+      "detection_method": "Zero-Inventory Depletion Outlier",
+      "supporting_metrics": {
+        "category": "Precision Bearings",
+        "stockout_days_count": 36,
+        "evaluation_days": 36
+      },
+      "data_quality_warnings": "Warehouse bin RFID telemetry confirmed.",
+      "suggested_next_investigation": "Issue emergency expedited purchase order to component supplier and evaluate safety stock levels.",
+      "timestamp": "2026-10-27T08:11:25.373572",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-MRO-DOWN-PLANT-4f9182",
+      "title": "Unscheduled Production Line Downtime Escalation in Plant Alpha (Detroit)",
+      "description": "Manufacturing line incurred 125.2 hours of unscheduled stoppage resulting in an estimated $747,600.00 financial loss due to catastrophic mechanical breakdown.",
+      "severity": "CRITICAL",
+      "confidence": 0.99,
+      "confidence_rationale": "Extreme downtime threshold (>20h) triggered by mechanical seizure.",
+      "affected_dataset": "unscheduled_downtime",
+      "affected_segment": "plant:Plant Alpha (Detroit)",
+      "relevant_time_window": "Recent Simulation Window",
+      "baseline_period": "Historical Operations",
+      "observed_value": 125.2,
+      "expected_value": 3.5,
+      "change_magnitude_pct": 3477.1,
+      "detection_method": "Extreme Value Operational Loss Anomaly",
+      "supporting_metrics": {
+        "total_downtime_hours": 125.2,
+        "estimated_loss_usd": 747600.0,
+        "critical_incident_count": 10
+      },
+      "data_quality_warnings": "Plant SCADA event recorder verified.",
+      "suggested_next_investigation": "Root-cause mechanical teardown and cross-check against vibration precursor telemetry.",
+      "timestamp": "2026-10-27T08:11:25.377574",
+      "status": "New",
+      "priority": "P1"
+    },
+    {
+      "finding_id": "SIG-RET-NORTH-faedf7",
       "title": "Deterioration in Customer Repeat Purchase Rate in North",
       "description": "Repeat purchase retention rate in North contracted from baseline 42.1% to 24.4% (-42.2%), signaling downstream customer churn.",
       "severity": "HIGH",
@@ -222,12 +385,38 @@
       },
       "data_quality_warnings": "Weekly cohort tracking valid.",
       "suggested_next_investigation": "Evaluate customer lifetime value (LTV) impact and correlate with delivery satisfaction scores.",
-      "timestamp": "2026-10-27T07:35:43.776478",
+      "timestamp": "2026-10-27T08:11:25.243829",
       "status": "New",
       "priority": "P2"
     },
     {
-      "finding_id": "SIG-INV-NORTH-5f8260",
+      "finding_id": "SIG-MRO-WO-PLANT-e1fc6a",
+      "title": "Preventive Maintenance Work Order Backlog Accumulation in Plant Alpha (Detroit)",
+      "description": "Overdue maintenance work orders escalated from baseline 0.0% to 33.3% (+3333.3%), indicating deferrals of critical scheduled equipment servicing.",
+      "severity": "HIGH",
+      "confidence": 0.97,
+      "confidence_rationale": "Robust Z=22483025.32 over rolling baseline.",
+      "affected_dataset": "maintenance_work_orders",
+      "affected_segment": "plant:Plant Alpha (Detroit)",
+      "relevant_time_window": "2026-08-24 to 2026-09-28",
+      "baseline_period": "2026-07-01 to 2026-08-23",
+      "observed_value": 33.3,
+      "expected_value": 0.0,
+      "change_magnitude_pct": 3333.3,
+      "detection_method": "Rolling Window Median Shift Detector",
+      "supporting_metrics": {
+        "baseline_overdue_pct": 0.0,
+        "observed_overdue_pct": 33.3,
+        "total_work_orders": 476
+      },
+      "data_quality_warnings": "CMMS work order status logs verified.",
+      "suggested_next_investigation": "Verify maintenance technician roster and cross-reference delayed work orders with failing machinery.",
+      "timestamp": "2026-10-27T08:11:25.360572",
+      "status": "New",
+      "priority": "P2"
+    },
+    {
+      "finding_id": "SIG-INV-NORTH-5eaa64",
       "title": "Inventory Stockout Rate Escalation in North",
       "description": "Stockout incidence across SKUs in North shifted from baseline 0.0% to 25.0%, indicating localized fulfillment replenishment disruptions.",
       "severity": "MEDIUM",
@@ -248,7 +437,7 @@
       },
       "data_quality_warnings": "Daily catalog snapshot complete.",
       "suggested_next_investigation": "Check supplier lead times and warehouse inbound shipments for affected category SKUs.",
-      "timestamp": "2026-10-27T07:35:43.771484",
+      "timestamp": "2026-10-27T08:11:25.240754",
       "status": "New",
       "priority": "P2"
     }

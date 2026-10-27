@@ -1,0 +1,6 @@
+supplier_id,supplier_name,part_category,standard_lead_days,defect_rate_pct,reliability_score
+MRO-SUP-01,Koyo Precision Bearings,Precision Bearings,18,1.2,92.0
+MRO-SUP-02,Freudenberg Sealing Tech,Hydraulic Seals,7,0.5,96.5
+MRO-SUP-03,Siemens Drive Systems,Servo Motors,28,2.4,88.0
+MRO-SUP-04,Donaldson Filtration,Coolant Filters,5,0.4,98.1
+MRO-SUP-05,Gates Power Transmission,Drive Belts,10,0.8,94.0

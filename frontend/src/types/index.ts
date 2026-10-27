@@ -114,29 +114,43 @@ export interface InvestigationRecord {
 }
 
 export interface WhatIfResponse {
+  domain?: string;
   inputs: {
-    delivery_delay_delta_pct: number;
-    refund_rate_delta_pct: number;
-    demand_delta_pct: number;
-    inventory_reduction_pct: number;
+    delivery_delay_delta_pct?: number;
+    refund_rate_delta_pct?: number;
+    demand_delta_pct?: number;
+    inventory_reduction_pct?: number;
+    vibration_delta_pct?: number;
+    pm_backlog_delta_pct?: number;
+    parts_lead_time_days_delta?: number;
+    hourly_downtime_cost?: number;
   };
   baseline: {
-    monthly_orders: number;
-    monthly_revenue: number;
-    avg_delivery_delay_days: number;
-    refund_rate_pct: number;
-    stockout_rate_pct: number;
-    monthly_refund_cost: number;
-    monthly_complaint_count: number;
+    monthly_orders?: number;
+    monthly_revenue?: number;
+    avg_delivery_delay_days?: number;
+    refund_rate_pct?: number;
+    stockout_rate_pct?: number;
+    monthly_refund_cost?: number;
+    monthly_complaint_count?: number;
+    monthly_downtime_hours?: number;
+    monthly_downtime_loss_usd?: number;
+    pm_compliance_rate_pct?: number;
+    hourly_downtime_cost?: number;
   };
   simulated: {
-    monthly_orders: number;
-    monthly_revenue: number;
-    avg_delivery_delay_days: number;
-    refund_rate_pct: number;
-    stockout_rate_pct: number;
-    monthly_refund_cost: number;
-    projected_complaint_count: number;
+    monthly_orders?: number;
+    monthly_revenue?: number;
+    avg_delivery_delay_days?: number;
+    refund_rate_pct?: number;
+    stockout_rate_pct?: number;
+    monthly_refund_cost?: number;
+    projected_complaint_count?: number;
+    monthly_downtime_hours?: number;
+    monthly_downtime_loss_usd?: number;
+    pm_compliance_rate_pct?: number;
+    expedited_freight_surcharge?: number;
+    catastrophic_seizure_risk_pct?: number;
   };
   direct_arithmetic_consequences: string[];
   model_based_projections: string[];

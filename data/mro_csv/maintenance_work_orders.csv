@@ -1,0 +1,1794 @@
+work_order_id,created_date,plant,equipment_type,work_type,planned_hours,actual_hours,status,priority
+WO-5001,2026-07-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P1
+WO-5002,2026-07-01,Plant Alpha (Detroit),Robotic Welder,Corrective,2.0,2.0,Completed,P2
+WO-5003,2026-07-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5004,2026-07-01,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5005,2026-07-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5006,2026-07-01,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5007,2026-07-01,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5008,2026-07-01,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5009,2026-07-01,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5010,2026-07-01,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5011,2026-07-01,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5012,2026-07-01,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5013,2026-07-01,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5014,2026-07-01,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5015,2026-07-01,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5016,2026-07-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5017,2026-07-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5018,2026-07-01,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5019,2026-07-01,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5020,2026-07-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5021,2026-07-01,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5022,2026-07-01,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-5023,2026-07-01,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5024,2026-07-02,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5025,2026-07-02,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5026,2026-07-02,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5027,2026-07-02,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5028,2026-07-02,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5029,2026-07-02,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5030,2026-07-02,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5031,2026-07-02,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-5032,2026-07-02,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5033,2026-07-02,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5034,2026-07-02,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,,Scheduled,P1
+WO-5035,2026-07-02,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,Scheduled,P3
+WO-5036,2026-07-02,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-5037,2026-07-02,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5038,2026-07-02,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5039,2026-07-02,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5040,2026-07-02,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-5041,2026-07-02,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P1
+WO-5042,2026-07-02,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5043,2026-07-02,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5044,2026-07-02,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P2
+WO-5045,2026-07-03,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-5046,2026-07-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5047,2026-07-03,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P3
+WO-5048,2026-07-03,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5049,2026-07-03,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5050,2026-07-03,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P2
+WO-5051,2026-07-03,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5052,2026-07-03,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5053,2026-07-03,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,In Progress,P2
+WO-5054,2026-07-03,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5055,2026-07-03,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-5056,2026-07-03,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5057,2026-07-03,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-5058,2026-07-03,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P1
+WO-5059,2026-07-03,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5060,2026-07-03,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P3
+WO-5061,2026-07-03,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5062,2026-07-04,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5063,2026-07-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-5064,2026-07-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P2
+WO-5065,2026-07-04,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5066,2026-07-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5067,2026-07-04,Plant Beta (Stuttgart),CNC Milling Center,Emergency,2.0,2.0,Completed,P1
+WO-5068,2026-07-04,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5069,2026-07-04,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-5070,2026-07-04,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5071,2026-07-04,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5072,2026-07-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5073,2026-07-04,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5074,2026-07-04,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5075,2026-07-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-5076,2026-07-04,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5077,2026-07-04,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5078,2026-07-04,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-5079,2026-07-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P1
+WO-5080,2026-07-04,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5081,2026-07-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-5082,2026-07-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5083,2026-07-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5084,2026-07-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P1
+WO-5085,2026-07-05,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5086,2026-07-05,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5087,2026-07-05,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5088,2026-07-05,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5089,2026-07-05,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-5090,2026-07-05,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-5091,2026-07-05,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-5092,2026-07-05,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P1
+WO-5093,2026-07-05,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5094,2026-07-05,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5095,2026-07-05,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5096,2026-07-05,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P2
+WO-5097,2026-07-05,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P1
+WO-5098,2026-07-05,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5099,2026-07-05,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5100,2026-07-05,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5101,2026-07-05,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5102,2026-07-05,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5103,2026-07-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5104,2026-07-06,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5105,2026-07-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-5106,2026-07-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5107,2026-07-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P1
+WO-5108,2026-07-06,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-5109,2026-07-06,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-5110,2026-07-06,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5111,2026-07-06,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5112,2026-07-06,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-5113,2026-07-06,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5114,2026-07-06,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5115,2026-07-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5116,2026-07-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,,Scheduled,P1
+WO-5117,2026-07-06,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5118,2026-07-06,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5119,2026-07-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5120,2026-07-06,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5121,2026-07-06,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5122,2026-07-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,In Progress,P3
+WO-5123,2026-07-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P2
+WO-5124,2026-07-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P3
+WO-5125,2026-07-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5126,2026-07-06,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-5127,2026-07-06,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-5128,2026-07-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5129,2026-07-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5130,2026-07-07,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5131,2026-07-07,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5132,2026-07-07,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5133,2026-07-07,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5134,2026-07-07,Plant Beta (Stuttgart),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-5135,2026-07-07,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P2
+WO-5136,2026-07-07,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5137,2026-07-07,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5138,2026-07-07,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5139,2026-07-07,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5140,2026-07-07,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5141,2026-07-07,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P2
+WO-5142,2026-07-07,Plant Gamma (Yokohama),Robotic Welder,Emergency,4.0,4.0,Completed,P3
+WO-5143,2026-07-07,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5144,2026-07-07,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5145,2026-07-07,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-5146,2026-07-07,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5147,2026-07-07,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P2
+WO-5148,2026-07-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5149,2026-07-08,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5150,2026-07-08,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5151,2026-07-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P2
+WO-5152,2026-07-08,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5153,2026-07-08,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-5154,2026-07-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P2
+WO-5155,2026-07-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5156,2026-07-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-5157,2026-07-08,Plant Beta (Stuttgart),CNC Milling Center,Emergency,2.0,2.0,Completed,P1
+WO-5158,2026-07-08,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-5159,2026-07-08,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P2
+WO-5160,2026-07-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5161,2026-07-08,Plant Beta (Stuttgart),CNC Milling Center,Emergency,2.0,2.0,Completed,P2
+WO-5162,2026-07-08,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5163,2026-07-08,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5164,2026-07-08,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,,Scheduled,P2
+WO-5165,2026-07-08,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5166,2026-07-08,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5167,2026-07-08,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5168,2026-07-08,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5169,2026-07-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5170,2026-07-09,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5171,2026-07-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5172,2026-07-09,Plant Alpha (Detroit),CNC Milling Center,Emergency,2.0,2.0,Completed,P3
+WO-5173,2026-07-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-5174,2026-07-09,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,8.0,,Scheduled,P3
+WO-5175,2026-07-09,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P2
+WO-5176,2026-07-09,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5177,2026-07-09,Plant Beta (Stuttgart),Robotic Welder,Emergency,8.0,8.0,Completed,P1
+WO-5178,2026-07-09,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5179,2026-07-09,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5180,2026-07-09,Plant Gamma (Yokohama),Robotic Welder,Emergency,2.0,,In Progress,P3
+WO-5181,2026-07-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5182,2026-07-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P3
+WO-5183,2026-07-09,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5184,2026-07-09,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5185,2026-07-09,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,,In Progress,P3
+WO-5186,2026-07-10,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5187,2026-07-10,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,,Scheduled,P1
+WO-5188,2026-07-10,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5189,2026-07-10,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5190,2026-07-10,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5191,2026-07-10,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5192,2026-07-10,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5193,2026-07-10,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5194,2026-07-10,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P1
+WO-5195,2026-07-10,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5196,2026-07-10,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,Scheduled,P2
+WO-5197,2026-07-10,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5198,2026-07-10,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5199,2026-07-10,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,,Scheduled,P2
+WO-5200,2026-07-10,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5201,2026-07-10,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5202,2026-07-11,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5203,2026-07-11,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5204,2026-07-11,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5205,2026-07-11,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5206,2026-07-11,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5207,2026-07-11,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-5208,2026-07-11,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5209,2026-07-11,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5210,2026-07-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5211,2026-07-11,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P2
+WO-5212,2026-07-11,Plant Beta (Stuttgart),CNC Milling Center,Emergency,8.0,8.0,Completed,P2
+WO-5213,2026-07-11,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5214,2026-07-11,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,,Scheduled,P1
+WO-5215,2026-07-11,Plant Gamma (Yokohama),Robotic Welder,Emergency,2.0,2.0,Completed,P2
+WO-5216,2026-07-11,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,Scheduled,P3
+WO-5217,2026-07-11,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P3
+WO-5218,2026-07-11,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-5219,2026-07-11,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5220,2026-07-11,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,,Scheduled,P2
+WO-5221,2026-07-11,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P3
+WO-5222,2026-07-11,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5223,2026-07-11,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5224,2026-07-11,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5225,2026-07-11,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5226,2026-07-12,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5227,2026-07-12,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5228,2026-07-12,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5229,2026-07-12,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5230,2026-07-12,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P2
+WO-5231,2026-07-12,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,,In Progress,P2
+WO-5232,2026-07-12,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5233,2026-07-12,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5234,2026-07-12,Plant Beta (Stuttgart),CNC Milling Center,Emergency,8.0,8.0,Completed,P3
+WO-5235,2026-07-12,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,Scheduled,P2
+WO-5236,2026-07-12,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5237,2026-07-12,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,8.0,Completed,P1
+WO-5238,2026-07-12,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5239,2026-07-12,Plant Beta (Stuttgart),CNC Milling Center,Emergency,2.0,2.0,Completed,P2
+WO-5240,2026-07-12,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-5241,2026-07-12,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5242,2026-07-12,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5243,2026-07-12,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P1
+WO-5244,2026-07-12,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-5245,2026-07-12,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5246,2026-07-13,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5247,2026-07-13,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5248,2026-07-13,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5249,2026-07-13,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5250,2026-07-13,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5251,2026-07-13,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5252,2026-07-13,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,4.0,,In Progress,P3
+WO-5253,2026-07-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P1
+WO-5254,2026-07-13,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5255,2026-07-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5256,2026-07-13,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P2
+WO-5257,2026-07-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5258,2026-07-13,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5259,2026-07-13,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5260,2026-07-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,In Progress,P3
+WO-5261,2026-07-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,In Progress,P2
+WO-5262,2026-07-13,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5263,2026-07-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5264,2026-07-13,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,,In Progress,P1
+WO-5265,2026-07-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-5266,2026-07-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-5267,2026-07-14,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-5268,2026-07-14,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-5269,2026-07-14,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P2
+WO-5270,2026-07-14,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P2
+WO-5271,2026-07-14,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,,Scheduled,P3
+WO-5272,2026-07-14,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5273,2026-07-14,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5274,2026-07-14,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5275,2026-07-14,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-5276,2026-07-14,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5277,2026-07-14,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5278,2026-07-14,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5279,2026-07-14,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5280,2026-07-14,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5281,2026-07-14,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5282,2026-07-14,Plant Delta (Monterrey),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-5283,2026-07-14,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5284,2026-07-14,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,Scheduled,P3
+WO-5285,2026-07-14,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5286,2026-07-15,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5287,2026-07-15,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,4.0,,In Progress,P2
+WO-5288,2026-07-15,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5289,2026-07-15,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5290,2026-07-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5291,2026-07-15,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5292,2026-07-15,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5293,2026-07-15,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5294,2026-07-15,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5295,2026-07-15,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P3
+WO-5296,2026-07-15,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P1
+WO-5297,2026-07-15,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5298,2026-07-15,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5299,2026-07-15,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5300,2026-07-15,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5301,2026-07-15,Plant Gamma (Yokohama),Robotic Welder,Emergency,4.0,4.0,Completed,P3
+WO-5302,2026-07-15,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5303,2026-07-15,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5304,2026-07-15,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5305,2026-07-15,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5306,2026-07-15,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5307,2026-07-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5308,2026-07-15,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-5309,2026-07-15,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5310,2026-07-16,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5311,2026-07-16,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5312,2026-07-16,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P1
+WO-5313,2026-07-16,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-5314,2026-07-16,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5315,2026-07-16,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P1
+WO-5316,2026-07-16,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5317,2026-07-16,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P1
+WO-5318,2026-07-16,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5319,2026-07-16,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,2.0,,Scheduled,P3
+WO-5320,2026-07-16,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5321,2026-07-16,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5322,2026-07-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5323,2026-07-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P1
+WO-5324,2026-07-16,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5325,2026-07-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5326,2026-07-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5327,2026-07-16,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5328,2026-07-16,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-5329,2026-07-17,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,,In Progress,P2
+WO-5330,2026-07-17,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5331,2026-07-17,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5332,2026-07-17,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-5333,2026-07-17,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5334,2026-07-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5335,2026-07-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5336,2026-07-17,Plant Beta (Stuttgart),Robotic Welder,Emergency,2.0,2.0,Completed,P2
+WO-5337,2026-07-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P2
+WO-5338,2026-07-17,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-5339,2026-07-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-5340,2026-07-17,Plant Gamma (Yokohama),CNC Milling Center,Emergency,4.0,,Scheduled,P2
+WO-5341,2026-07-17,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5342,2026-07-17,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P3
+WO-5343,2026-07-17,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,,In Progress,P3
+WO-5344,2026-07-17,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P2
+WO-5345,2026-07-17,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P3
+WO-5346,2026-07-17,Plant Delta (Monterrey),Robotic Welder,Emergency,2.0,2.0,Completed,P3
+WO-5347,2026-07-17,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5348,2026-07-17,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-5349,2026-07-17,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5350,2026-07-17,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-5351,2026-07-17,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5352,2026-07-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5353,2026-07-18,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5354,2026-07-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-5355,2026-07-18,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5356,2026-07-18,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5357,2026-07-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5358,2026-07-18,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5359,2026-07-18,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5360,2026-07-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5361,2026-07-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5362,2026-07-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-5363,2026-07-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5364,2026-07-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-5365,2026-07-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-5366,2026-07-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5367,2026-07-18,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5368,2026-07-18,Plant Delta (Monterrey),Robotic Welder,Emergency,8.0,8.0,Completed,P1
+WO-5369,2026-07-18,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P1
+WO-5370,2026-07-18,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5371,2026-07-18,Plant Delta (Monterrey),CNC Milling Center,Emergency,8.0,8.0,Completed,P1
+WO-5372,2026-07-18,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5373,2026-07-19,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5374,2026-07-19,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5375,2026-07-19,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-5376,2026-07-19,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5377,2026-07-19,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5378,2026-07-19,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-5379,2026-07-19,Plant Beta (Stuttgart),Robotic Welder,Emergency,8.0,8.0,Completed,P2
+WO-5380,2026-07-19,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5381,2026-07-19,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-5382,2026-07-19,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-5383,2026-07-19,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,Scheduled,P2
+WO-5384,2026-07-19,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-5385,2026-07-19,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5386,2026-07-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,8.0,,Scheduled,P3
+WO-5387,2026-07-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5388,2026-07-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5389,2026-07-19,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5390,2026-07-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5391,2026-07-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P1
+WO-5392,2026-07-19,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,,In Progress,P3
+WO-5393,2026-07-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-5394,2026-07-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,,Scheduled,P3
+WO-5395,2026-07-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5396,2026-07-20,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5397,2026-07-20,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5398,2026-07-20,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5399,2026-07-20,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5400,2026-07-20,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,Scheduled,P3
+WO-5401,2026-07-20,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5402,2026-07-20,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5403,2026-07-20,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5404,2026-07-20,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5405,2026-07-20,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5406,2026-07-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5407,2026-07-20,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5408,2026-07-20,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P3
+WO-5409,2026-07-20,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P2
+WO-5410,2026-07-20,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P3
+WO-5411,2026-07-20,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5412,2026-07-20,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,4.0,Completed,P2
+WO-5413,2026-07-21,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P1
+WO-5414,2026-07-21,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P3
+WO-5415,2026-07-21,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-5416,2026-07-21,Plant Alpha (Detroit),CNC Milling Center,Emergency,2.0,,Scheduled,P2
+WO-5417,2026-07-21,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5418,2026-07-21,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5419,2026-07-21,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,,Scheduled,P1
+WO-5420,2026-07-21,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5421,2026-07-21,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-5422,2026-07-21,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5423,2026-07-21,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,In Progress,P3
+WO-5424,2026-07-21,Plant Gamma (Yokohama),CNC Milling Center,Emergency,2.0,2.0,Completed,P2
+WO-5425,2026-07-21,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5426,2026-07-21,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5427,2026-07-21,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5428,2026-07-21,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P2
+WO-5429,2026-07-21,Plant Delta (Monterrey),Robotic Welder,Corrective,8.0,,In Progress,P3
+WO-5430,2026-07-22,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,8.0,Completed,P3
+WO-5431,2026-07-22,Plant Alpha (Detroit),CNC Milling Center,Emergency,8.0,8.0,Completed,P2
+WO-5432,2026-07-22,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5433,2026-07-22,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5434,2026-07-22,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5435,2026-07-22,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-5436,2026-07-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P3
+WO-5437,2026-07-22,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5438,2026-07-22,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5439,2026-07-22,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-5440,2026-07-22,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5441,2026-07-22,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5442,2026-07-22,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5443,2026-07-22,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5444,2026-07-22,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5445,2026-07-22,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,,Scheduled,P1
+WO-5446,2026-07-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-5447,2026-07-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P3
+WO-5448,2026-07-22,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5449,2026-07-22,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5450,2026-07-22,Plant Delta (Monterrey),Robotic Welder,Emergency,8.0,8.0,Completed,P2
+WO-5451,2026-07-22,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-5452,2026-07-22,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,In Progress,P2
+WO-5453,2026-07-23,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5454,2026-07-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5455,2026-07-23,Plant Alpha (Detroit),CNC Milling Center,Emergency,8.0,8.0,Completed,P1
+WO-5456,2026-07-23,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,8.0,Completed,P3
+WO-5457,2026-07-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P2
+WO-5458,2026-07-23,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5459,2026-07-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P1
+WO-5460,2026-07-23,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5461,2026-07-23,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5462,2026-07-23,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,,Scheduled,P3
+WO-5463,2026-07-23,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5464,2026-07-23,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5465,2026-07-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5466,2026-07-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5467,2026-07-23,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5468,2026-07-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5469,2026-07-23,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5470,2026-07-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5471,2026-07-23,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5472,2026-07-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5473,2026-07-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5474,2026-07-23,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5475,2026-07-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5476,2026-07-23,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5477,2026-07-24,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5478,2026-07-24,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5479,2026-07-24,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5480,2026-07-24,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5481,2026-07-24,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-5482,2026-07-24,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5483,2026-07-24,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5484,2026-07-24,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5485,2026-07-24,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5486,2026-07-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5487,2026-07-24,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5488,2026-07-24,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5489,2026-07-24,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5490,2026-07-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5491,2026-07-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5492,2026-07-24,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5493,2026-07-24,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-5494,2026-07-25,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5495,2026-07-25,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5496,2026-07-25,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P3
+WO-5497,2026-07-25,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5498,2026-07-25,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5499,2026-07-25,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P3
+WO-5500,2026-07-25,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-5501,2026-07-25,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5502,2026-07-25,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5503,2026-07-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5504,2026-07-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P2
+WO-5505,2026-07-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5506,2026-07-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5507,2026-07-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5508,2026-07-25,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5509,2026-07-25,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5510,2026-07-25,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5511,2026-07-25,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P2
+WO-5512,2026-07-25,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5513,2026-07-25,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5514,2026-07-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5515,2026-07-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5516,2026-07-25,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5517,2026-07-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5518,2026-07-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5519,2026-07-26,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5520,2026-07-26,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P2
+WO-5521,2026-07-26,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,,In Progress,P3
+WO-5522,2026-07-26,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5523,2026-07-26,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-5524,2026-07-26,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,8.0,,In Progress,P1
+WO-5525,2026-07-26,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,In Progress,P2
+WO-5526,2026-07-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P3
+WO-5527,2026-07-26,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P3
+WO-5528,2026-07-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,,In Progress,P3
+WO-5529,2026-07-26,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,8.0,Completed,P3
+WO-5530,2026-07-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P2
+WO-5531,2026-07-26,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5532,2026-07-26,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5533,2026-07-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-5534,2026-07-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5535,2026-07-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5536,2026-07-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5537,2026-07-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P1
+WO-5538,2026-07-26,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5539,2026-07-26,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-5540,2026-07-26,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5541,2026-07-27,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,8.0,Completed,P2
+WO-5542,2026-07-27,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P2
+WO-5543,2026-07-27,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5544,2026-07-27,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-5545,2026-07-27,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,,Scheduled,P2
+WO-5546,2026-07-27,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5547,2026-07-27,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5548,2026-07-27,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-5549,2026-07-27,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P1
+WO-5550,2026-07-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5551,2026-07-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5552,2026-07-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5553,2026-07-27,Plant Gamma (Yokohama),Robotic Welder,Emergency,2.0,2.0,Completed,P1
+WO-5554,2026-07-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5555,2026-07-27,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5556,2026-07-27,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5557,2026-07-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5558,2026-07-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5559,2026-07-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-5560,2026-07-27,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-5561,2026-07-28,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,8.0,Completed,P1
+WO-5562,2026-07-28,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,4.0,Completed,P2
+WO-5563,2026-07-28,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,,Scheduled,P1
+WO-5564,2026-07-28,Plant Alpha (Detroit),Robotic Welder,Corrective,2.0,2.0,Completed,P3
+WO-5565,2026-07-28,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5566,2026-07-28,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,,In Progress,P1
+WO-5567,2026-07-28,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,Scheduled,P2
+WO-5568,2026-07-28,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5569,2026-07-28,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5570,2026-07-28,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5571,2026-07-28,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P2
+WO-5572,2026-07-28,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5573,2026-07-28,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5574,2026-07-28,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5575,2026-07-28,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5576,2026-07-28,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5577,2026-07-28,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5578,2026-07-28,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P1
+WO-5579,2026-07-28,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5580,2026-07-29,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5581,2026-07-29,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5582,2026-07-29,Plant Alpha (Detroit),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5583,2026-07-29,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5584,2026-07-29,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5585,2026-07-29,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,,Scheduled,P1
+WO-5586,2026-07-29,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5587,2026-07-29,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5588,2026-07-29,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5589,2026-07-29,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P2
+WO-5590,2026-07-29,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P3
+WO-5591,2026-07-29,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,,Scheduled,P2
+WO-5592,2026-07-29,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-5593,2026-07-29,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P2
+WO-5594,2026-07-29,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5595,2026-07-29,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-5596,2026-07-29,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5597,2026-07-29,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5598,2026-07-29,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5599,2026-07-29,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,4.0,,In Progress,P2
+WO-5600,2026-07-29,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,Scheduled,P3
+WO-5601,2026-07-29,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5602,2026-07-30,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5603,2026-07-30,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5604,2026-07-30,Plant Alpha (Detroit),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5605,2026-07-30,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P3
+WO-5606,2026-07-30,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5607,2026-07-30,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5608,2026-07-30,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,,Scheduled,P3
+WO-5609,2026-07-30,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5610,2026-07-30,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P3
+WO-5611,2026-07-30,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5612,2026-07-30,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,In Progress,P1
+WO-5613,2026-07-30,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5614,2026-07-30,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5615,2026-07-30,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-5616,2026-07-30,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5617,2026-07-30,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5618,2026-07-30,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5619,2026-07-30,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5620,2026-07-31,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-5621,2026-07-31,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,,Scheduled,P3
+WO-5622,2026-07-31,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5623,2026-07-31,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5624,2026-07-31,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5625,2026-07-31,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5626,2026-07-31,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-5627,2026-07-31,Plant Beta (Stuttgart),Robotic Welder,Emergency,2.0,2.0,Completed,P1
+WO-5628,2026-07-31,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5629,2026-07-31,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5630,2026-07-31,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5631,2026-07-31,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5632,2026-07-31,Plant Delta (Monterrey),CNC Milling Center,Emergency,8.0,8.0,Completed,P3
+WO-5633,2026-07-31,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5634,2026-07-31,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5635,2026-07-31,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5636,2026-07-31,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5637,2026-07-31,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5638,2026-08-01,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P2
+WO-5639,2026-08-01,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-5640,2026-08-01,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5641,2026-08-01,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P2
+WO-5642,2026-08-01,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P2
+WO-5643,2026-08-01,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P3
+WO-5644,2026-08-01,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P2
+WO-5645,2026-08-01,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-5646,2026-08-01,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5647,2026-08-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5648,2026-08-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-5649,2026-08-01,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5650,2026-08-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5651,2026-08-01,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5652,2026-08-01,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,,Scheduled,P1
+WO-5653,2026-08-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5654,2026-08-01,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-5655,2026-08-01,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5656,2026-08-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-5657,2026-08-01,Plant Delta (Monterrey),Robotic Welder,Corrective,8.0,,In Progress,P2
+WO-5658,2026-08-02,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5659,2026-08-02,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5660,2026-08-02,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5661,2026-08-02,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5662,2026-08-02,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5663,2026-08-02,Plant Beta (Stuttgart),Robotic Welder,Emergency,4.0,4.0,Completed,P3
+WO-5664,2026-08-02,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5665,2026-08-02,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5666,2026-08-02,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-5667,2026-08-02,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-5668,2026-08-02,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5669,2026-08-02,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5670,2026-08-02,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5671,2026-08-02,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5672,2026-08-02,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,,In Progress,P1
+WO-5673,2026-08-02,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5674,2026-08-02,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5675,2026-08-02,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5676,2026-08-02,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5677,2026-08-02,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5678,2026-08-02,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5679,2026-08-02,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-5680,2026-08-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5681,2026-08-03,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-5682,2026-08-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-5683,2026-08-03,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5684,2026-08-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5685,2026-08-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5686,2026-08-03,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5687,2026-08-03,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,,Scheduled,P1
+WO-5688,2026-08-03,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5689,2026-08-03,Plant Beta (Stuttgart),Robotic Welder,Emergency,8.0,,In Progress,P3
+WO-5690,2026-08-03,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P2
+WO-5691,2026-08-03,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-5692,2026-08-03,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5693,2026-08-03,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5694,2026-08-03,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,In Progress,P3
+WO-5695,2026-08-03,Plant Delta (Monterrey),CNC Milling Center,Emergency,2.0,2.0,Completed,P1
+WO-5696,2026-08-03,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5697,2026-08-03,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5698,2026-08-03,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5699,2026-08-03,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5700,2026-08-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5701,2026-08-04,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5702,2026-08-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5703,2026-08-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-5704,2026-08-04,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5705,2026-08-04,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5706,2026-08-04,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,,In Progress,P2
+WO-5707,2026-08-04,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-5708,2026-08-04,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,,Scheduled,P3
+WO-5709,2026-08-04,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P3
+WO-5710,2026-08-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P2
+WO-5711,2026-08-04,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5712,2026-08-04,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-5713,2026-08-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P2
+WO-5714,2026-08-04,Plant Delta (Monterrey),CNC Milling Center,Emergency,4.0,4.0,Completed,P2
+WO-5715,2026-08-04,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5716,2026-08-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,,In Progress,P3
+WO-5717,2026-08-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5718,2026-08-04,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5719,2026-08-04,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5720,2026-08-05,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5721,2026-08-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5722,2026-08-05,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P2
+WO-5723,2026-08-05,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5724,2026-08-05,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5725,2026-08-05,Plant Alpha (Detroit),Robotic Welder,Emergency,2.0,,Scheduled,P2
+WO-5726,2026-08-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5727,2026-08-05,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P3
+WO-5728,2026-08-05,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P3
+WO-5729,2026-08-05,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P2
+WO-5730,2026-08-05,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P2
+WO-5731,2026-08-05,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5732,2026-08-05,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5733,2026-08-05,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,4.0,,In Progress,P1
+WO-5734,2026-08-05,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,8.0,,In Progress,P1
+WO-5735,2026-08-05,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5736,2026-08-05,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5737,2026-08-05,Plant Delta (Monterrey),Robotic Welder,Emergency,2.0,2.0,Completed,P1
+WO-5738,2026-08-05,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5739,2026-08-06,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5740,2026-08-06,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5741,2026-08-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5742,2026-08-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5743,2026-08-06,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5744,2026-08-06,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5745,2026-08-06,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5746,2026-08-06,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,Scheduled,P3
+WO-5747,2026-08-06,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-5748,2026-08-06,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5749,2026-08-06,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,,In Progress,P2
+WO-5750,2026-08-06,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5751,2026-08-06,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,In Progress,P2
+WO-5752,2026-08-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5753,2026-08-06,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5754,2026-08-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P3
+WO-5755,2026-08-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5756,2026-08-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5757,2026-08-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5758,2026-08-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5759,2026-08-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5760,2026-08-06,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P3
+WO-5761,2026-08-07,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5762,2026-08-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P3
+WO-5763,2026-08-07,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5764,2026-08-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,,Scheduled,P1
+WO-5765,2026-08-07,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5766,2026-08-07,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5767,2026-08-07,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5768,2026-08-07,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-5769,2026-08-07,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5770,2026-08-07,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,,In Progress,P3
+WO-5771,2026-08-07,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5772,2026-08-07,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P3
+WO-5773,2026-08-07,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5774,2026-08-07,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5775,2026-08-07,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5776,2026-08-07,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5777,2026-08-07,Plant Delta (Monterrey),Robotic Welder,Emergency,4.0,4.0,Completed,P2
+WO-5778,2026-08-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5779,2026-08-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,,In Progress,P1
+WO-5780,2026-08-08,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5781,2026-08-08,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,8.0,Completed,P1
+WO-5782,2026-08-08,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5783,2026-08-08,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,,Scheduled,P1
+WO-5784,2026-08-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5785,2026-08-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5786,2026-08-08,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5787,2026-08-08,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5788,2026-08-08,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5789,2026-08-08,Plant Gamma (Yokohama),Robotic Welder,Emergency,8.0,8.0,Completed,P3
+WO-5790,2026-08-08,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-5791,2026-08-08,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P3
+WO-5792,2026-08-08,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5793,2026-08-08,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-5794,2026-08-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-5795,2026-08-09,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5796,2026-08-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,,Scheduled,P2
+WO-5797,2026-08-09,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P3
+WO-5798,2026-08-09,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5799,2026-08-09,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-5800,2026-08-09,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5801,2026-08-09,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5802,2026-08-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-5803,2026-08-09,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5804,2026-08-09,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5805,2026-08-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5806,2026-08-09,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5807,2026-08-09,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P3
+WO-5808,2026-08-09,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,Scheduled,P2
+WO-5809,2026-08-09,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-5810,2026-08-10,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,,Scheduled,P3
+WO-5811,2026-08-10,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-5812,2026-08-10,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-5813,2026-08-10,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5814,2026-08-10,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5815,2026-08-10,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5816,2026-08-10,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5817,2026-08-10,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5818,2026-08-10,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5819,2026-08-10,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5820,2026-08-10,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5821,2026-08-10,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5822,2026-08-10,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5823,2026-08-10,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5824,2026-08-10,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5825,2026-08-10,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5826,2026-08-10,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,4.0,Completed,P2
+WO-5827,2026-08-11,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,,In Progress,P2
+WO-5828,2026-08-11,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5829,2026-08-11,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5830,2026-08-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5831,2026-08-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-5832,2026-08-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5833,2026-08-11,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-5834,2026-08-11,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5835,2026-08-11,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5836,2026-08-11,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P2
+WO-5837,2026-08-11,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-5838,2026-08-11,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-5839,2026-08-11,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5840,2026-08-11,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5841,2026-08-11,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-5842,2026-08-11,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P3
+WO-5843,2026-08-12,Plant Alpha (Detroit),Robotic Welder,Emergency,2.0,2.0,Completed,P3
+WO-5844,2026-08-12,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5845,2026-08-12,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5846,2026-08-12,Plant Alpha (Detroit),Robotic Welder,Emergency,2.0,,Scheduled,P2
+WO-5847,2026-08-12,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5848,2026-08-12,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,2.0,,In Progress,P2
+WO-5849,2026-08-12,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5850,2026-08-12,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5851,2026-08-12,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P1
+WO-5852,2026-08-12,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5853,2026-08-12,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5854,2026-08-12,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-5855,2026-08-12,Plant Gamma (Yokohama),CNC Milling Center,Emergency,2.0,2.0,Completed,P3
+WO-5856,2026-08-12,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-5857,2026-08-12,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-5858,2026-08-12,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5859,2026-08-12,Plant Delta (Monterrey),Robotic Welder,Emergency,4.0,4.0,Completed,P3
+WO-5860,2026-08-12,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P1
+WO-5861,2026-08-13,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5862,2026-08-13,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-5863,2026-08-13,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5864,2026-08-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-5865,2026-08-13,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,4.0,,Scheduled,P2
+WO-5866,2026-08-13,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5867,2026-08-13,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5868,2026-08-13,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5869,2026-08-13,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5870,2026-08-13,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,,Scheduled,P1
+WO-5871,2026-08-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-5872,2026-08-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-5873,2026-08-13,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-5874,2026-08-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5875,2026-08-13,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5876,2026-08-13,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5877,2026-08-14,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-5878,2026-08-14,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5879,2026-08-14,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5880,2026-08-14,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5881,2026-08-14,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5882,2026-08-14,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5883,2026-08-14,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,,In Progress,P1
+WO-5884,2026-08-14,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5885,2026-08-14,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P2
+WO-5886,2026-08-14,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5887,2026-08-14,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-5888,2026-08-14,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-5889,2026-08-14,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-5890,2026-08-14,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5891,2026-08-14,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P3
+WO-5892,2026-08-14,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-5893,2026-08-14,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5894,2026-08-14,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5895,2026-08-14,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5896,2026-08-15,Plant Alpha (Detroit),CNC Milling Center,Emergency,2.0,2.0,Completed,P3
+WO-5897,2026-08-15,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-5898,2026-08-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5899,2026-08-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5900,2026-08-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-5901,2026-08-15,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5902,2026-08-15,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,In Progress,P2
+WO-5903,2026-08-15,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-5904,2026-08-15,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5905,2026-08-15,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-5906,2026-08-15,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,,In Progress,P1
+WO-5907,2026-08-15,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P3
+WO-5908,2026-08-15,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5909,2026-08-15,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,2.0,Completed,P2
+WO-5910,2026-08-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-5911,2026-08-15,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5912,2026-08-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5913,2026-08-16,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5914,2026-08-16,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-5915,2026-08-16,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5916,2026-08-16,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-5917,2026-08-16,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-5918,2026-08-16,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5919,2026-08-16,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-5920,2026-08-16,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,,In Progress,P1
+WO-5921,2026-08-16,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,,In Progress,P1
+WO-5922,2026-08-16,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-5923,2026-08-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P3
+WO-5924,2026-08-16,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5925,2026-08-16,Plant Delta (Monterrey),CNC Milling Center,Emergency,2.0,,In Progress,P2
+WO-5926,2026-08-16,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,Scheduled,P3
+WO-5927,2026-08-16,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5928,2026-08-16,Plant Delta (Monterrey),CNC Milling Center,Emergency,4.0,4.0,Completed,P3
+WO-5929,2026-08-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5930,2026-08-16,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-5931,2026-08-17,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-5932,2026-08-17,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-5933,2026-08-17,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5934,2026-08-17,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-5935,2026-08-17,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-5936,2026-08-17,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-5937,2026-08-17,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-5938,2026-08-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-5939,2026-08-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-5940,2026-08-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-5941,2026-08-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-5942,2026-08-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-5943,2026-08-17,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-5944,2026-08-17,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-5945,2026-08-17,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-5946,2026-08-17,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5947,2026-08-17,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P2
+WO-5948,2026-08-17,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-5949,2026-08-17,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5950,2026-08-17,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-5951,2026-08-17,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-5952,2026-08-17,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P3
+WO-5953,2026-08-17,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-5954,2026-08-17,Plant Delta (Monterrey),CNC Milling Center,Emergency,2.0,,In Progress,P1
+WO-5955,2026-08-17,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-5956,2026-08-18,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,3.6,Overdue,P1
+WO-5957,2026-08-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,4.0,7.2,Overdue,P1
+WO-5958,2026-08-18,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-5959,2026-08-18,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,14.4,Overdue,P1
+WO-5960,2026-08-18,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,14.4,Overdue,P1
+WO-5961,2026-08-18,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5962,2026-08-18,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,,In Progress,P1
+WO-5963,2026-08-18,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-5964,2026-08-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-5965,2026-08-18,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-5966,2026-08-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5967,2026-08-18,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-5968,2026-08-18,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-5969,2026-08-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-5970,2026-08-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-5971,2026-08-18,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,,In Progress,P2
+WO-5972,2026-08-18,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-5973,2026-08-18,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-5974,2026-08-18,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5975,2026-08-18,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-5976,2026-08-18,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,,In Progress,P2
+WO-5977,2026-08-19,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,14.4,Overdue,P1
+WO-5978,2026-08-19,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,7.2,Overdue,P1
+WO-5979,2026-08-19,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,7.2,Overdue,P1
+WO-5980,2026-08-19,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-5981,2026-08-19,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-5982,2026-08-19,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5983,2026-08-19,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-5984,2026-08-19,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,,In Progress,P3
+WO-5985,2026-08-19,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5986,2026-08-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P2
+WO-5987,2026-08-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-5988,2026-08-19,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-5989,2026-08-19,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-5990,2026-08-19,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-5991,2026-08-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-5992,2026-08-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-5993,2026-08-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-5994,2026-08-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-5995,2026-08-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,,In Progress,P2
+WO-5996,2026-08-20,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,3.6,Overdue,P1
+WO-5997,2026-08-20,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-5998,2026-08-20,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,14.4,Overdue,P1
+WO-5999,2026-08-20,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6000,2026-08-20,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6001,2026-08-20,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,7.2,Overdue,P1
+WO-6002,2026-08-20,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6003,2026-08-20,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6004,2026-08-20,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6005,2026-08-20,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-6006,2026-08-20,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6007,2026-08-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6008,2026-08-20,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6009,2026-08-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P1
+WO-6010,2026-08-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P1
+WO-6011,2026-08-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-6012,2026-08-20,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6013,2026-08-20,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6014,2026-08-20,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6015,2026-08-20,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6016,2026-08-21,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-6017,2026-08-21,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,14.4,Overdue,P1
+WO-6018,2026-08-21,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P1
+WO-6019,2026-08-21,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-6020,2026-08-21,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-6021,2026-08-21,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-6022,2026-08-21,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P2
+WO-6023,2026-08-21,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P3
+WO-6024,2026-08-21,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P1
+WO-6025,2026-08-21,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6026,2026-08-21,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6027,2026-08-21,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6028,2026-08-21,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-6029,2026-08-21,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6030,2026-08-21,Plant Delta (Monterrey),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6031,2026-08-22,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,7.2,Overdue,P1
+WO-6032,2026-08-22,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6033,2026-08-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6034,2026-08-22,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6035,2026-08-22,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6036,2026-08-22,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6037,2026-08-22,Plant Beta (Stuttgart),Robotic Welder,Emergency,8.0,8.0,Completed,P3
+WO-6038,2026-08-22,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6039,2026-08-22,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6040,2026-08-22,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6041,2026-08-22,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-6042,2026-08-22,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-6043,2026-08-22,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-6044,2026-08-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,,In Progress,P1
+WO-6045,2026-08-22,Plant Delta (Monterrey),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-6046,2026-08-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-6047,2026-08-22,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6048,2026-08-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6049,2026-08-22,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6050,2026-08-23,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-6051,2026-08-23,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6052,2026-08-23,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-6053,2026-08-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6054,2026-08-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6055,2026-08-23,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,3.6,Overdue,P1
+WO-6056,2026-08-23,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6057,2026-08-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-6058,2026-08-23,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-6059,2026-08-23,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6060,2026-08-23,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6061,2026-08-23,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6062,2026-08-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6063,2026-08-23,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6064,2026-08-23,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,,In Progress,P3
+WO-6065,2026-08-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6066,2026-08-23,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-6067,2026-08-23,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-6068,2026-08-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6069,2026-08-23,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,,Scheduled,P3
+WO-6070,2026-08-23,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6071,2026-08-23,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P2
+WO-6072,2026-08-24,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,,In Progress,P1
+WO-6073,2026-08-24,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6074,2026-08-24,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6075,2026-08-24,Plant Alpha (Detroit),Robotic Welder,Emergency,2.0,2.0,Completed,P1
+WO-6076,2026-08-24,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6077,2026-08-24,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,7.2,Overdue,P1
+WO-6078,2026-08-24,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6079,2026-08-24,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-6080,2026-08-24,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P3
+WO-6081,2026-08-24,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6082,2026-08-24,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6083,2026-08-24,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-6084,2026-08-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6085,2026-08-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6086,2026-08-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6087,2026-08-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P3
+WO-6088,2026-08-24,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6089,2026-08-24,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6090,2026-08-25,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,3.6,Overdue,P1
+WO-6091,2026-08-25,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,4.0,,In Progress,P1
+WO-6092,2026-08-25,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,Scheduled,P1
+WO-6093,2026-08-25,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-6094,2026-08-25,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-6095,2026-08-25,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6096,2026-08-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6097,2026-08-25,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-6098,2026-08-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6099,2026-08-25,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P1
+WO-6100,2026-08-25,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6101,2026-08-25,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6102,2026-08-25,Plant Gamma (Yokohama),CNC Milling Center,Emergency,4.0,,In Progress,P3
+WO-6103,2026-08-25,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6104,2026-08-25,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P3
+WO-6105,2026-08-25,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6106,2026-08-25,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6107,2026-08-25,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6108,2026-08-25,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6109,2026-08-25,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-6110,2026-08-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-6111,2026-08-25,Plant Delta (Monterrey),CNC Milling Center,Emergency,2.0,2.0,Completed,P2
+WO-6112,2026-08-26,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6113,2026-08-26,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6114,2026-08-26,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6115,2026-08-26,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6116,2026-08-26,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6117,2026-08-26,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6118,2026-08-26,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6119,2026-08-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6120,2026-08-26,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-6121,2026-08-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-6122,2026-08-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,4.0,,Scheduled,P2
+WO-6123,2026-08-26,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6124,2026-08-26,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,,Scheduled,P1
+WO-6125,2026-08-26,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,,In Progress,P1
+WO-6126,2026-08-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P2
+WO-6127,2026-08-26,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,4.0,4.0,Completed,P3
+WO-6128,2026-08-26,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-6129,2026-08-26,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P3
+WO-6130,2026-08-26,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,8.0,,In Progress,P1
+WO-6131,2026-08-26,Plant Delta (Monterrey),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6132,2026-08-26,Plant Delta (Monterrey),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-6133,2026-08-26,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6134,2026-08-26,Plant Delta (Monterrey),CNC Milling Center,Corrective,4.0,,In Progress,P2
+WO-6135,2026-08-27,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6136,2026-08-27,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,3.6,Overdue,P1
+WO-6137,2026-08-27,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6138,2026-08-27,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6139,2026-08-27,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6140,2026-08-27,Plant Beta (Stuttgart),Robotic Welder,Corrective,8.0,,In Progress,P2
+WO-6141,2026-08-27,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6142,2026-08-27,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6143,2026-08-27,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6144,2026-08-27,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-6145,2026-08-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6146,2026-08-27,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P1
+WO-6147,2026-08-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6148,2026-08-27,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,,In Progress,P2
+WO-6149,2026-08-27,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-6150,2026-08-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6151,2026-08-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P3
+WO-6152,2026-08-27,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6153,2026-08-27,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6154,2026-08-28,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6155,2026-08-28,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6156,2026-08-28,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6157,2026-08-28,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,7.2,Overdue,P1
+WO-6158,2026-08-28,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P1
+WO-6159,2026-08-28,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-6160,2026-08-28,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,In Progress,P3
+WO-6161,2026-08-28,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P2
+WO-6162,2026-08-28,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6163,2026-08-28,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6164,2026-08-28,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,,In Progress,P2
+WO-6165,2026-08-28,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6166,2026-08-28,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6167,2026-08-28,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6168,2026-08-28,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-6169,2026-08-28,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6170,2026-08-28,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6171,2026-08-29,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6172,2026-08-29,Plant Alpha (Detroit),CNC Milling Center,Emergency,2.0,2.0,Completed,P1
+WO-6173,2026-08-29,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6174,2026-08-29,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,3.6,Overdue,P1
+WO-6175,2026-08-29,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6176,2026-08-29,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6177,2026-08-29,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P1
+WO-6178,2026-08-29,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6179,2026-08-29,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6180,2026-08-29,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6181,2026-08-29,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P1
+WO-6182,2026-08-29,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,In Progress,P1
+WO-6183,2026-08-29,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-6184,2026-08-29,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P3
+WO-6185,2026-08-29,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6186,2026-08-29,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6187,2026-08-29,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6188,2026-08-29,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P3
+WO-6189,2026-08-29,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6190,2026-08-29,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P3
+WO-6191,2026-08-29,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-6192,2026-08-29,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-6193,2026-08-29,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6194,2026-08-30,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6195,2026-08-30,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6196,2026-08-30,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6197,2026-08-30,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6198,2026-08-30,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,7.2,Overdue,P1
+WO-6199,2026-08-30,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6200,2026-08-30,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,,Scheduled,P1
+WO-6201,2026-08-30,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6202,2026-08-30,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-6203,2026-08-30,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,,In Progress,P3
+WO-6204,2026-08-30,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6205,2026-08-30,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,,In Progress,P3
+WO-6206,2026-08-30,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,,Scheduled,P1
+WO-6207,2026-08-30,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6208,2026-08-30,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6209,2026-08-30,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6210,2026-08-30,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6211,2026-08-30,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6212,2026-08-30,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6213,2026-08-31,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-6214,2026-08-31,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,14.4,Overdue,P1
+WO-6215,2026-08-31,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P1
+WO-6216,2026-08-31,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,7.2,Overdue,P1
+WO-6217,2026-08-31,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6218,2026-08-31,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P2
+WO-6219,2026-08-31,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-6220,2026-08-31,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6221,2026-08-31,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,Scheduled,P1
+WO-6222,2026-08-31,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,,In Progress,P2
+WO-6223,2026-08-31,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-6224,2026-08-31,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,,Scheduled,P3
+WO-6225,2026-08-31,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P2
+WO-6226,2026-08-31,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6227,2026-08-31,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6228,2026-08-31,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6229,2026-08-31,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6230,2026-08-31,Plant Gamma (Yokohama),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P2
+WO-6231,2026-08-31,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-6232,2026-08-31,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6233,2026-08-31,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P3
+WO-6234,2026-08-31,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-6235,2026-09-01,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6236,2026-09-01,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,2.0,3.6,Overdue,P1
+WO-6237,2026-09-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6238,2026-09-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P1
+WO-6239,2026-09-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,7.2,Overdue,P1
+WO-6240,2026-09-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6241,2026-09-01,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,14.4,Overdue,P1
+WO-6242,2026-09-01,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P2
+WO-6243,2026-09-01,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,,In Progress,P3
+WO-6244,2026-09-01,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-6245,2026-09-01,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-6246,2026-09-01,Plant Beta (Stuttgart),Robotic Welder,Emergency,4.0,4.0,Completed,P1
+WO-6247,2026-09-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6248,2026-09-01,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-6249,2026-09-01,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6250,2026-09-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P3
+WO-6251,2026-09-01,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6252,2026-09-01,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-6253,2026-09-01,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6254,2026-09-01,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P3
+WO-6255,2026-09-02,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,,Scheduled,P1
+WO-6256,2026-09-02,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,3.6,Overdue,P1
+WO-6257,2026-09-02,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-6258,2026-09-02,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,7.2,Overdue,P1
+WO-6259,2026-09-02,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-6260,2026-09-02,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6261,2026-09-02,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P2
+WO-6262,2026-09-02,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6263,2026-09-02,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-6264,2026-09-02,Plant Beta (Stuttgart),CNC Milling Center,Emergency,8.0,,In Progress,P1
+WO-6265,2026-09-02,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6266,2026-09-02,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,,In Progress,P3
+WO-6267,2026-09-02,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6268,2026-09-02,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P3
+WO-6269,2026-09-02,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P1
+WO-6270,2026-09-02,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6271,2026-09-02,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6272,2026-09-02,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6273,2026-09-03,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,3.6,Overdue,P1
+WO-6274,2026-09-03,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6275,2026-09-03,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,,Scheduled,P1
+WO-6276,2026-09-03,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6277,2026-09-03,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6278,2026-09-03,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6279,2026-09-03,Plant Alpha (Detroit),CNC Milling Center,Corrective,4.0,7.2,Overdue,P1
+WO-6280,2026-09-03,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6281,2026-09-03,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-6282,2026-09-03,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6283,2026-09-03,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,,In Progress,P2
+WO-6284,2026-09-03,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P2
+WO-6285,2026-09-03,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6286,2026-09-03,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P1
+WO-6287,2026-09-03,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6288,2026-09-03,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6289,2026-09-03,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-6290,2026-09-03,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6291,2026-09-03,Plant Gamma (Yokohama),Robotic Welder,Emergency,2.0,,In Progress,P3
+WO-6292,2026-09-03,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6293,2026-09-03,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6294,2026-09-03,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,In Progress,P2
+WO-6295,2026-09-04,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,8.0,Completed,P1
+WO-6296,2026-09-04,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6297,2026-09-04,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6298,2026-09-04,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6299,2026-09-04,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6300,2026-09-04,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6301,2026-09-04,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6302,2026-09-04,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-6303,2026-09-04,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6304,2026-09-04,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6305,2026-09-04,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-6306,2026-09-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-6307,2026-09-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6308,2026-09-04,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6309,2026-09-04,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6310,2026-09-04,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-6311,2026-09-04,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6312,2026-09-04,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6313,2026-09-04,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-6314,2026-09-04,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6315,2026-09-04,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6316,2026-09-05,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6317,2026-09-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6318,2026-09-05,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,8.0,Completed,P1
+WO-6319,2026-09-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P1
+WO-6320,2026-09-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,2.0,3.6,Overdue,P1
+WO-6321,2026-09-05,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6322,2026-09-05,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,,Scheduled,P2
+WO-6323,2026-09-05,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6324,2026-09-05,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6325,2026-09-05,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P2
+WO-6326,2026-09-05,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-6327,2026-09-05,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-6328,2026-09-05,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6329,2026-09-05,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6330,2026-09-05,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6331,2026-09-05,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,,In Progress,P1
+WO-6332,2026-09-05,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6333,2026-09-05,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-6334,2026-09-05,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6335,2026-09-05,Plant Delta (Monterrey),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-6336,2026-09-06,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6337,2026-09-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,,Scheduled,P1
+WO-6338,2026-09-06,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6339,2026-09-06,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,14.4,Overdue,P1
+WO-6340,2026-09-06,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6341,2026-09-06,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6342,2026-09-06,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,,Scheduled,P1
+WO-6343,2026-09-06,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P2
+WO-6344,2026-09-06,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6345,2026-09-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P1
+WO-6346,2026-09-06,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6347,2026-09-06,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6348,2026-09-06,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-6349,2026-09-06,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-6350,2026-09-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,In Progress,P2
+WO-6351,2026-09-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6352,2026-09-06,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-6353,2026-09-06,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-6354,2026-09-06,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6355,2026-09-07,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,3.6,Overdue,P1
+WO-6356,2026-09-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,7.2,Overdue,P1
+WO-6357,2026-09-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6358,2026-09-07,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6359,2026-09-07,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6360,2026-09-07,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,7.2,Overdue,P1
+WO-6361,2026-09-07,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6362,2026-09-07,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6363,2026-09-07,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P1
+WO-6364,2026-09-07,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6365,2026-09-07,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6366,2026-09-07,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P3
+WO-6367,2026-09-07,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P3
+WO-6368,2026-09-07,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6369,2026-09-07,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-6370,2026-09-07,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6371,2026-09-07,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-6372,2026-09-07,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,,In Progress,P1
+WO-6373,2026-09-07,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P3
+WO-6374,2026-09-08,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6375,2026-09-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,14.4,Overdue,P1
+WO-6376,2026-09-08,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-6377,2026-09-08,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,14.4,Overdue,P1
+WO-6378,2026-09-08,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6379,2026-09-08,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,,In Progress,P1
+WO-6380,2026-09-08,Plant Alpha (Detroit),Robotic Welder,Corrective,2.0,,In Progress,P1
+WO-6381,2026-09-08,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6382,2026-09-08,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6383,2026-09-08,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P2
+WO-6384,2026-09-08,Plant Beta (Stuttgart),CNC Milling Center,Emergency,8.0,,Scheduled,P3
+WO-6385,2026-09-08,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6386,2026-09-08,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-6387,2026-09-08,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6388,2026-09-08,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-6389,2026-09-08,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6390,2026-09-08,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6391,2026-09-09,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,7.2,Overdue,P1
+WO-6392,2026-09-09,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P1
+WO-6393,2026-09-09,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6394,2026-09-09,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,14.4,Overdue,P1
+WO-6395,2026-09-09,Plant Beta (Stuttgart),CNC Milling Center,Corrective,2.0,2.0,Completed,P2
+WO-6396,2026-09-09,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6397,2026-09-09,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P1
+WO-6398,2026-09-09,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6399,2026-09-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6400,2026-09-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P2
+WO-6401,2026-09-09,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6402,2026-09-09,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6403,2026-09-09,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6404,2026-09-09,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,,Scheduled,P1
+WO-6405,2026-09-09,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-6406,2026-09-09,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-6407,2026-09-10,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,3.6,Overdue,P1
+WO-6408,2026-09-10,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,2.0,3.6,Overdue,P1
+WO-6409,2026-09-10,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P1
+WO-6410,2026-09-10,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6411,2026-09-10,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P1
+WO-6412,2026-09-10,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6413,2026-09-10,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6414,2026-09-10,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6415,2026-09-10,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-6416,2026-09-10,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6417,2026-09-10,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6418,2026-09-10,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6419,2026-09-10,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6420,2026-09-10,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6421,2026-09-10,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6422,2026-09-10,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6423,2026-09-10,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,4.0,,In Progress,P3
+WO-6424,2026-09-10,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6425,2026-09-10,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6426,2026-09-10,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6427,2026-09-11,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6428,2026-09-11,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,In Progress,P1
+WO-6429,2026-09-11,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,2.0,2.0,Completed,P1
+WO-6430,2026-09-11,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6431,2026-09-11,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,14.4,Overdue,P1
+WO-6432,2026-09-11,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,14.4,Overdue,P1
+WO-6433,2026-09-11,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6434,2026-09-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6435,2026-09-11,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,Scheduled,P2
+WO-6436,2026-09-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6437,2026-09-11,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6438,2026-09-11,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P2
+WO-6439,2026-09-11,Plant Gamma (Yokohama),Robotic Welder,Emergency,2.0,,In Progress,P1
+WO-6440,2026-09-11,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P3
+WO-6441,2026-09-11,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-6442,2026-09-11,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,Scheduled,P1
+WO-6443,2026-09-11,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-6444,2026-09-11,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6445,2026-09-12,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6446,2026-09-12,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6447,2026-09-12,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6448,2026-09-12,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6449,2026-09-12,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6450,2026-09-12,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6451,2026-09-12,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6452,2026-09-12,Plant Gamma (Yokohama),CNC Milling Center,Emergency,4.0,,In Progress,P1
+WO-6453,2026-09-12,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6454,2026-09-12,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-6455,2026-09-12,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,8.0,8.0,Completed,P2
+WO-6456,2026-09-12,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6457,2026-09-12,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6458,2026-09-12,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P3
+WO-6459,2026-09-12,Plant Delta (Monterrey),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P3
+WO-6460,2026-09-12,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6461,2026-09-12,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6462,2026-09-12,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6463,2026-09-12,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,,Scheduled,P3
+WO-6464,2026-09-13,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,,In Progress,P1
+WO-6465,2026-09-13,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,7.2,Overdue,P1
+WO-6466,2026-09-13,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-6467,2026-09-13,Plant Alpha (Detroit),CNC Milling Center,Corrective,8.0,14.4,Overdue,P1
+WO-6468,2026-09-13,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,14.4,Overdue,P1
+WO-6469,2026-09-13,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6470,2026-09-13,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,14.4,Overdue,P1
+WO-6471,2026-09-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6472,2026-09-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-6473,2026-09-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6474,2026-09-13,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6475,2026-09-13,Plant Beta (Stuttgart),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6476,2026-09-13,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P1
+WO-6477,2026-09-13,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6478,2026-09-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6479,2026-09-13,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6480,2026-09-13,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6481,2026-09-13,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6482,2026-09-13,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P3
+WO-6483,2026-09-13,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6484,2026-09-13,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6485,2026-09-13,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,,In Progress,P3
+WO-6486,2026-09-13,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P3
+WO-6487,2026-09-13,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,,In Progress,P3
+WO-6488,2026-09-14,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6489,2026-09-14,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6490,2026-09-14,Plant Alpha (Detroit),Robotic Welder,Corrective,8.0,,Scheduled,P1
+WO-6491,2026-09-14,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6492,2026-09-14,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,7.2,Overdue,P1
+WO-6493,2026-09-14,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6494,2026-09-14,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6495,2026-09-14,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6496,2026-09-14,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6497,2026-09-14,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6498,2026-09-14,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,In Progress,P2
+WO-6499,2026-09-14,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P1
+WO-6500,2026-09-14,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-6501,2026-09-14,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6502,2026-09-14,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P3
+WO-6503,2026-09-14,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6504,2026-09-14,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6505,2026-09-14,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-6506,2026-09-14,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6507,2026-09-14,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-6508,2026-09-15,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6509,2026-09-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-6510,2026-09-15,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,7.2,Overdue,P1
+WO-6511,2026-09-15,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P1
+WO-6512,2026-09-15,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6513,2026-09-15,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P1
+WO-6514,2026-09-15,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,Scheduled,P2
+WO-6515,2026-09-15,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-6516,2026-09-15,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6517,2026-09-15,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6518,2026-09-15,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,,Scheduled,P3
+WO-6519,2026-09-15,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,,Scheduled,P2
+WO-6520,2026-09-15,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-6521,2026-09-15,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6522,2026-09-15,Plant Gamma (Yokohama),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6523,2026-09-15,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6524,2026-09-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6525,2026-09-15,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P3
+WO-6526,2026-09-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P1
+WO-6527,2026-09-15,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P2
+WO-6528,2026-09-15,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6529,2026-09-15,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6530,2026-09-15,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6531,2026-09-16,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6532,2026-09-16,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,,Scheduled,P1
+WO-6533,2026-09-16,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,14.4,Overdue,P1
+WO-6534,2026-09-16,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,3.6,Overdue,P1
+WO-6535,2026-09-16,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-6536,2026-09-16,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P1
+WO-6537,2026-09-16,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6538,2026-09-16,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6539,2026-09-16,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6540,2026-09-16,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6541,2026-09-16,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6542,2026-09-16,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6543,2026-09-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6544,2026-09-16,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P3
+WO-6545,2026-09-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,,Scheduled,P2
+WO-6546,2026-09-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6547,2026-09-16,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6548,2026-09-16,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-6549,2026-09-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P2
+WO-6550,2026-09-16,Plant Delta (Monterrey),CNC Milling Center,Emergency,8.0,8.0,Completed,P1
+WO-6551,2026-09-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6552,2026-09-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6553,2026-09-16,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6554,2026-09-16,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P3
+WO-6555,2026-09-17,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6556,2026-09-17,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6557,2026-09-17,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6558,2026-09-17,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,3.6,Overdue,P1
+WO-6559,2026-09-17,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6560,2026-09-17,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6561,2026-09-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,4.0,4.0,Completed,P1
+WO-6562,2026-09-17,Plant Beta (Stuttgart),Robotic Welder,Emergency,2.0,2.0,Completed,P3
+WO-6563,2026-09-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6564,2026-09-17,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P3
+WO-6565,2026-09-17,Plant Gamma (Yokohama),CNC Milling Center,Corrective,4.0,4.0,Completed,P3
+WO-6566,2026-09-17,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-6567,2026-09-17,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6568,2026-09-17,Plant Delta (Monterrey),CNC Milling Center,Emergency,2.0,2.0,Completed,P1
+WO-6569,2026-09-17,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-6570,2026-09-17,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6571,2026-09-17,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P2
+WO-6572,2026-09-18,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,14.4,Overdue,P1
+WO-6573,2026-09-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6574,2026-09-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6575,2026-09-18,Plant Alpha (Detroit),Robotic Welder,Emergency,8.0,8.0,Completed,P1
+WO-6576,2026-09-18,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,3.6,Overdue,P1
+WO-6577,2026-09-18,Plant Alpha (Detroit),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-6578,2026-09-18,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6579,2026-09-18,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P3
+WO-6580,2026-09-18,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6581,2026-09-18,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P3
+WO-6582,2026-09-18,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6583,2026-09-18,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P2
+WO-6584,2026-09-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,,In Progress,P3
+WO-6585,2026-09-18,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6586,2026-09-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6587,2026-09-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6588,2026-09-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P2
+WO-6589,2026-09-18,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6590,2026-09-18,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6591,2026-09-18,Plant Delta (Monterrey),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-6592,2026-09-18,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P3
+WO-6593,2026-09-18,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6594,2026-09-19,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,2.0,3.6,Overdue,P1
+WO-6595,2026-09-19,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-6596,2026-09-19,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,2.0,Completed,P1
+WO-6597,2026-09-19,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-6598,2026-09-19,Plant Beta (Stuttgart),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6599,2026-09-19,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6600,2026-09-19,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6601,2026-09-19,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,2.0,Completed,P1
+WO-6602,2026-09-19,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6603,2026-09-19,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6604,2026-09-19,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-6605,2026-09-19,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P1
+WO-6606,2026-09-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P2
+WO-6607,2026-09-19,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6608,2026-09-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6609,2026-09-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6610,2026-09-19,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6611,2026-09-19,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6612,2026-09-19,Plant Delta (Monterrey),Robotic Welder,Emergency,8.0,,In Progress,P3
+WO-6613,2026-09-20,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6614,2026-09-20,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,4.0,Completed,P1
+WO-6615,2026-09-20,Plant Alpha (Detroit),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6616,2026-09-20,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6617,2026-09-20,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6618,2026-09-20,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,4.0,7.2,Overdue,P1
+WO-6619,2026-09-20,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P2
+WO-6620,2026-09-20,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,,Scheduled,P1
+WO-6621,2026-09-20,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6622,2026-09-20,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6623,2026-09-20,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,,Scheduled,P2
+WO-6624,2026-09-20,Plant Beta (Stuttgart),Robotic Welder,Corrective,4.0,4.0,Completed,P3
+WO-6625,2026-09-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P3
+WO-6626,2026-09-20,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P2
+WO-6627,2026-09-20,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-6628,2026-09-20,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P3
+WO-6629,2026-09-20,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6630,2026-09-20,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6631,2026-09-20,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6632,2026-09-20,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,2.0,Completed,P1
+WO-6633,2026-09-21,Plant Alpha (Detroit),Robotic Welder,Preventive,2.0,2.0,Completed,P1
+WO-6634,2026-09-21,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P1
+WO-6635,2026-09-21,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,3.6,Overdue,P1
+WO-6636,2026-09-21,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P1
+WO-6637,2026-09-21,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,Scheduled,P1
+WO-6638,2026-09-21,Plant Beta (Stuttgart),Robotic Welder,Emergency,4.0,4.0,Completed,P3
+WO-6639,2026-09-21,Plant Beta (Stuttgart),Robotic Welder,Corrective,2.0,2.0,Completed,P2
+WO-6640,2026-09-21,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6641,2026-09-21,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6642,2026-09-21,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P3
+WO-6643,2026-09-21,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6644,2026-09-21,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6645,2026-09-21,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P1
+WO-6646,2026-09-21,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6647,2026-09-21,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P3
+WO-6648,2026-09-21,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6649,2026-09-21,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P2
+WO-6650,2026-09-21,Plant Delta (Monterrey),Robotic Welder,Emergency,8.0,8.0,Completed,P2
+WO-6651,2026-09-21,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6652,2026-09-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6653,2026-09-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,8.0,8.0,Completed,P1
+WO-6654,2026-09-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,3.6,Overdue,P1
+WO-6655,2026-09-22,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6656,2026-09-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6657,2026-09-22,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,14.4,Overdue,P1
+WO-6658,2026-09-22,Plant Alpha (Detroit),CNC Milling Center,Corrective,2.0,3.6,Overdue,P1
+WO-6659,2026-09-22,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P2
+WO-6660,2026-09-22,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,2.0,2.0,Completed,P1
+WO-6661,2026-09-22,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-6662,2026-09-22,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6663,2026-09-22,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6664,2026-09-22,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P2
+WO-6665,2026-09-22,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-6666,2026-09-22,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6667,2026-09-22,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P1
+WO-6668,2026-09-22,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,,In Progress,P1
+WO-6669,2026-09-22,Plant Delta (Monterrey),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P3
+WO-6670,2026-09-22,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6671,2026-09-22,Plant Delta (Monterrey),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6672,2026-09-22,Plant Delta (Monterrey),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6673,2026-09-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,14.4,Overdue,P1
+WO-6674,2026-09-23,Plant Alpha (Detroit),Hydraulic Stamping Press,Emergency,8.0,14.4,Overdue,P1
+WO-6675,2026-09-23,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-6676,2026-09-23,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6677,2026-09-23,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P1
+WO-6678,2026-09-23,Plant Alpha (Detroit),CNC Milling Center,Emergency,8.0,14.4,Overdue,P1
+WO-6679,2026-09-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,4.0,4.0,Completed,P2
+WO-6680,2026-09-23,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P1
+WO-6681,2026-09-23,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6682,2026-09-23,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P1
+WO-6683,2026-09-23,Plant Beta (Stuttgart),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6684,2026-09-23,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,2.0,Completed,P3
+WO-6685,2026-09-23,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6686,2026-09-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6687,2026-09-23,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P3
+WO-6688,2026-09-23,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6689,2026-09-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6690,2026-09-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P1
+WO-6691,2026-09-23,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,4.0,Completed,P1
+WO-6692,2026-09-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,,Scheduled,P1
+WO-6693,2026-09-23,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P1
+WO-6694,2026-09-24,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,,In Progress,P1
+WO-6695,2026-09-24,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,14.4,Overdue,P1
+WO-6696,2026-09-24,Plant Alpha (Detroit),Robotic Welder,Emergency,4.0,4.0,Completed,P1
+WO-6697,2026-09-24,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P2
+WO-6698,2026-09-24,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6699,2026-09-24,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Emergency,2.0,,In Progress,P1
+WO-6700,2026-09-24,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P2
+WO-6701,2026-09-24,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,,In Progress,P1
+WO-6702,2026-09-24,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6703,2026-09-24,Plant Beta (Stuttgart),CNC Milling Center,Preventive,2.0,2.0,Completed,P3
+WO-6704,2026-09-24,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6705,2026-09-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6706,2026-09-24,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,4.0,4.0,Completed,P3
+WO-6707,2026-09-24,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6708,2026-09-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6709,2026-09-24,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6710,2026-09-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P2
+WO-6711,2026-09-24,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P1
+WO-6712,2026-09-24,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6713,2026-09-25,Plant Alpha (Detroit),CNC Milling Center,Preventive,4.0,4.0,Completed,P1
+WO-6714,2026-09-25,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,8.0,14.4,Overdue,P1
+WO-6715,2026-09-25,Plant Alpha (Detroit),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P1
+WO-6716,2026-09-25,Plant Alpha (Detroit),CNC Milling Center,Emergency,4.0,7.2,Overdue,P1
+WO-6717,2026-09-25,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6718,2026-09-25,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6719,2026-09-25,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,Scheduled,P3
+WO-6720,2026-09-25,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6721,2026-09-25,Plant Gamma (Yokohama),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6722,2026-09-25,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,8.0,8.0,Completed,P1
+WO-6723,2026-09-25,Plant Gamma (Yokohama),CNC Milling Center,Preventive,2.0,2.0,Completed,P2
+WO-6724,2026-09-25,Plant Gamma (Yokohama),Robotic Welder,Corrective,2.0,,In Progress,P3
+WO-6725,2026-09-25,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6726,2026-09-25,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-6727,2026-09-25,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6728,2026-09-25,Plant Delta (Monterrey),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6729,2026-09-25,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P1
+WO-6730,2026-09-25,Plant Delta (Monterrey),CNC Milling Center,Corrective,8.0,8.0,Completed,P2
+WO-6731,2026-09-26,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,7.2,Overdue,P1
+WO-6732,2026-09-26,Plant Alpha (Detroit),CNC Milling Center,Emergency,2.0,3.6,Overdue,P1
+WO-6733,2026-09-26,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6734,2026-09-26,Plant Alpha (Detroit),CNC Milling Center,Emergency,8.0,14.4,Overdue,P1
+WO-6735,2026-09-26,Plant Beta (Stuttgart),CNC Milling Center,Preventive,8.0,8.0,Completed,P2
+WO-6736,2026-09-26,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6737,2026-09-26,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6738,2026-09-26,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6739,2026-09-26,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,8.0,,In Progress,P3
+WO-6740,2026-09-26,Plant Gamma (Yokohama),Robotic Welder,Corrective,4.0,4.0,Completed,P1
+WO-6741,2026-09-26,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-6742,2026-09-26,Plant Gamma (Yokohama),Robotic Welder,Preventive,4.0,4.0,Completed,P3
+WO-6743,2026-09-26,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P1
+WO-6744,2026-09-26,Plant Delta (Monterrey),CNC Milling Center,Preventive,8.0,,In Progress,P1
+WO-6745,2026-09-26,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P3
+WO-6746,2026-09-26,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,,In Progress,P1
+WO-6747,2026-09-26,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6748,2026-09-27,Plant Alpha (Detroit),Centrifugal Coolant Pump,Corrective,8.0,14.4,Overdue,P1
+WO-6749,2026-09-27,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,3.6,Overdue,P1
+WO-6750,2026-09-27,Plant Alpha (Detroit),CNC Milling Center,Emergency,8.0,14.4,Overdue,P1
+WO-6751,2026-09-27,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,4.0,7.2,Overdue,P1
+WO-6752,2026-09-27,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,2.0,3.6,Overdue,P1
+WO-6753,2026-09-27,Plant Alpha (Detroit),Robotic Welder,Preventive,4.0,,Scheduled,P1
+WO-6754,2026-09-27,Plant Alpha (Detroit),Robotic Welder,Preventive,8.0,8.0,Completed,P1
+WO-6755,2026-09-27,Plant Beta (Stuttgart),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6756,2026-09-27,Plant Beta (Stuttgart),Centrifugal Coolant Pump,Preventive,8.0,,In Progress,P3
+WO-6757,2026-09-27,Plant Beta (Stuttgart),Robotic Welder,Preventive,4.0,,Scheduled,P2
+WO-6758,2026-09-27,Plant Beta (Stuttgart),Robotic Welder,Preventive,2.0,2.0,Completed,P3
+WO-6759,2026-09-27,Plant Beta (Stuttgart),Robotic Welder,Preventive,8.0,8.0,Completed,P2
+WO-6760,2026-09-27,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,8.0,Completed,P3
+WO-6761,2026-09-27,Plant Gamma (Yokohama),Hydraulic Stamping Press,Corrective,2.0,2.0,Completed,P3
+WO-6762,2026-09-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Corrective,2.0,,In Progress,P1
+WO-6763,2026-09-27,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P3
+WO-6764,2026-09-27,Plant Gamma (Yokohama),CNC Milling Center,Emergency,2.0,2.0,Completed,P2
+WO-6765,2026-09-27,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,,In Progress,P3
+WO-6766,2026-09-27,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Emergency,4.0,,In Progress,P1
+WO-6767,2026-09-27,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,2.0,,In Progress,P1
+WO-6768,2026-09-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Corrective,8.0,8.0,Completed,P3
+WO-6769,2026-09-27,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6770,2026-09-27,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,4.0,,Scheduled,P3
+WO-6771,2026-09-27,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P1
+WO-6772,2026-09-28,Plant Alpha (Detroit),Centrifugal Coolant Pump,Emergency,8.0,,Scheduled,P1
+WO-6773,2026-09-28,Plant Alpha (Detroit),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6774,2026-09-28,Plant Alpha (Detroit),Centrifugal Coolant Pump,Preventive,2.0,2.0,Completed,P1
+WO-6775,2026-09-28,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,4.0,7.2,Overdue,P1
+WO-6776,2026-09-28,Plant Alpha (Detroit),Hydraulic Stamping Press,Preventive,8.0,14.4,Overdue,P1
+WO-6777,2026-09-28,Plant Beta (Stuttgart),Hydraulic Stamping Press,Emergency,4.0,,In Progress,P3
+WO-6778,2026-09-28,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,2.0,,Scheduled,P3
+WO-6779,2026-09-28,Plant Beta (Stuttgart),Hydraulic Stamping Press,Preventive,8.0,,Scheduled,P3
+WO-6780,2026-09-28,Plant Gamma (Yokohama),CNC Milling Center,Corrective,8.0,8.0,Completed,P1
+WO-6781,2026-09-28,Plant Gamma (Yokohama),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6782,2026-09-28,Plant Gamma (Yokohama),CNC Milling Center,Corrective,2.0,,In Progress,P1
+WO-6783,2026-09-28,Plant Gamma (Yokohama),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6784,2026-09-28,Plant Gamma (Yokohama),CNC Milling Center,Preventive,8.0,8.0,Completed,P1
+WO-6785,2026-09-28,Plant Gamma (Yokohama),Hydraulic Stamping Press,Preventive,4.0,,In Progress,P2
+WO-6786,2026-09-28,Plant Gamma (Yokohama),Robotic Welder,Corrective,8.0,8.0,Completed,P2
+WO-6787,2026-09-28,Plant Delta (Monterrey),CNC Milling Center,Preventive,4.0,4.0,Completed,P2
+WO-6788,2026-09-28,Plant Delta (Monterrey),Hydraulic Stamping Press,Preventive,2.0,2.0,Completed,P3
+WO-6789,2026-09-28,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,8.0,8.0,Completed,P2
+WO-6790,2026-09-28,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,4.0,Completed,P1
+WO-6791,2026-09-28,Plant Delta (Monterrey),Centrifugal Coolant Pump,Preventive,4.0,,Scheduled,P2
+WO-6792,2026-09-28,Plant Delta (Monterrey),Robotic Welder,Preventive,4.0,4.0,Completed,P2
+WO-6793,2026-09-28,Plant Delta (Monterrey),Robotic Welder,Corrective,2.0,,In Progress,P3

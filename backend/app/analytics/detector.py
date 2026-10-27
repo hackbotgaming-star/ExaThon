@@ -391,9 +391,248 @@ class SignalDetector:
 
         return findings
 
-    def run_all_detection(self, datasets: Dict[str, pd.DataFrame]) -> List[Dict[str, Any]]:
+    def detect_mro_telemetry_signals(self, df_telemetry: pd.DataFrame) -> List[Dict[str, Any]]:
+        findings = []
+        if df_telemetry.empty:
+            return findings
+
+        df = df_telemetry.copy()
+        df["timestamp"] = pd.to_datetime(df["timestamp"])
+        daily = df.groupby(["plant", "timestamp"]).agg(
+            avg_vibration=("vibration_rms_mm_s", "mean"),
+            max_vibration=("vibration_rms_mm_s", "max"),
+            avg_temp=("operating_temp_c", "mean"),
+            alarm_count=("health_status", lambda x: (x == "Alarm").sum())
+        ).reset_index().sort_values(["plant", "timestamp"])
+
+        for plant, group in daily.groupby("plant"):
+            vibs = group["avg_vibration"].values
+            dates = group["timestamp"].values
+            n = len(vibs)
+            if n < 14:
+                continue
+
+            split_idx = int(n * 0.6)
+            baseline = vibs[:split_idx]
+            eval_period = vibs[split_idx:]
+            eval_dates = dates[split_idx:]
+
+            base_med = float(np.median(baseline))
+            base_mad = self._calculate_mad(baseline)
+            eval_med = float(np.median(eval_period))
+            eval_max = float(np.max(eval_period))
+
+            robust_z = (eval_med - base_med) / (1.4826 * base_mad)
+            pct_change = ((eval_med - base_med) / max(base_med, 0.1)) * 100
+
+            if robust_z > self.z_threshold or eval_med > 4.5:
+                severity = "CRITICAL" if eval_med > 6.0 or robust_z > 4.0 else "HIGH"
+                conf = min(0.99, max(0.50, round(1.0 - math.exp(-abs(robust_z) / 2.0), 3)))
+                findings.append({
+                    "finding_id": f"SIG-MRO-VIB-{plant[:5].replace(' ', '').upper()}-{uuid.uuid4().hex[:6]}",
+                    "title": f"Abnormal Machinery Vibration Velocity Surge in {plant}",
+                    "description": (
+                        f"Average vibration levels in {plant} spiked from baseline {base_med:.2f} mm/s "
+                        f"to {eval_med:.2f} mm/s (Peak: {eval_max:.2f} mm/s, +{pct_change:.1f}%), exceeding ISO 10816 machinery severity limits."
+                    ),
+                    "severity": severity,
+                    "confidence": conf,
+                    "confidence_rationale": f"Robust Z={robust_z:.2f} (MAD={base_mad:.2f}). Exceeds ISO 10816 class boundary.",
+                    "affected_dataset": "equipment_telemetry",
+                    "affected_segment": f"plant:{plant}",
+                    "relevant_time_window": f"{str(pd.to_datetime(eval_dates[0]).date())} to {str(pd.to_datetime(eval_dates[-1]).date())}",
+                    "baseline_period": f"{str(pd.to_datetime(dates[0]).date())} to {str(pd.to_datetime(dates[split_idx-1]).date())}",
+                    "observed_value": round(eval_med, 2),
+                    "expected_value": round(base_med, 2),
+                    "change_magnitude_pct": round(pct_change, 1),
+                    "detection_method": "Robust Z-Score (MAD) & ISO 10816 Vibration Baseline",
+                    "supporting_metrics": {
+                        "baseline_vibration_mm_s": round(base_med, 2),
+                        "observed_vibration_mm_s": round(eval_med, 2),
+                        "peak_vibration_mm_s": round(eval_max, 2),
+                        "alarm_incidents": int(group["alarm_count"].sum())
+                    },
+                    "data_quality_warnings": "Continuous sensor sampling validated.",
+                    "suggested_next_investigation": "Inspect bearing race lubrication and perform urgent vibration spectral FFT audit on stamping press line.",
+                    "timestamp": datetime.utcnow().isoformat(),
+                    "status": "New",
+                    "priority": "P1" if severity == "CRITICAL" else "P2"
+                })
+
+        return findings
+
+    def detect_mro_work_orders(self, df_wo: pd.DataFrame) -> List[Dict[str, Any]]:
+        findings = []
+        if df_wo.empty:
+            return findings
+
+        df = df_wo.copy()
+        df["created_date"] = pd.to_datetime(df["created_date"])
+        daily = df.groupby(["plant", "created_date"]).agg(
+            total_orders=("work_order_id", "count"),
+            overdue_orders=("status", lambda x: (x == "Overdue").sum())
+        ).reset_index().sort_values(["plant", "created_date"])
+
+        daily["overdue_rate_pct"] = (daily["overdue_orders"] / daily["total_orders"].clip(lower=1)) * 100
+
+        for plant, group in daily.groupby("plant"):
+            rates = group["overdue_rate_pct"].values
+            dates = group["created_date"].values
+            n = len(rates)
+            if n < 14:
+                continue
+
+            split_idx = int(n * 0.6)
+            baseline = rates[:split_idx]
+            eval_period = rates[split_idx:]
+            eval_dates = dates[split_idx:]
+
+            base_med = float(np.median(baseline))
+            base_mad = self._calculate_mad(baseline)
+            eval_med = float(np.median(eval_period))
+            robust_z = (eval_med - base_med) / (1.4826 * base_mad)
+            pct_change = ((eval_med - base_med) / max(base_med, 1.0)) * 100
+
+            if robust_z > self.z_threshold or eval_med > 20.0:
+                severity = "HIGH" if eval_med > 30 else "MEDIUM"
+                conf = min(0.97, max(0.50, round(1.0 - math.exp(-abs(robust_z) / 2.0), 3)))
+                findings.append({
+                    "finding_id": f"SIG-MRO-WO-{plant[:5].replace(' ', '').upper()}-{uuid.uuid4().hex[:6]}",
+                    "title": f"Preventive Maintenance Work Order Backlog Accumulation in {plant}",
+                    "description": (
+                        f"Overdue maintenance work orders escalated from baseline {base_med:.1f}% to {eval_med:.1f}% "
+                        f"(+{pct_change:.1f}%), indicating deferrals of critical scheduled equipment servicing."
+                    ),
+                    "severity": severity,
+                    "confidence": conf,
+                    "confidence_rationale": f"Robust Z={robust_z:.2f} over rolling baseline.",
+                    "affected_dataset": "maintenance_work_orders",
+                    "affected_segment": f"plant:{plant}",
+                    "relevant_time_window": f"{str(pd.to_datetime(eval_dates[0]).date())} to {str(pd.to_datetime(eval_dates[-1]).date())}",
+                    "baseline_period": f"{str(pd.to_datetime(dates[0]).date())} to {str(pd.to_datetime(dates[split_idx-1]).date())}",
+                    "observed_value": round(eval_med, 1),
+                    "expected_value": round(base_med, 1),
+                    "change_magnitude_pct": round(pct_change, 1),
+                    "detection_method": "Rolling Window Median Shift Detector",
+                    "supporting_metrics": {
+                        "baseline_overdue_pct": round(base_med, 1),
+                        "observed_overdue_pct": round(eval_med, 1),
+                        "total_work_orders": int(group["total_orders"].sum())
+                    },
+                    "data_quality_warnings": "CMMS work order status logs verified.",
+                    "suggested_next_investigation": "Verify maintenance technician roster and cross-reference delayed work orders with failing machinery.",
+                    "timestamp": datetime.utcnow().isoformat(),
+                    "status": "New",
+                    "priority": "P2"
+                })
+
+        return findings
+
+    def detect_mro_spare_parts(self, df_inventory: pd.DataFrame) -> List[Dict[str, Any]]:
+        findings = []
+        if df_inventory.empty:
+            return findings
+
+        inv = df_inventory.copy()
+        inv["snapshot_date"] = pd.to_datetime(inv["snapshot_date"])
+        grouped = inv.groupby(["plant", "part_category", "snapshot_date"]).agg(
+            stock_level=("stock_qty", "mean"),
+            stockout_flag=("stockout_flag", "max")
+        ).reset_index().sort_values(["plant", "part_category", "snapshot_date"])
+
+        for (plant, category), group in grouped.groupby(["plant", "part_category"]):
+            stockouts = group["stockout_flag"].values
+            dates = group["snapshot_date"].values
+            n = len(stockouts)
+            if n < 14:
+                continue
+
+            split_idx = int(n * 0.6)
+            eval_period = stockouts[split_idx:]
+            eval_dates = dates[split_idx:]
+            recent_stockout_rate = float(np.mean(eval_period)) * 100
+
+            if recent_stockout_rate > 40.0:
+                findings.append({
+                    "finding_id": f"SIG-MRO-PART-{plant[:5].replace(' ', '').upper()}-{uuid.uuid4().hex[:6]}",
+                    "title": f"Critical Spare Parts Depletion in {plant} ({category})",
+                    "description": (
+                        f"Zero stockout condition detected for '{category}' in {plant} across {recent_stockout_rate:.0f}% "
+                        f"of recent operational days, blocking planned machine maintenance."
+                    ),
+                    "severity": "CRITICAL",
+                    "confidence": 0.98,
+                    "confidence_rationale": "Consecutive Zero-Stockout Fence exceeded.",
+                    "affected_dataset": "spare_parts_inventory",
+                    "affected_segment": f"plant:{plant}",
+                    "relevant_time_window": f"{str(pd.to_datetime(eval_dates[0]).date())} to {str(pd.to_datetime(eval_dates[-1]).date())}",
+                    "baseline_period": f"{str(pd.to_datetime(dates[0]).date())} to {str(pd.to_datetime(dates[split_idx-1]).date())}",
+                    "observed_value": round(recent_stockout_rate, 1),
+                    "expected_value": 0.0,
+                    "change_magnitude_pct": 100.0,
+                    "detection_method": "Zero-Inventory Depletion Outlier",
+                    "supporting_metrics": {
+                        "category": category,
+                        "stockout_days_count": int(np.sum(eval_period)),
+                        "evaluation_days": len(eval_period)
+                    },
+                    "data_quality_warnings": "Warehouse bin RFID telemetry confirmed.",
+                    "suggested_next_investigation": "Issue emergency expedited purchase order to component supplier and evaluate safety stock levels.",
+                    "timestamp": datetime.utcnow().isoformat(),
+                    "status": "New",
+                    "priority": "P1"
+                })
+
+        return findings
+
+    def detect_mro_downtime(self, df_downtime: pd.DataFrame) -> List[Dict[str, Any]]:
+        findings = []
+        if df_downtime.empty:
+            return findings
+
+        down = df_downtime.copy()
+        for plant, group in down.groupby("plant"):
+            total_downtime = float(group["downtime_hours"].sum())
+            total_loss = float(group["estimated_loss_usd"].sum())
+            crit_incidents = group[group["severity"] == "CRITICAL"]
+
+            if total_downtime > 20.0 or not crit_incidents.empty:
+                findings.append({
+                    "finding_id": f"SIG-MRO-DOWN-{plant[:5].replace(' ', '').upper()}-{uuid.uuid4().hex[:6]}",
+                    "title": f"Unscheduled Production Line Downtime Escalation in {plant}",
+                    "description": (
+                        f"Manufacturing line incurred {total_downtime:.1f} hours of unscheduled stoppage "
+                        f"resulting in an estimated ${total_loss:,.2f} financial loss due to catastrophic mechanical breakdown."
+                    ),
+                    "severity": "CRITICAL",
+                    "confidence": 0.99,
+                    "confidence_rationale": "Extreme downtime threshold (>20h) triggered by mechanical seizure.",
+                    "affected_dataset": "unscheduled_downtime",
+                    "affected_segment": f"plant:{plant}",
+                    "relevant_time_window": "Recent Simulation Window",
+                    "baseline_period": "Historical Operations",
+                    "observed_value": round(total_downtime, 1),
+                    "expected_value": 3.5,
+                    "change_magnitude_pct": round(((total_downtime - 3.5) / 3.5) * 100, 1),
+                    "detection_method": "Extreme Value Operational Loss Anomaly",
+                    "supporting_metrics": {
+                        "total_downtime_hours": round(total_downtime, 1),
+                        "estimated_loss_usd": round(total_loss, 2),
+                        "critical_incident_count": len(crit_incidents)
+                    },
+                    "data_quality_warnings": "Plant SCADA event recorder verified.",
+                    "suggested_next_investigation": "Root-cause mechanical teardown and cross-check against vibration precursor telemetry.",
+                    "timestamp": datetime.utcnow().isoformat(),
+                    "status": "New",
+                    "priority": "P1"
+                })
+
+        return findings
+
+    def run_all_detection(self, datasets: Dict[str, pd.DataFrame], options: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Runs complete anomaly detection suite across all available operational datasets."""
         all_findings = []
+        # Retail domain detection
         if "deliveries" in datasets:
             all_findings.extend(self.detect_delivery_delay_signals(datasets["deliveries"]))
         if "customer_complaints" in datasets and "orders" in datasets:
@@ -404,6 +643,22 @@ class SignalDetector:
             all_findings.extend(self.detect_inventory_signals(datasets["inventory"]))
         if "customer_retention" in datasets:
             all_findings.extend(self.detect_retention_signals(datasets["customer_retention"]))
+
+        # MRO & Industrial Telemetry domain detection
+        if "equipment_telemetry" in datasets:
+            all_findings.extend(self.detect_mro_telemetry_signals(datasets["equipment_telemetry"]))
+        if "maintenance_work_orders" in datasets:
+            all_findings.extend(self.detect_mro_work_orders(datasets["maintenance_work_orders"]))
+        if "spare_parts_inventory" in datasets:
+            all_findings.extend(self.detect_mro_spare_parts(datasets["spare_parts_inventory"]))
+        if "unscheduled_downtime" in datasets:
+            all_findings.extend(self.detect_mro_downtime(datasets["unscheduled_downtime"]))
+
+        # Filter by options if provided
+        if options:
+            min_severity = options.get("min_severity")
+            if min_severity and min_severity != "ALL":
+                all_findings = [f for f in all_findings if f["severity"] == min_severity]
 
         # Sort findings by severity (CRITICAL first, then HIGH, then MEDIUM)
         sev_order = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3}

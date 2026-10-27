@@ -109,10 +109,15 @@ export async function fetchEvaluation(): Promise<EvaluationResult> {
 }
 
 export async function calculateWhatIf(payload: {
-  delivery_delay_delta_pct: number;
-  refund_rate_delta_pct: number;
-  demand_delta_pct: number;
-  inventory_reduction_pct: number;
+  domain?: string;
+  delivery_delay_delta_pct?: number;
+  refund_rate_delta_pct?: number;
+  demand_delta_pct?: number;
+  inventory_reduction_pct?: number;
+  vibration_delta_pct?: number;
+  pm_backlog_delta_pct?: number;
+  parts_lead_time_days_delta?: number;
+  hourly_downtime_cost?: number;
 }): Promise<WhatIfResponse> {
   const res = await fetch(`${BASE_URL}/analytics/what-if`, {
     method: "POST",

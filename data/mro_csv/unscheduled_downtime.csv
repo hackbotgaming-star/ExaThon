@@ -1,0 +1,26 @@
+incident_id,incident_date,plant,equipment_type,downtime_hours,estimated_loss_usd,root_cause_driver,severity
+DT-9001,2026-07-07,Plant Beta (Stuttgart),Hydraulic Stamping Press,2.5,11250.0,Tool Wear Replacement,LOW
+DT-9002,2026-07-10,Plant Beta (Stuttgart),Hydraulic Stamping Press,1.7,7650.0,Minor Pneumatic Leak,LOW
+DT-9003,2026-07-14,Plant Beta (Stuttgart),Robotic Welder,1.7,7650.0,Minor Pneumatic Leak,LOW
+DT-9004,2026-07-15,Plant Beta (Stuttgart),CNC Milling Center,1.5,6750.0,Sensor Calibration,LOW
+DT-9005,2026-07-16,Plant Alpha (Detroit),CNC Milling Center,1.1,4950.0,Minor Pneumatic Leak,LOW
+DT-9006,2026-07-30,Plant Gamma (Yokohama),Robotic Welder,1.7,7650.0,Minor Pneumatic Leak,LOW
+DT-9007,2026-08-03,Plant Beta (Stuttgart),CNC Milling Center,2.0,9000.0,Sensor Calibration,LOW
+DT-9008,2026-08-04,Plant Alpha (Detroit),Hydraulic Stamping Press,1.3,5850.0,Minor Pneumatic Leak,LOW
+DT-9009,2026-08-04,Plant Beta (Stuttgart),Robotic Welder,2.4,10800.0,Tool Wear Replacement,LOW
+DT-9010,2026-08-09,Plant Beta (Stuttgart),CNC Milling Center,1.7,7650.0,Tool Wear Replacement,LOW
+DT-9011,2026-08-16,Plant Gamma (Yokohama),Hydraulic Stamping Press,1.5,6750.0,Minor Pneumatic Leak,LOW
+DT-9012,2026-08-21,Plant Alpha (Detroit),Hydraulic Stamping Press,10.1,60600.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9013,2026-08-23,Plant Alpha (Detroit),Hydraulic Stamping Press,11.8,70800.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9014,2026-08-25,Plant Alpha (Detroit),Hydraulic Stamping Press,14.2,85200.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9015,2026-08-27,Plant Alpha (Detroit),Hydraulic Stamping Press,16.5,99000.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9016,2026-08-28,Plant Beta (Stuttgart),Hydraulic Stamping Press,1.8,8100.0,Minor Pneumatic Leak,LOW
+DT-9017,2026-08-30,Plant Alpha (Detroit),Hydraulic Stamping Press,12.7,76200.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9018,2026-08-30,Plant Gamma (Yokohama),Robotic Welder,1.4,6300.0,Minor Pneumatic Leak,LOW
+DT-9019,2026-09-02,Plant Alpha (Detroit),Hydraulic Stamping Press,13.1,78600.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9020,2026-09-05,Plant Alpha (Detroit),Hydraulic Stamping Press,8.0,48000.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9021,2026-09-09,Plant Delta (Monterrey),Robotic Welder,2.1,9450.0,Minor Pneumatic Leak,LOW
+DT-9022,2026-09-12,Plant Alpha (Detroit),Hydraulic Stamping Press,11.6,69600.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9023,2026-09-15,Plant Alpha (Detroit),Hydraulic Stamping Press,14.3,85800.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9024,2026-09-19,Plant Alpha (Detroit),Hydraulic Stamping Press,10.5,63000.0,Mechanical Seizure: High Vibration / Bearing Failure,CRITICAL
+DT-9025,2026-09-27,Plant Beta (Stuttgart),Robotic Welder,1.1,4950.0,Tool Wear Replacement,LOW
