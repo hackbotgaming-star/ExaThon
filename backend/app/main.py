@@ -103,6 +103,8 @@ async def startup_event():
 # ----------------- SYSTEM & DATABASE ENDPOINTS -----------------
 
 @app.get("/api/health")
+@app.get("/health")
+@app.get("/")
 def get_health():
     db_status = db_manager.get_status()
     total_records = sum(len(df) for df in DATASETS_CACHE.values())
